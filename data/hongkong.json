@@ -1,0 +1,1007 @@
+[
+  {
+    "name": "Tuen Mun",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Siu Hong"
+    ]
+  },
+  {
+    "name": "Siu Hong",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Tuen Mun",
+      "Tin Shui Wai"
+    ]
+  },
+  {
+    "name": "Tin Shui Wai",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Siu Hong",
+      "Long Ping"
+    ]
+  },
+  {
+    "name": "Long Ping",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Tin Shui Wai",
+      "Yuen Long"
+    ]
+  },
+  {
+    "name": "Yuen Long",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Long Ping",
+      "Kam Sheung Road"
+    ]
+  },
+  {
+    "name": "Kam Sheung Road",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Yuen Long",
+      "Tsuen Wan West"
+    ]
+  },
+  {
+    "name": "Tsuen Wan West",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Kam Sheung Road",
+      "Mei Foo"
+    ]
+  },
+  {
+    "name": "Mei Foo",
+    "lines": [
+      "Tuen Ma Line",
+      "Tsuen Wan Line"
+    ],
+    "adjacent": [
+      "Tsuen Wan West",
+      "Nam Cheong",
+      "Lai Chi Kok",
+      "Lai King"
+    ]
+  },
+  {
+    "name": "Nam Cheong",
+    "lines": [
+      "Tuen Ma Line",
+      "Tung Chung Line"
+    ],
+    "adjacent": [
+      "Mei Foo",
+      "Austin",
+      "Olympic",
+      "Lai King"
+    ]
+  },
+  {
+    "name": "Austin",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Nam Cheong",
+      "Tsim Sha Tsui/East Tsim Sha Tsui"
+    ]
+  },
+  {
+    "name": "Tsim Sha Tsui/East Tsim Sha Tsui",
+    "lines": [
+      "Tuen Ma Line",
+      "Tsuen Wan Line"
+    ],
+    "adjacent": [
+      "Austin",
+      "Hung Hom",
+      "Admiralty",
+      "Jordan"
+    ]
+  },
+  {
+    "name": "Hung Hom",
+    "lines": [
+      "Tuen Ma Line",
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Tsim Sha Tsui/East Tsim Sha Tsui",
+      "Ho Man Tin",
+      "Mong Kok East",
+      "Exhibition Centre"
+    ]
+  },
+  {
+    "name": "Ho Man Tin",
+    "lines": [
+      "Tuen Ma Line",
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Hung Hom",
+      "To Kwa Wan",
+      "Whampoa",
+      "Yau Ma Tei"
+    ]
+  },
+  {
+    "name": "To Kwa Wan",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Ho Man Tin",
+      "Sung Wong Toi"
+    ]
+  },
+  {
+    "name": "Sung Wong Toi",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "To Kwa Wan",
+      "Kai Tak"
+    ]
+  },
+  {
+    "name": "Kai Tak",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Sung Wong Toi",
+      "Diamond Hill"
+    ]
+  },
+  {
+    "name": "Diamond Hill",
+    "lines": [
+      "Tuen Ma Line",
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Kai Tak",
+      "Hin Keng",
+      "Choi Hung",
+      "Wong Tai Sin"
+    ]
+  },
+  {
+    "name": "Hin Keng",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Diamond Hill",
+      "Tai Wai"
+    ]
+  },
+  {
+    "name": "Tai Wai",
+    "lines": [
+      "Tuen Ma Line",
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Hin Keng",
+      "Che Kung Temple",
+      "Kowloon Tong",
+      "Sha Tin"
+    ]
+  },
+  {
+    "name": "Che Kung Temple",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Tai Wai",
+      "Sha Tin Wai"
+    ]
+  },
+  {
+    "name": "Sha Tin Wai",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Che Kung Temple",
+      "City One"
+    ]
+  },
+  {
+    "name": "City One",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Sha Tin Wai",
+      "Shek Mun"
+    ]
+  },
+  {
+    "name": "Shek Mun",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "City One",
+      "Tai Shui Hang"
+    ]
+  },
+  {
+    "name": "Tai Shui Hang",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Shek Mun",
+      "Heng On"
+    ]
+  },
+  {
+    "name": "Heng On",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Tai Shui Hang",
+      "Ma On Shan"
+    ]
+  },
+  {
+    "name": "Ma On Shan",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Heng On",
+      "Wu Kai Sha"
+    ]
+  },
+  {
+    "name": "Wu Kai Sha",
+    "lines": [
+      "Tuen Ma Line"
+    ],
+    "adjacent": [
+      "Ma On Shan"
+    ]
+  },
+  {
+    "name": "Tsuen Wan",
+    "lines": [
+      "Tsuen Wan Line"
+    ],
+    "adjacent": [
+      "Tai Wo Hau"
+    ]
+  },
+  {
+    "name": "Tai Wo Hau",
+    "lines": [
+      "Tsuen Wan Line"
+    ],
+    "adjacent": [
+      "Tsuen Wan",
+      "Kwai Hing"
+    ]
+  },
+  {
+    "name": "Kwai Hing",
+    "lines": [
+      "Tsuen Wan Line"
+    ],
+    "adjacent": [
+      "Tai Wo Hau",
+      "Kwai Fong"
+    ]
+  },
+  {
+    "name": "Kwai Fong",
+    "lines": [
+      "Tsuen Wan Line"
+    ],
+    "adjacent": [
+      "Kwai Hing",
+      "Lai King"
+    ]
+  },
+  {
+    "name": "Lai King",
+    "lines": [
+      "Tsuen Wan Line",
+      "Tung Chung Line"
+    ],
+    "adjacent": [
+      "Kwai Fong",
+      "Mei Foo",
+      "Tsing Yi",
+      "Nam Cheong"
+    ]
+  },
+  {
+    "name": "Lai Chi Kok",
+    "lines": [
+      "Tsuen Wan Line"
+    ],
+    "adjacent": [
+      "Mei Foo",
+      "Cheung Sha Wan"
+    ]
+  },
+  {
+    "name": "Cheung Sha Wan",
+    "lines": [
+      "Tsuen Wan Line"
+    ],
+    "adjacent": [
+      "Lai Chi Kok",
+      "Sham Shui Po"
+    ]
+  },
+  {
+    "name": "Sham Shui Po",
+    "lines": [
+      "Tsuen Wan Line"
+    ],
+    "adjacent": [
+      "Cheung Sha Wan",
+      "Prince Edward"
+    ]
+  },
+  {
+    "name": "Prince Edward",
+    "lines": [
+      "Tsuen Wan Line",
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Sham Shui Po",
+      "Mong Kok",
+      "Shek Kip Mei"
+    ]
+  },
+  {
+    "name": "Mong Kok",
+    "lines": [
+      "Tsuen Wan Line",
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Prince Edward",
+      "Yau Ma Tei"
+    ]
+  },
+  {
+    "name": "Yau Ma Tei",
+    "lines": [
+      "Tsuen Wan Line",
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Mong Kok",
+      "Jordan",
+      "Ho Man Tin"
+    ]
+  },
+  {
+    "name": "Jordan",
+    "lines": [
+      "Tsuen Wan Line"
+    ],
+    "adjacent": [
+      "Yau Ma Tei",
+      "Tsim Sha Tsui/East Tsim Sha Tsui"
+    ]
+  },
+  {
+    "name": "Admiralty",
+    "lines": [
+      "Tsuen Wan Line",
+      "East Rail Line",
+      "Island Line",
+      "South Island Line"
+    ],
+    "adjacent": [
+      "Tsim Sha Tsui/East Tsim Sha Tsui",
+      "Hong Kong/Central",
+      "Ocean Park",
+      "Exhibition Centre",
+      "Wan Chai"
+    ]
+  },
+  {
+    "name": "Hong Kong/Central",
+    "lines": [
+      "Tsuen Wan Line",
+      "Island Line",
+      "Tung Chung Line",
+      "Airport Express"
+    ],
+    "adjacent": [
+      "Admiralty",
+      "Sheung Wan",
+      "Kowloon"
+    ]
+  },
+  {
+    "name": "AsiaWorld - Expo",
+    "lines": [
+      "Airport Express"
+    ],
+    "adjacent": [
+      "Airport"
+    ]
+  },
+  {
+    "name": "Airport",
+    "lines": [
+      "Airport Express"
+    ],
+    "adjacent": [
+      "AsiaWorld - Expo",
+      "Tsing Yi"
+    ]
+  },
+  {
+    "name": "Tsing Yi",
+    "lines": [
+      "Airport Express",
+      "Tung Chung Line"
+    ],
+    "adjacent": [
+      "Airport",
+      "Lai King",
+      "Kowloon",
+      "Sunny Bay"
+    ]
+  },
+  {
+    "name": "Kowloon",
+    "lines": [
+      "Airport Express",
+      "Tung Chung Line"
+    ],
+    "adjacent": [
+      "Tsing Yi",
+      "Olympic",
+      "Hong Kong/Central"
+    ]
+  },
+  {
+    "name": "Tung Chung",
+    "lines": [
+      "Tung Chung Line"
+    ],
+    "adjacent": [
+      "Sunny Bay"
+    ]
+  },
+  {
+    "name": "Sunny Bay",
+    "lines": [
+      "Tung Chung Line",
+      "Disneyland Resort Line"
+    ],
+    "adjacent": [
+      "Tung Chung",
+      "Tsing Yi",
+      "Disneyland Resort"
+    ]
+  },
+  {
+    "name": "Olympic",
+    "lines": [
+      "Tung Chung Line"
+    ],
+    "adjacent": [
+      "Nam Cheong",
+      "Kowloon"
+    ]
+  },
+  {
+    "name": "Disneyland Resort",
+    "lines": [
+      "Disneyland Resort Line"
+    ],
+    "adjacent": [
+      "Sunny Bay"
+    ]
+  },
+  {
+    "name": "Whampoa",
+    "lines": [
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Ho Man Tin"
+    ]
+  },
+  {
+    "name": "Shek Kip Mei",
+    "lines": [
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Prince Edward",
+      "Kowloon Tong"
+    ]
+  },
+  {
+    "name": "Kowloon Tong",
+    "lines": [
+      "Kwun Tong Line",
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Shek Kip Mei",
+      "Lok Fu",
+      "Mong Kok East",
+      "Tai Wai"
+    ]
+  },
+  {
+    "name": "Lok Fu",
+    "lines": [
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Kowloon Tong",
+      "Wong Tai Sin"
+    ]
+  },
+  {
+    "name": "Wong Tai Sin",
+    "lines": [
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Lok Fu",
+      "Diamond Hill"
+    ]
+  },
+  {
+    "name": "Choi Hung",
+    "lines": [
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Diamond Hill",
+      "Kowloon Bay"
+    ]
+  },
+  {
+    "name": "Kowloon Bay",
+    "lines": [
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Choi Hung",
+      "Ngau Tau Kok"
+    ]
+  },
+  {
+    "name": "Ngau Tau Kok",
+    "lines": [
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Kowloon Bay",
+      "Kwun Tong"
+    ]
+  },
+  {
+    "name": "Kwun Tong",
+    "lines": [
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Ngau Tau Kok",
+      "Lam Tin"
+    ]
+  },
+  {
+    "name": "Lam Tin",
+    "lines": [
+      "Kwun Tong Line"
+    ],
+    "adjacent": [
+      "Kwun Tong",
+      "Yau Tong"
+    ]
+  },
+  {
+    "name": "Yau Tong",
+    "lines": [
+      "Kwun Tong Line",
+      "Tseung Kwan O Line"
+    ],
+    "adjacent": [
+      "Lam Tin",
+      "Tiu Keng Leng",
+      "Quarry Bay"
+    ]
+  },
+  {
+    "name": "Tiu Keng Leng",
+    "lines": [
+      "Kwun Tong Line",
+      "Tseung Kwan O Line"
+    ],
+    "adjacent": [
+      "Yau Tong",
+      "Tseung Kwan O"
+    ]
+  },
+  {
+    "name": "North Point",
+    "lines": [
+      "Tseung Kwan O Line",
+      "Island Line"
+    ],
+    "adjacent": [
+      "Fortress Hill",
+      "Quarry Bay"
+    ]
+  },
+  {
+    "name": "Quarry Bay",
+    "lines": [
+      "Tseung Kwan O Line",
+      "Island Line"
+    ],
+    "adjacent": [
+      "North Point",
+      "Tai Koo",
+      "Yau Tong"
+    ]
+  },
+  {
+    "name": "Tseung Kwan O",
+    "lines": [
+      "Tseung Kwan O Line"
+    ],
+    "adjacent": [
+      "Tiu Keng Leng",
+      "LOHAS Park",
+      "Hang Hau"
+    ]
+  },
+  {
+    "name": "LOHAS Park",
+    "lines": [
+      "Tseung Kwan O Line"
+    ],
+    "adjacent": [
+      "Tseung Kwan O"
+    ]
+  },
+  {
+    "name": "Hang Hau",
+    "lines": [
+      "Tseung Kwan O Line"
+    ],
+    "adjacent": [
+      "Tseung Kwan O",
+      "Po Lam"
+    ]
+  },
+  {
+    "name": "Po Lam",
+    "lines": [
+      "Tseung Kwan O Line"
+    ],
+    "adjacent": [
+      "Hang Hau"
+    ]
+  },
+  {
+    "name": "Kennedy Town",
+    "lines": [
+      "Island Line"
+    ],
+    "adjacent": [
+      "HKU"
+    ]
+  },
+  {
+    "name": "HKU",
+    "lines": [
+      "Island Line"
+    ],
+    "adjacent": [
+      "Kennedy Town",
+      "Sai Ying Pun"
+    ]
+  },
+  {
+    "name": "Sai Ying Pun",
+    "lines": [
+      "Island Line"
+    ],
+    "adjacent": [
+      "HKU",
+      "Sheung Wan"
+    ]
+  },
+  {
+    "name": "Sheung Wan",
+    "lines": [
+      "Island Line"
+    ],
+    "adjacent": [
+      "Sai Ying Pun",
+      "Hong Kong/Central"
+    ]
+  },
+  {
+    "name": "Wan Chai",
+    "lines": [
+      "Island Line"
+    ],
+    "adjacent": [
+      "Admiralty",
+      "Causeway Bay"
+    ]
+  },
+  {
+    "name": "Causeway Bay",
+    "lines": [
+      "Island Line"
+    ],
+    "adjacent": [
+      "Wan Chai",
+      "Tin Hau"
+    ]
+  },
+  {
+    "name": "Tin Hau",
+    "lines": [
+      "Island Line"
+    ],
+    "adjacent": [
+      "Causeway Bay",
+      "Fortress Hill"
+    ]
+  },
+  {
+    "name": "Fortress Hill",
+    "lines": [
+      "Island Line"
+    ],
+    "adjacent": [
+      "Tin Hau",
+      "North Point"
+    ]
+  },
+  {
+    "name": "Tai Koo",
+    "lines": [
+      "Island Line"
+    ],
+    "adjacent": [
+      "Quarry Bay",
+      "Sai Wan Ho"
+    ]
+  },
+  {
+    "name": "Sai Wan Ho",
+    "lines": [
+      "Island Line"
+    ],
+    "adjacent": [
+      "Tai Koo",
+      "Shau Kei Wan"
+    ]
+  },
+  {
+    "name": "Shau Kei Wan",
+    "lines": [
+      "Island Line"
+    ],
+    "adjacent": [
+      "Sai Wan Ho",
+      "Heng Fa Chuen"
+    ]
+  },
+  {
+    "name": "Heng Fa Chuen",
+    "lines": [
+      "Island Line"
+    ],
+    "adjacent": [
+      "Shau Kei Wan",
+      "Chai Wan"
+    ]
+  },
+  {
+    "name": "Chai Wan",
+    "lines": [
+      "Island Line"
+    ],
+    "adjacent": [
+      "Heng Fa Chuen"
+    ]
+  },
+  {
+    "name": "Exhibition Centre",
+    "lines": [
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Admiralty",
+      "Hung Hom"
+    ]
+  },
+  {
+    "name": "Mong Kok East",
+    "lines": [
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Hung Hom",
+      "Kowloon Tong"
+    ]
+  },
+  {
+    "name": "Sha Tin",
+    "lines": [
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Tai Wai",
+      "Fo Tan",
+      "Racecourse"
+    ]
+  },
+  {
+    "name": "Fo Tan",
+    "lines": [
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Sha Tin",
+      "University"
+    ]
+  },
+  {
+    "name": "Racecourse",
+    "lines": [
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Sha Tin",
+      "University"
+    ]
+  },
+  {
+    "name": "University",
+    "lines": [
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Fo Tan",
+      "Racecourse",
+      "Tai Po Market"
+    ]
+  },
+  {
+    "name": "Tai Po Market",
+    "lines": [
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "University",
+      "Tai Wo"
+    ]
+  },
+  {
+    "name": "Tai Wo",
+    "lines": [
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Tai Po Market",
+      "Fanling"
+    ]
+  },
+  {
+    "name": "Fanling",
+    "lines": [
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Tai Wo",
+      "Sheung Shui"
+    ]
+  },
+  {
+    "name": "Sheung Shui",
+    "lines": [
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Fanling",
+      "Lo Wu",
+      "Lok Ma Chau"
+    ]
+  },
+  {
+    "name": "Lo Wu",
+    "lines": [
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Sheung Shui"
+    ]
+  },
+  {
+    "name": "Lok Ma Chau",
+    "lines": [
+      "East Rail Line"
+    ],
+    "adjacent": [
+      "Sheung Shui"
+    ]
+  },
+  {
+    "name": "Ocean Park",
+    "lines": [
+      "South Island Line"
+    ],
+    "adjacent": [
+      "Admiralty",
+      "Wong Chuk Hang"
+    ]
+  },
+  {
+    "name": "Wong Chuk Hang",
+    "lines": [
+      "South Island Line"
+    ],
+    "adjacent": [
+      "Ocean Park",
+      "Lei Tung"
+    ]
+  },
+  {
+    "name": "Lei Tung",
+    "lines": [
+      "South Island Line"
+    ],
+    "adjacent": [
+      "Wong Chuk Hang",
+      "South Horizons"
+    ]
+  },
+  {
+    "name": "South Horizons",
+    "lines": [
+      "South Island Line"
+    ],
+    "adjacent": [
+      "Lei Tung"
+    ]
+  }
+]

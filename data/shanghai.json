@@ -1,0 +1,4351 @@
+[
+  {
+    "name": "Fujin Rd",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Youyi Rd (W)"
+    ]
+  },
+  {
+    "name": "Youyi Rd (W)",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Fujin Rd",
+      "Baoan Hwy"
+    ]
+  },
+  {
+    "name": "Baoan Hwy",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Youyi Rd (W)",
+      "Gongfu Xincun"
+    ]
+  },
+  {
+    "name": "Gongfu Xincun",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Baoan Hwy",
+      "Hulan Rd"
+    ]
+  },
+  {
+    "name": "Hulan Rd",
+    "lines": [
+      "1",
+      "18"
+    ],
+    "adjacent": [
+      "Gongfu Xincun",
+      "Tonghe Xincun",
+      "Kangwen Rd",
+      "Aihui Rd"
+    ]
+  },
+  {
+    "name": "Tonghe Xincun",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Gongkang Rd",
+      "Hulan Rd"
+    ]
+  },
+  {
+    "name": "Gongkang Rd",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Tonghe Xincun",
+      "Pengpu Xincun"
+    ]
+  },
+  {
+    "name": "Pengpu Xincun",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Gongkang Rd",
+      "Wenshui Rd"
+    ]
+  },
+  {
+    "name": "Wenshui Rd",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Pengpu Xincun",
+      "Shanghai Circus World"
+    ]
+  },
+  {
+    "name": "Shanghai Circus World",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Wenshui Rd",
+      "Yanchang Rd"
+    ]
+  },
+  {
+    "name": "Yanchang Rd",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Shanghai Circus World",
+      "Zhongshan Rd (N)"
+    ]
+  },
+  {
+    "name": "Zhongshan Rd (N)",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Yanchang Rd",
+      "Shanghai Railway Station"
+    ]
+  },
+  {
+    "name": "Shanghai Railway Station",
+    "lines": [
+      "1",
+      "3",
+      "4"
+    ],
+    "adjacent": [
+      "Zhongshan Rd (N)",
+      "Hanzhong Rd",
+      "Baoshan Rd",
+      "Zhongtan Rd"
+    ]
+  },
+  {
+    "name": "Hanzhong Rd",
+    "lines": [
+      "1",
+      "13",
+      "12"
+    ],
+    "adjacent": [
+      "Shanghai Railway Station",
+      "Xinzha Rd",
+      "Qufu Rd",
+      "Nanjing Rd (W)",
+      "Shanghai Natural History Museum",
+      "Jiangning Rd"
+    ]
+  },
+  {
+    "name": "Xinzha Rd",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Hanzhong Rd",
+      "People's Square"
+    ]
+  },
+  {
+    "name": "People's Square",
+    "lines": [
+      "1",
+      "8",
+      "2"
+    ],
+    "adjacent": [
+      "Xinzha Rd",
+      "Huangpi Rd",
+      "Dashijie",
+      "Qufu Rd",
+      "Nanjing Rd (W)",
+      "Nanjing Rd (E)"
+    ]
+  },
+  {
+    "name": "Huangpi Rd",
+    "lines": [
+      "1",
+      "14"
+    ],
+    "adjacent": [
+      "People's Square",
+      "Shaanxi Rd (S)",
+      "Dashijie",
+      "Jing'an Temple"
+    ]
+  },
+  {
+    "name": "Shaanxi Rd (S)",
+    "lines": [
+      "1",
+      "12",
+      "10"
+    ],
+    "adjacent": [
+      "Huangpi Rd",
+      "Changshu Rd",
+      "Nanjing Rd (W)",
+      "Jiashan Rd",
+      "Shanghai Library",
+      "Xintiandi"
+    ]
+  },
+  {
+    "name": "Changshu Rd",
+    "lines": [
+      "1",
+      "7"
+    ],
+    "adjacent": [
+      "Shaanxi Rd (S)",
+      "Hengshan Rd",
+      "Jing'an Temple",
+      "Zhaojiabang Rd"
+    ]
+  },
+  {
+    "name": "Hengshan Rd",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Changshu Rd",
+      "Xujiahui"
+    ]
+  },
+  {
+    "name": "Xujiahui",
+    "lines": [
+      "1",
+      "11",
+      "9"
+    ],
+    "adjacent": [
+      "Hengshan Rd",
+      "Shanghai Indoor Stadium",
+      "Jiaotong University",
+      "Shanghai Swimming Center",
+      "Zhaojiabang Rd",
+      "Yishan Rd"
+    ]
+  },
+  {
+    "name": "Shanghai Indoor Stadium",
+    "lines": [
+      "1",
+      "4"
+    ],
+    "adjacent": [
+      "Xujiahui",
+      "Caobao Rd",
+      "Yishan Rd",
+      "Shanghai Stadium"
+    ]
+  },
+  {
+    "name": "Caobao Rd",
+    "lines": [
+      "1",
+      "12"
+    ],
+    "adjacent": [
+      "Shanghai Indoor Stadium",
+      "Shanghai South Railway Station",
+      "Longcao Rd",
+      "Guilin Park"
+    ]
+  },
+  {
+    "name": "Shanghai South Railway Station",
+    "lines": [
+      "1",
+      "3",
+      "15"
+    ],
+    "adjacent": [
+      "Caobao Rd",
+      "Jinjiang Park",
+      "Guilin Park",
+      "East China University of Science and Technology",
+      "Shilong Rd"
+    ]
+  },
+  {
+    "name": "Jinjiang Park",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Shanghai South Railway Station",
+      "Lianhua Rd"
+    ]
+  },
+  {
+    "name": "Lianhua Rd",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Jinjiang Park",
+      "Waihuanlu"
+    ]
+  },
+  {
+    "name": "Waihuanlu",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Lianhua Rd",
+      "Xinzhuang"
+    ]
+  },
+  {
+    "name": "Xinzhuang",
+    "lines": [
+      "1",
+      "5"
+    ],
+    "adjacent": [
+      "Waihuanlu",
+      "Chunshen Rd"
+    ]
+  },
+  {
+    "name": "Panxiang Rd",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "National Exhibition and Convention Center"
+    ]
+  },
+  {
+    "name": "National Exhibition and Convention Center",
+    "lines": [
+      "2",
+      "17"
+    ],
+    "adjacent": [
+      "Panxiang Rd",
+      "Hongqiao Railway Station",
+      "Panlong Rd"
+    ]
+  },
+  {
+    "name": "Hongqiao Railway Station",
+    "lines": [
+      "2",
+      "17",
+      "10"
+    ],
+    "adjacent": [
+      "National Exhibition and Convention Center",
+      "Hongqiao Airport Terminal 2"
+    ]
+  },
+  {
+    "name": "Hongqiao Airport Terminal 2",
+    "lines": [
+      "2",
+      "10"
+    ],
+    "adjacent": [
+      "Hongqiao Railway Station",
+      "Hongqiao Airport Terminal 1",
+      "Songhong Rd"
+    ]
+  },
+  {
+    "name": "Songhong Rd",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Hongqiao Airport Terminal 2",
+      "Beixinjing"
+    ]
+  },
+  {
+    "name": "Beixinjing",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Songhong Rd",
+      "Weining Rd"
+    ]
+  },
+  {
+    "name": "Weining Rd",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Beixinjing",
+      "Loushanguan Rd"
+    ]
+  },
+  {
+    "name": "Loushanguan Rd",
+    "lines": [
+      "2",
+      "15"
+    ],
+    "adjacent": [
+      "Weining Rd",
+      "Zhongshan Park",
+      "Changfeng Park",
+      "Hongbaoshi Rd"
+    ]
+  },
+  {
+    "name": "Zhongshan Park",
+    "lines": [
+      "2",
+      "3",
+      "4"
+    ],
+    "adjacent": [
+      "Loushanguan Rd",
+      "Jiangsu Rd",
+      "Jinshajiang Rd",
+      "Yan'an Rd (W)"
+    ]
+  },
+  {
+    "name": "Jiangsu Rd",
+    "lines": [
+      "2",
+      "11"
+    ],
+    "adjacent": [
+      "Zhongshan Park",
+      "Jing'an Temple",
+      "Longde Rd",
+      "Jiaotong University"
+    ]
+  },
+  {
+    "name": "Jing'an Temple",
+    "lines": [
+      "2",
+      "7",
+      "14"
+    ],
+    "adjacent": [
+      "Jiangsu Rd",
+      "Nanjing Rd (W)",
+      "Changshu Rd",
+      "Changping Rd",
+      "Wuding Rd",
+      "Huangpi Rd"
+    ]
+  },
+  {
+    "name": "Nanjing Rd (W)",
+    "lines": [
+      "2",
+      "12",
+      "13"
+    ],
+    "adjacent": [
+      "Jing'an Temple",
+      "People's Square",
+      "Hanzhong Rd",
+      "Shaanxi Rd (S)",
+      "Shanghai Natural History Museum",
+      "Huaihai Rd (M)"
+    ]
+  },
+  {
+    "name": "Nanjing Rd (E)",
+    "lines": [
+      "2",
+      "10"
+    ],
+    "adjacent": [
+      "People's Square",
+      "Lujiazui",
+      "Tiantong Rd",
+      "Yuyuan Garden"
+    ]
+  },
+  {
+    "name": "Lujiazui",
+    "lines": [
+      "2",
+      "14"
+    ],
+    "adjacent": [
+      "Nanjing Rd (E)",
+      "Pudong Rd (S)",
+      "Yuyuan Garden"
+    ]
+  },
+  {
+    "name": "Pudong Rd (S)",
+    "lines": [
+      "2",
+      "14"
+    ],
+    "adjacent": [
+      "Lujiazui",
+      "Pudong Ave",
+      "Century Ave"
+    ]
+  },
+  {
+    "name": "Century Ave",
+    "lines": [
+      "2",
+      "4",
+      "6",
+      "9"
+    ],
+    "adjacent": [
+      "Pudong Rd (S)",
+      "Shanghai Science & Technology Museum",
+      "Shangcheng Rd",
+      "Yanggao Rd (M)",
+      "Pudian Rd",
+      "Yuanshen Sports Center",
+      "Xiangcheng Rd",
+      "Pudong Ave"
+    ]
+  },
+  {
+    "name": "Shanghai Science & Technology Museum",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Century Ave",
+      "Century Park"
+    ]
+  },
+  {
+    "name": "Century Park",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Shanghai Science & Technology Museum",
+      "Longyang Rd"
+    ]
+  },
+  {
+    "name": "Longyang Rd",
+    "lines": [
+      "2",
+      "7",
+      "18",
+      "16"
+    ],
+    "adjacent": [
+      "Century Park",
+      "Zhangjiang High-Tech Park",
+      "Yingchun Rd",
+      "Huamu Rd",
+      "Fanghua Rd",
+      "Fangxin Rd",
+      "Huaxia Rd (M)"
+    ]
+  },
+  {
+    "name": "Zhangjiang High-Tech Park",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Longyang Rd",
+      "Jinke Rd"
+    ]
+  },
+  {
+    "name": "Jinke Rd",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Zhangjiang High-Tech Park",
+      "Guanglan Rd"
+    ]
+  },
+  {
+    "name": "Guanglan Rd",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Jinke Rd",
+      "Tangzhen"
+    ]
+  },
+  {
+    "name": "Tangzhen",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Guanglan Rd",
+      "Chuangxin Rd (M)"
+    ]
+  },
+  {
+    "name": "Chuangxin Rd (M)",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Tangzhen",
+      "Huaxia Rd (E)"
+    ]
+  },
+  {
+    "name": "Huaxia Rd (E)",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Chuangxin Rd (M)",
+      "Chuansha"
+    ]
+  },
+  {
+    "name": "Chuansha",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Huaxia Rd (E)",
+      "Lingkong Rd"
+    ]
+  },
+  {
+    "name": "Lingkong Rd",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Chuansha",
+      "Yuandong Ave"
+    ]
+  },
+  {
+    "name": "Yuandong Ave",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Lingkong Rd",
+      "Haitiansan Rd"
+    ]
+  },
+  {
+    "name": "Haitiansan Rd",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Yuandong Ave",
+      "Pudong Airport Terminal 1&2"
+    ]
+  },
+  {
+    "name": "Pudong Airport Terminal 1&2",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Haitiansan Rd"
+    ]
+  },
+  {
+    "name": "Jiangyang Rd (N)",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Tieli Rd"
+    ]
+  },
+  {
+    "name": "Tieli Rd",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Jiangyang Rd (N)",
+      "Youyi Rd"
+    ]
+  },
+  {
+    "name": "Youyi Rd",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Tieli Rd",
+      "Baoyang Rd"
+    ]
+  },
+  {
+    "name": "Baoyang Rd",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Youyi Rd",
+      "Shuichan Rd"
+    ]
+  },
+  {
+    "name": "Shuichan Rd",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Baoyang Rd",
+      "Songbin Rd"
+    ]
+  },
+  {
+    "name": "Songbin Rd",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Shuichan Rd",
+      "Zhanghuabang"
+    ]
+  },
+  {
+    "name": "Zhanghuabang",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Songbin Rd",
+      "Songfa Rd"
+    ]
+  },
+  {
+    "name": "Songfa Rd",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Zhanghuabang",
+      "Changjiang Rd (S)"
+    ]
+  },
+  {
+    "name": "Changjiang Rd (S)",
+    "lines": [
+      "3",
+      "18"
+    ],
+    "adjacent": [
+      "Songfa Rd",
+      "Yingao Rd (W)",
+      "Tongnan Rd",
+      "Yin'gao Rd"
+    ]
+  },
+  {
+    "name": "Yingao Rd (W)",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Changjiang Rd (S)",
+      "Jiangwan Town"
+    ]
+  },
+  {
+    "name": "Jiangwan Town",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Yingao Rd (W)",
+      "Dabaishu"
+    ]
+  },
+  {
+    "name": "Dabaishu",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Jiangwan Town",
+      "Chifeng Rd"
+    ]
+  },
+  {
+    "name": "Chifeng Rd",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Dabaishu",
+      "Hongkou Football Stadium"
+    ]
+  },
+  {
+    "name": "Hongkou Football Stadium",
+    "lines": [
+      "3",
+      "8"
+    ],
+    "adjacent": [
+      "Chifeng Rd",
+      "Dongbaoxing Rd",
+      "Quyang Rd",
+      "Xizang Rd (N)"
+    ]
+  },
+  {
+    "name": "Dongbaoxing Rd",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Hongkou Football Stadium",
+      "Baoshan Rd"
+    ]
+  },
+  {
+    "name": "Baoshan Rd",
+    "lines": [
+      "3",
+      "4"
+    ],
+    "adjacent": [
+      "Dongbaoxing Rd",
+      "Shanghai Railway Station",
+      "Hailun Rd"
+    ]
+  },
+  {
+    "name": "Zhongtan Rd",
+    "lines": [
+      "3",
+      "4"
+    ],
+    "adjacent": [
+      "Shanghai Railway Station",
+      "Zhenping Rd"
+    ]
+  },
+  {
+    "name": "Zhenping Rd",
+    "lines": [
+      "3",
+      "4",
+      "7"
+    ],
+    "adjacent": [
+      "Zhongtan Rd",
+      "Caoyang Rd",
+      "Langao Rd",
+      "Changshou Rd"
+    ]
+  },
+  {
+    "name": "Caoyang Rd",
+    "lines": [
+      "3",
+      "4",
+      "11",
+      "14"
+    ],
+    "adjacent": [
+      "Zhenping Rd",
+      "Jinshajiang Rd",
+      "Fengqiao Rd",
+      "Longde Rd",
+      "Wuning Rd",
+      "Zhongning Rd"
+    ]
+  },
+  {
+    "name": "Jinshajiang Rd",
+    "lines": [
+      "3",
+      "4",
+      "13"
+    ],
+    "adjacent": [
+      "Caoyang Rd",
+      "Zhongshan Park",
+      "Longde Rd",
+      "Daduhe Rd"
+    ]
+  },
+  {
+    "name": "Yan'an Rd (W)",
+    "lines": [
+      "3",
+      "4"
+    ],
+    "adjacent": [
+      "Zhongshan Park",
+      "Hongqiao Rd"
+    ]
+  },
+  {
+    "name": "Hongqiao Rd",
+    "lines": [
+      "3",
+      "4",
+      "10"
+    ],
+    "adjacent": [
+      "Yan'an Rd (W)",
+      "Yishan Rd",
+      "Jiaotong University",
+      "Songyuan Rd"
+    ]
+  },
+  {
+    "name": "Yishan Rd",
+    "lines": [
+      "3",
+      "4",
+      "9"
+    ],
+    "adjacent": [
+      "Hongqiao Rd",
+      "Shanghai Indoor Stadium",
+      "Xujiahui",
+      "Guilin Rd",
+      "Caoxi Rd"
+    ]
+  },
+  {
+    "name": "Caoxi Rd",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Yishan Rd",
+      "Longcao Rd"
+    ]
+  },
+  {
+    "name": "Longcao Rd",
+    "lines": [
+      "3",
+      "12"
+    ],
+    "adjacent": [
+      "Caoxi Rd",
+      "Shilong Rd",
+      "Longhua",
+      "Caobao Rd"
+    ]
+  },
+  {
+    "name": "Shilong Rd",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Longcao Rd",
+      "Shanghai South Railway Station"
+    ]
+  },
+  {
+    "name": "Shanghai Stadium",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Shanghai Indoor Stadium",
+      "Dong'an Rd"
+    ]
+  },
+  {
+    "name": "Dong'an Rd",
+    "lines": [
+      "4",
+      "7"
+    ],
+    "adjacent": [
+      "Shanghai Stadium",
+      "Damuqiao Rd",
+      "Zhaojiabang Rd",
+      "Longhua Rd (M)"
+    ]
+  },
+  {
+    "name": "Damuqiao Rd",
+    "lines": [
+      "4",
+      "12"
+    ],
+    "adjacent": [
+      "Dong'an Rd",
+      "Luban Rd",
+      "Jiashan Rd",
+      "Longhua Rd (M)"
+    ]
+  },
+  {
+    "name": "Luban Rd",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Damuqiao Rd",
+      "Xizang Rd (S)"
+    ]
+  },
+  {
+    "name": "Xizang Rd (S)",
+    "lines": [
+      "4",
+      "8"
+    ],
+    "adjacent": [
+      "Luban Rd",
+      "Nanpu Bridge",
+      "Lujiabang Rd",
+      "China Art Museum"
+    ]
+  },
+  {
+    "name": "Nanpu Bridge",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Xizang Rd (S)",
+      "Tangqiao"
+    ]
+  },
+  {
+    "name": "Tangqiao",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Nanpu Bridge",
+      "Lancun Rd"
+    ]
+  },
+  {
+    "name": "Lancun Rd",
+    "lines": [
+      "4",
+      "6"
+    ],
+    "adjacent": [
+      "Tangqiao",
+      "Xiangcheng Rd",
+      "Pudian Rd",
+      "Shanghai Children's Medical Center"
+    ]
+  },
+  {
+    "name": "Xiangcheng Rd",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Lancun Rd",
+      "Century Ave"
+    ]
+  },
+  {
+    "name": "Pudong Ave",
+    "lines": [
+      "4",
+      "14"
+    ],
+    "adjacent": [
+      "Century Ave",
+      "Yangshupu Rd",
+      "Yuanshen Rd",
+      "Pudong Rd (S)"
+    ]
+  },
+  {
+    "name": "Yangshupu Rd",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Pudong Ave",
+      "Dalian Rd"
+    ]
+  },
+  {
+    "name": "Dalian Rd",
+    "lines": [
+      "4",
+      "12"
+    ],
+    "adjacent": [
+      "Yangshupu Rd",
+      "Linping Rd",
+      "Jiangpu Park",
+      "Tilanqiao"
+    ]
+  },
+  {
+    "name": "Linping Rd",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Dalian Rd",
+      "Hailun Rd"
+    ]
+  },
+  {
+    "name": "Hailun Rd",
+    "lines": [
+      "4",
+      "10"
+    ],
+    "adjacent": [
+      "Linping Rd",
+      "Baoshan Rd",
+      "Youdian Xincun",
+      "Sichuan Rd (N)"
+    ]
+  },
+  {
+    "name": "Chunshen Rd",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Xinzhuang",
+      "Yindu Rd"
+    ]
+  },
+  {
+    "name": "Yindu Rd",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Chunshen Rd",
+      "Zhuanqiao"
+    ]
+  },
+  {
+    "name": "Zhuanqiao",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Yindu Rd",
+      "Beiqiao"
+    ]
+  },
+  {
+    "name": "Beiqiao",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Zhuanqiao",
+      "Jianchuan Rd"
+    ]
+  },
+  {
+    "name": "Jianchuan Rd",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Beiqiao",
+      "Dongchuan Rd"
+    ]
+  },
+  {
+    "name": "Dongchuan Rd",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Jianchuan Rd",
+      "Jiangchuan Rd",
+      "Jinping Rd"
+    ]
+  },
+  {
+    "name": "Jiangchuan Rd",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Dongchuan Rd",
+      "Xidu"
+    ]
+  },
+  {
+    "name": "Xidu",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Jiangchuan Rd",
+      "Xiaotang"
+    ]
+  },
+  {
+    "name": "Xiaotang",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Xidu",
+      "Fengpu Ave"
+    ]
+  },
+  {
+    "name": "Fengpu Ave",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Xiaotang",
+      "Huanchengdong Rd"
+    ]
+  },
+  {
+    "name": "Huanchengdong Rd",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Fengpu Ave",
+      "Wangyuan Rd"
+    ]
+  },
+  {
+    "name": "Wangyuan Rd",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Huanchengdong Rd",
+      "Jinhai Lake"
+    ]
+  },
+  {
+    "name": "Jinhai Lake",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Wangyuan Rd",
+      "Fengxian Xincheng"
+    ]
+  },
+  {
+    "name": "Fengxian Xincheng",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Jinhai Lake"
+    ]
+  },
+  {
+    "name": "Jinping Rd",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Dongchuan Rd",
+      "Huaning Rd"
+    ]
+  },
+  {
+    "name": "Huaning Rd",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Jinping Rd",
+      "Wenjing Rd"
+    ]
+  },
+  {
+    "name": "Wenjing Rd",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Huaning Rd",
+      "Minhang Development Zone"
+    ]
+  },
+  {
+    "name": "Minhang Development Zone",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Wenjing Rd"
+    ]
+  },
+  {
+    "name": "Gangcheng Rd",
+    "lines": [
+      "6",
+      "10"
+    ],
+    "adjacent": [
+      "Waigaoqiao Free Trade Zone (N)",
+      "Jilong Rd",
+      "Gaoqiao"
+    ]
+  },
+  {
+    "name": "Waigaoqiao Free Trade Zone (N)",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Gangcheng Rd",
+      "Hangjin Rd"
+    ]
+  },
+  {
+    "name": "Hangjin Rd",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Waigaoqiao Free Trade Zone (N)",
+      "Waigaoqiao Free Trade Zone (S)"
+    ]
+  },
+  {
+    "name": "Waigaoqiao Free Trade Zone (S)",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Hangjin Rd",
+      "Zhouhai Rd"
+    ]
+  },
+  {
+    "name": "Zhouhai Rd",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Waigaoqiao Free Trade Zone (S)",
+      "Wuzhou Ave"
+    ]
+  },
+  {
+    "name": "Wuzhou Ave",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Zhouhai Rd",
+      "Dongjing Rd"
+    ]
+  },
+  {
+    "name": "Dongjing Rd",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Wuzhou Ave",
+      "Jufeng Rd"
+    ]
+  },
+  {
+    "name": "Jufeng Rd",
+    "lines": [
+      "6",
+      "12"
+    ],
+    "adjacent": [
+      "Dongjing Rd",
+      "Wulian Rd",
+      "Yanggao Rd (N)",
+      "Donglu Rd"
+    ]
+  },
+  {
+    "name": "Wulian Rd",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Jufeng Rd",
+      "Boxing Rd"
+    ]
+  },
+  {
+    "name": "Boxing Rd",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Wulian Rd",
+      "Jinqiao Rd"
+    ]
+  },
+  {
+    "name": "Jinqiao Rd",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Boxing Rd",
+      "Yunshan Rd"
+    ]
+  },
+  {
+    "name": "Yunshan Rd",
+    "lines": [
+      "6",
+      "14"
+    ],
+    "adjacent": [
+      "Jinqiao Rd",
+      "Deping Rd",
+      "Xiepu Rd",
+      "Lantian Rd"
+    ]
+  },
+  {
+    "name": "Deping Rd",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Yunshan Rd",
+      "Beiyangjing Rd"
+    ]
+  },
+  {
+    "name": "Beiyangjing Rd",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Deping Rd",
+      "Minsheng Rd"
+    ]
+  },
+  {
+    "name": "Minsheng Rd",
+    "lines": [
+      "6",
+      "18"
+    ],
+    "adjacent": [
+      "Beiyangjing Rd",
+      "Yuanshen Sports Center",
+      "Changyi Rd",
+      "Yanggao Rd (M)"
+    ]
+  },
+  {
+    "name": "Yuanshen Sports Center",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Minsheng Rd",
+      "Century Ave"
+    ]
+  },
+  {
+    "name": "Pudian Rd",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Century Ave",
+      "Lancun Rd"
+    ]
+  },
+  {
+    "name": "Shanghai Children's Medical Center",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Lancun Rd",
+      "Linyi Xincun"
+    ]
+  },
+  {
+    "name": "Linyi Xincun",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Shanghai Children's Medical Center",
+      "Gaoke Rd (W)"
+    ]
+  },
+  {
+    "name": "Gaoke Rd (W)",
+    "lines": [
+      "6",
+      "7"
+    ],
+    "adjacent": [
+      "Linyi Xincun",
+      "Dongming Rd",
+      "Yanggao Rd (S)",
+      "Yuntai Rd"
+    ]
+  },
+  {
+    "name": "Dongming Rd",
+    "lines": [
+      "6",
+      "13"
+    ],
+    "adjacent": [
+      "Gaoke Rd (W)",
+      "Gaoqing Rd",
+      "Huapeng Rd",
+      "Chengshan Rd"
+    ]
+  },
+  {
+    "name": "Gaoqing Rd",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Dongming Rd",
+      "Huaxia Rd (W)"
+    ]
+  },
+  {
+    "name": "Huaxia Rd (W)",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Gaoqing Rd",
+      "Shangnan Rd"
+    ]
+  },
+  {
+    "name": "Shangnan Rd",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Huaxia Rd (W)",
+      "Lingyan Rd (S)"
+    ]
+  },
+  {
+    "name": "Lingyan Rd (S)",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Shangnan Rd",
+      "Oriental Sports Center"
+    ]
+  },
+  {
+    "name": "Oriental Sports Center",
+    "lines": [
+      "6",
+      "11",
+      "8"
+    ],
+    "adjacent": [
+      "Lingyan Rd (S)",
+      "Sanlin",
+      "Longyao Rd",
+      "Yangsi",
+      "Lingzhao Xincun"
+    ]
+  },
+  {
+    "name": "Meilan Lake",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Luonan Xincun"
+    ]
+  },
+  {
+    "name": "Luonan Xincun",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Meilan Lake",
+      "Panguang Rd"
+    ]
+  },
+  {
+    "name": "Panguang Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Luonan Xincun",
+      "Liuhang"
+    ]
+  },
+  {
+    "name": "Liuhang",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Panguang Rd",
+      "Gucun Park"
+    ]
+  },
+  {
+    "name": "Gucun Park",
+    "lines": [
+      "7",
+      "15"
+    ],
+    "adjacent": [
+      "Liuhang",
+      "Qihua Rd",
+      "Jinqiu Rd"
+    ]
+  },
+  {
+    "name": "Qihua Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Gucun Park",
+      "Shanghai University"
+    ]
+  },
+  {
+    "name": "Shanghai University",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Qihua Rd",
+      "Nanchen Rd"
+    ]
+  },
+  {
+    "name": "Nanchen Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Shanghai University",
+      "Shangda Rd"
+    ]
+  },
+  {
+    "name": "Shangda Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Nanchen Rd",
+      "Changzhong Rd"
+    ]
+  },
+  {
+    "name": "Changzhong Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Shangda Rd",
+      "Dachang Town"
+    ]
+  },
+  {
+    "name": "Dachang Town",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Changzhong Rd",
+      "Xingzhi Rd"
+    ]
+  },
+  {
+    "name": "Xingzhi Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Dachang Town",
+      "Dahuasan Rd"
+    ]
+  },
+  {
+    "name": "Dahuasan Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Xingzhi Rd",
+      "Xincun Rd"
+    ]
+  },
+  {
+    "name": "Xincun Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Dahuasan Rd",
+      "Langao Rd"
+    ]
+  },
+  {
+    "name": "Langao Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Xincun Rd",
+      "Zhenping Rd"
+    ]
+  },
+  {
+    "name": "Changshou Rd",
+    "lines": [
+      "7",
+      "13"
+    ],
+    "adjacent": [
+      "Zhenping Rd",
+      "Changping Rd",
+      "Jiangning Rd",
+      "Wuning Rd"
+    ]
+  },
+  {
+    "name": "Changping Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Changshou Rd",
+      "Jing'an Temple"
+    ]
+  },
+  {
+    "name": "Zhaojiabang Rd",
+    "lines": [
+      "7",
+      "9"
+    ],
+    "adjacent": [
+      "Changshu Rd",
+      "Dong'an Rd",
+      "Jiashan Rd",
+      "Xujiahui"
+    ]
+  },
+  {
+    "name": "Longhua Rd (M)",
+    "lines": [
+      "7",
+      "12"
+    ],
+    "adjacent": [
+      "Dong'an Rd",
+      "Houtan",
+      "Damuqiao Rd",
+      "Longhua"
+    ]
+  },
+  {
+    "name": "Houtan",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Longhua Rd (M)",
+      "Changqing Rd"
+    ]
+  },
+  {
+    "name": "Changqing Rd",
+    "lines": [
+      "7",
+      "13"
+    ],
+    "adjacent": [
+      "Houtan",
+      "Yaohua Rd",
+      "Shibo Ave",
+      "Chengshan Rd"
+    ]
+  },
+  {
+    "name": "Yaohua Rd",
+    "lines": [
+      "7",
+      "8"
+    ],
+    "adjacent": [
+      "Changqing Rd",
+      "Yuntai Rd",
+      "China Art Museum",
+      "Chengshan Rd"
+    ]
+  },
+  {
+    "name": "Yuntai Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Yaohua Rd",
+      "Gaoke Rd (W)"
+    ]
+  },
+  {
+    "name": "Yanggao Rd (S)",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Gaoke Rd (W)",
+      "Jinxiu Rd"
+    ]
+  },
+  {
+    "name": "Jinxiu Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Yanggao Rd (S)",
+      "Fanghua Rd"
+    ]
+  },
+  {
+    "name": "Fanghua Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Jinxiu Rd",
+      "Longyang Rd"
+    ]
+  },
+  {
+    "name": "Huamu Rd",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Longyang Rd"
+    ]
+  },
+  {
+    "name": "Shiguang Rd",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Nenjiang Rd"
+    ]
+  },
+{
+    "name": "Nenjiang Rd",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Shiguang Rd",
+      "Xiangyin Rd"
+    ]
+  },
+  {
+    "name": "Xiangyin Rd",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Nenjiang Rd",
+      "Huangxing Park"
+    ]
+  },
+  {
+    "name": "Huangxing Park",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Xiangyin Rd",
+      "Yanji Rd (M)"
+    ]
+  },
+  {
+    "name": "Yanji Rd (M)",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Huangxing Park",
+      "Huangxing Rd"
+    ]
+  },
+  {
+    "name": "Huangxing Rd",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Yanji Rd (M)",
+      "Jiangpu Rd"
+    ]
+  },
+  {
+    "name": "Jiangpu Rd",
+    "lines": [
+      "8",
+      "18"
+    ],
+    "adjacent": [
+      "Huangxing Rd",
+      "Anshan Xincun",
+      "Jiangpu Park",
+      "Fushun Rd"
+    ]
+  },
+  {
+    "name": "Anshan Xincun",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Jiangpu Rd",
+      "Siping Rd"
+    ]
+  },
+  {
+    "name": "Siping Rd",
+    "lines": [
+      "8",
+      "10"
+    ],
+    "adjacent": [
+      "Anshan Xincun",
+      "Quyang Rd",
+      "Tongji University",
+      "Youdian Xincun"
+    ]
+  },
+  {
+    "name": "Quyang Rd",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Siping Rd",
+      "Hongkou Football Stadium"
+    ]
+  },
+  {
+    "name": "Xizang Rd (N)",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Hongkou Football Stadium",
+      "Zhongxing Rd"
+    ]
+  },
+  {
+    "name": "Zhongxing Rd",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Xizang Rd (N)",
+      "Qufu Rd"
+    ]
+  },
+  {
+    "name": "Qufu Rd",
+    "lines": [
+      "8",
+      "12"
+    ],
+    "adjacent": [
+      "Zhongxing Rd",
+      "People's Square",
+      "Tiantong Rd",
+      "Hanzhong Rd"
+    ]
+  },
+  {
+    "name": "Dashijie",
+    "lines": [
+      "8",
+      "14"
+    ],
+    "adjacent": [
+      "People's Square",
+      "Laoximen",
+      "Yuyuan Garden",
+      "Huangpi Rd"
+    ]
+  },
+  {
+    "name": "Laoximen",
+    "lines": [
+      "8",
+      "10"
+    ],
+    "adjacent": [
+      "Dashijie",
+      "Lujiabang Rd",
+      "Yuyuan Garden",
+      "Xintiandi"
+    ]
+  },
+  {
+    "name": "Lujiabang Rd",
+    "lines": [
+      "8",
+      "9"
+    ],
+    "adjacent": [
+      "Laoximen",
+      "Xizang Rd (S)",
+      "Xiaonanmen",
+      "Madang Rd"
+    ]
+  },
+  {
+    "name": "China Art Museum",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Xizang Rd (S)",
+      "Yaohua Rd"
+    ]
+  },
+  {
+    "name": "Chengshan Rd",
+    "lines": [
+      "8",
+      "13"
+    ],
+    "adjacent": [
+      "Yaohua Rd",
+      "Yangsi",
+      "Dongming Rd",
+      "Changqing Rd"
+    ]
+  },
+  {
+    "name": "Yangsi",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Chengshan Rd",
+      "Oriental Sports Center"
+    ]
+  },
+  {
+    "name": "Lingzhao Xincun",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Oriental Sports Center",
+      "Luheng Rd"
+    ]
+  },
+  {
+    "name": "Luheng Rd",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Lingzhao Xincun",
+      "Pujiang Town"
+    ]
+  },
+  {
+    "name": "Pujiang Town",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Luheng Rd",
+      "Jiangyue Rd"
+    ]
+  },
+  {
+    "name": "Jiangyue Rd",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Pujiang Town",
+      "Lianhang Rd"
+    ]
+  },
+  {
+    "name": "Lianhang Rd",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Jiangyue Rd",
+      "Shendu Hwy"
+    ]
+  },
+  {
+    "name": "Shendu Hwy",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Lianhang Rd"
+    ]
+  },
+  {
+    "name": "Caolu",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Minlei Rd"
+    ]
+  },
+  {
+    "name": "Minlei Rd",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Caolu",
+      "Gutang Rd"
+    ]
+  },
+  {
+    "name": "Gutang Rd",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Minlei Rd",
+      "Jinhai Rd"
+    ]
+  },
+  {
+    "name": "Jinhai Rd",
+    "lines": [
+      "12",
+      "9"
+    ],
+    "adjacent": [
+      "Gutang Rd",
+      "Jinji Rd",
+      "Shenjiang Rd"
+    ]
+  },
+  {
+    "name": "Jinji Rd",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Jinhai Rd",
+      "Jinqiao"
+    ]
+  },
+  {
+    "name": "Jinqiao",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Jinji Rd",
+      "Taierzhuang Rd"
+    ]
+  },
+  {
+    "name": "Taierzhuang Rd",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Jinqiao",
+      "Lantian Rd"
+    ]
+  },
+  {
+    "name": "Lantian Rd",
+    "lines": [
+      "9",
+      "14"
+    ],
+    "adjacent": [
+      "Taierzhuang Rd",
+      "Fangdian Rd",
+      "Huangyang Rd",
+      "Yunshan Rd"
+    ]
+  },
+  {
+    "name": "Fangdian Rd",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Lantian Rd",
+      "Yanggao Rd (M)"
+    ]
+  },
+  {
+    "name": "Yanggao Rd (M)",
+    "lines": [
+      "9",
+      "18"
+    ],
+    "adjacent": [
+      "Fangdian Rd",
+      "Century Ave",
+      "Yingchun Rd",
+      "Minsheng Rd"
+    ]
+  },
+  {
+    "name": "Shangcheng Rd",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Century Ave",
+      "Xiaonanmen"
+    ]
+  },
+  {
+    "name": "Xiaonanmen",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Shangcheng Rd",
+      "Lujiabang Rd"
+    ]
+  },
+  {
+    "name": "Madang Rd",
+    "lines": [
+      "9",
+      "13"
+    ],
+    "adjacent": [
+      "Lujiabang Rd",
+      "Dapuqiao",
+      "Xintiandi",
+      "World Expo Museum"
+    ]
+  },
+  {
+    "name": "Dapuqiao",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Madang Rd",
+      "Jiashan Rd"
+    ]
+  },
+  {
+    "name": "Jiashan Rd",
+    "lines": [
+      "9",
+      "12"
+    ],
+    "adjacent": [
+      "Dapuqiao",
+      "Zhaojiabang Rd",
+      "Shaanxi Rd (S)",
+      "Damuqiao Rd"
+    ]
+  },
+  {
+    "name": "Guilin Rd",
+    "lines": [
+      "9",
+      "15"
+    ],
+    "adjacent": [
+      "Yishan Rd",
+      "Caohejing Hi-Tech Park",
+      "Wuzhong Rd",
+      "Guilin Park"
+    ]
+  },
+  {
+    "name": "Caohejing Hi-Tech Park",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Guilin Rd",
+      "Hechuan Rd"
+    ]
+  },
+  {
+    "name": "Hechuan Rd",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Caohejing Hi-Tech Park",
+      "Xingzhong Rd"
+    ]
+  },
+  {
+    "name": "Xingzhong Rd",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Hechuan Rd",
+      "Qibao"
+    ]
+  },
+  {
+    "name": "Qibao",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Xingzhong Rd",
+      "Zhongchun Rd"
+    ]
+  },
+  {
+    "name": "Zhongchun Rd",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Qibao",
+      "Jiuting"
+    ]
+  },
+  {
+    "name": "Jiuting",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Zhongchun Rd",
+      "Sijing"
+    ]
+  },
+  {
+    "name": "Sijing",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Jiuting",
+      "Sheshan"
+    ]
+  },
+  {
+    "name": "Sheshan",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Sijing",
+      "Dongjing"
+    ]
+  },
+  {
+    "name": "Dongjing",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Sheshan",
+      "Songjiang University Town"
+    ]
+  },
+  {
+    "name": "Songjiang University Town",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Dongjing",
+      "Songjiang Xincheng"
+    ]
+  },
+  {
+    "name": "Songjiang Xincheng",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Songjiang University Town",
+      "Songjiang Sports Center"
+    ]
+  },
+  {
+    "name": "Songjiang Sports Center",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Songjiang Xincheng",
+      "Zuibaichi Park"
+    ]
+  },
+  {
+    "name": "Zuibaichi Park",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Songjiang Sports Center",
+      "Shanghai Songjiang Railway Station"
+    ]
+  },
+  {
+    "name": "Shanghai Songjiang Railway Station",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Zuibaichi Park"
+    ]
+  },
+  {
+    "name": "Hongqiao Airport Terminal 1",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Hongqiao Airport Terminal 2",
+      "Shanghai Zoo"
+    ]
+  },
+  {
+    "name": "Shanghai Zoo",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Hongqiao Airport Terminal 1",
+      "Longxi Rd"
+    ]
+  },
+  {
+    "name": "Longxi Rd",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Shanghai Zoo",
+      "Shuicheng Rd",
+      "Longbai Xincun"
+    ]
+  },
+  {
+    "name": "Longbai Xincun",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Longxi Rd",
+      "Ziteng Rd"
+    ]
+  },
+  {
+    "name": "Ziteng Rd",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Longbai Xincun",
+      "Hangzhong Rd"
+    ]
+  },
+  {
+    "name": "Hangzhong Rd",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Ziteng Rd"
+    ]
+  },
+  {
+    "name": "Shuicheng Rd",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Longxi Rd",
+      "Yili Rd"
+    ]
+  },
+  {
+    "name": "Yili Rd",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Shuicheng Rd",
+      "Songyuan Rd"
+    ]
+  },
+  {
+    "name": "Songyuan Rd",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Yili Rd",
+      "Hongqiao Rd"
+    ]
+  },
+  {
+    "name": "Jiaotong University",
+    "lines": [
+      "10",
+      "11"
+    ],
+    "adjacent": [
+      "Hongqiao Rd",
+      "Shanghai Library",
+      "Jiangsu Rd",
+      "Xujiahui"
+    ]
+  },
+  {
+    "name": "Shanghai Library",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Jiaotong University",
+      "Shaanxi Rd (S)"
+    ]
+  },
+  {
+    "name": "Xintiandi",
+    "lines": [
+      "10",
+      "13"
+    ],
+    "adjacent": [
+      "Shaanxi Rd (S)",
+      "Laoximen",
+      "Madang Rd",
+      "Huaihai Rd (M)"
+    ]
+  },
+  {
+    "name": "Yuyuan Garden",
+    "lines": [
+      "10",
+      "14"
+    ],
+    "adjacent": [
+      "Laoximen",
+      "Nanjing Rd (E)",
+      "Dashijie",
+      "Lujiazui"
+    ]
+  },
+  {
+    "name": "Tiantong Rd",
+    "lines": [
+      "10",
+      "12"
+    ],
+    "adjacent": [
+      "Nanjing Rd (E)",
+      "Sichuan Rd (N)",
+      "International Cruise Terminal",
+      "Qufu Rd"
+    ]
+  },
+  {
+    "name": "Sichuan Rd (N)",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Tiantong Rd",
+      "Hailun Rd"
+    ]
+  },
+  {
+    "name": "Youdian Xincun",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Hailun Rd",
+      "Siping Rd"
+    ]
+  },
+  {
+    "name": "Tongji University",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Siping Rd",
+      "Guoquan Rd"
+    ]
+  },
+  {
+    "name": "Guoquan Rd",
+    "lines": [
+      "10",
+      "18"
+    ],
+    "adjacent": [
+      "Tongji University",
+      "Wujiaochang",
+      "Fushun Rd",
+      "Fudan University"
+    ]
+  },
+  {
+    "name": "Wujiaochang",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Guoquan Rd",
+      "Jiangwan Stadium"
+    ]
+  },
+  {
+    "name": "Jiangwan Stadium",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Wujiaochang",
+      "Sanmen Rd"
+    ]
+  },
+  {
+    "name": "Sanmen Rd",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Jiangwan Stadium",
+      "Yingao Rd (E)"
+    ]
+  },
+  {
+    "name": "Yingao Rd (E)",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Sanmen Rd",
+      "Xinjiangwancheng"
+    ]
+  },
+  {
+    "name": "Xinjiangwancheng",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Yingao Rd (E)",
+      "Guofan Rd"
+    ]
+  },
+  {
+    "name": "Guofan Rd",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Xinjiangwancheng",
+      "Shuangjiang Rd"
+    ]
+  },
+  {
+    "name": "Shuangjiang Rd",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Guofan Rd",
+      "West Gaoqiao"
+    ]
+  },
+  {
+    "name": "West Gaoqiao",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Shuangjiang Rd",
+      "Gaoqiao"
+    ]
+  },
+  {
+    "name": "Gaoqiao",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "West Gaoqiao",
+      "Gangcheng Rd"
+    ]
+  },
+  {
+    "name": "Jilong Rd",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Gangcheng Rd"
+    ]
+  },
+  {
+    "name": "Disney Resort",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Kangxin Hwy"
+    ]
+  },
+  {
+    "name": "Kangxin Hwy",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Disney Resort",
+      "Xiuyan Rd"
+    ]
+  },
+  {
+    "name": "Xiuyan Rd",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Kangxin Hwy",
+      "Luoshan Rd"
+    ]
+  },
+  {
+    "name": "Luoshan Rd",
+    "lines": [
+      "11",
+      "16"
+    ],
+    "adjacent": [
+      "Xiuyan Rd",
+      "Yuqiao",
+      "Huaxia Rd (M)",
+      "East Zhoupu"
+    ]
+  },
+  {
+    "name": "Yuqiao",
+    "lines": [
+      "11",
+      "18"
+    ],
+    "adjacent": [
+      "Luoshan Rd",
+      "Kangheng Rd",
+      "Lianxi Rd",
+      "Kangqiao"
+    ]
+  },
+  {
+    "name": "Kangheng Rd",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Yuqiao",
+      "Pusan Rd"
+    ]
+  },
+  {
+    "name": "Pusan Rd",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Kangheng Rd",
+      "East Sanlin"
+    ]
+  },
+  {
+    "name": "East Sanlin",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Pusan Rd",
+      "Sanlin"
+    ]
+  },
+  {
+    "name": "Sanlin",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "East Sanlin",
+      "Oriental Sports Center"
+    ]
+  },
+  {
+    "name": "Longyao Rd",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Oriental Sports Center",
+      "Yunjin Rd"
+    ]
+  },
+  {
+    "name": "Yunjin Rd",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Longyao Rd",
+      "Longhua"
+    ]
+  },
+  {
+    "name": "Longhua",
+    "lines": [
+      "11",
+      "12"
+    ],
+    "adjacent": [
+      "Yunjin Rd",
+      "Shanghai Swimming Center",
+      "Longhua Rd (M)",
+      "Longcao Rd"
+    ]
+  },
+  {
+    "name": "Shanghai Swimming Center",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Longhua",
+      "Xujiahui"
+    ]
+  },
+  {
+    "name": "Longde Rd",
+    "lines": [
+      "11",
+      "13"
+    ],
+    "adjacent": [
+      "Jiangsu Rd",
+      "Caoyang Rd",
+      "Wuning Rd",
+      "Jinshajiang Rd"
+    ]
+  },
+  {
+    "name": "Fengqiao Rd",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Caoyang Rd",
+      "Zhenru"
+    ]
+  },
+  {
+    "name": "Zhenru",
+    "lines": [
+      "11",
+      "14"
+    ],
+    "adjacent": [
+      "Fengqiao Rd",
+      "Shanghai West Railway Station",
+      "Zhongning Rd",
+      "Tongchuan Rd"
+    ]
+  },
+  {
+    "name": "Shanghai West Railway Station",
+    "lines": [
+      "11",
+      "15"
+    ],
+    "adjacent": [
+      "Zhenru",
+      "Liziyuan",
+      "Wuwei Rd (E)",
+      "Tongchuan Rd"
+    ]
+  },
+  {
+    "name": "Liziyuan",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Shanghai West Railway Station",
+      "Qilianshan Rd"
+    ]
+  },
+  {
+    "name": "Qilianshan Rd",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Liziyuan",
+      "Wuwei Rd"
+    ]
+  },
+  {
+    "name": "Wuwei Rd",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Qilianshan Rd",
+      "Taopu Xincun"
+    ]
+  },
+  {
+    "name": "Taopu Xincun",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Wuwei Rd",
+      "Nanxiang"
+    ]
+  },
+  {
+    "name": "Nanxiang",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Taopu Xincun",
+      "Chenxiang Hwy"
+    ]
+  },
+  {
+    "name": "Chenxiang Hwy",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Nanxiang",
+      "Malu"
+    ]
+  },
+  {
+    "name": "Malu",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Chenxiang Hwy",
+      "Jiading Xincheng"
+    ]
+  },
+  {
+    "name": "Jiading Xincheng",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Malu",
+      "Baiyin Rd",
+      "Shanghai Circuit"
+    ]
+  },
+  {
+    "name": "Shanghai Circuit",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Jiading Xincheng",
+      "Changji Rd (E)"
+    ]
+  },
+  {
+    "name": "Changji Rd (E)",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Shanghai Circuit",
+      "Shanghai Automobile City"
+    ]
+  },
+  {
+    "name": "Shanghai Automobile City",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Changji Rd (E)",
+      "Anting"
+    ]
+  },
+  {
+    "name": "Anting",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Shanghai Automobile City",
+      "Zhaofeng Rd"
+    ]
+  },
+  {
+    "name": "Zhaofeng Rd",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Anting",
+      "Guangming Rd"
+    ]
+  },
+  {
+    "name": "Guangming Rd",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Zhaofeng Rd",
+      "Huaqiao"
+    ]
+  },
+  {
+    "name": "Huaqiao",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Guangming Rd"
+    ]
+  },
+  {
+    "name": "Baiyin Rd",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Jiading Xincheng",
+      "West Jiading"
+    ]
+  },
+  {
+    "name": "West Jiading",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Baiyin Rd",
+      "North Jiading"
+    ]
+  },
+  {
+    "name": "North Jiading",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "West Jiading"
+    ]
+  },
+  {
+    "name": "Qixin Rd",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Hongxin Rd"
+    ]
+  },
+  {
+    "name": "Hongxin Rd",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Qixin Rd",
+      "Gudai Rd"
+    ]
+  },
+  {
+    "name": "Gudai Rd",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Hongxin Rd",
+      "Donglan Rd"
+    ]
+  },
+  {
+    "name": "Donglan Rd",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Gudai Rd",
+      "Hongmei Rd"
+    ]
+  },
+  {
+    "name": "Hongmei Rd",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Donglan Rd",
+      "Hongcao Rd"
+    ]
+  },
+  {
+    "name": "Hongcao Rd",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Hongmei Rd",
+      "Guilin Park"
+    ]
+  },
+  {
+    "name": "Guilin Park",
+    "lines": [
+      "12",
+      "15"
+    ],
+    "adjacent": [
+      "Hongcao Rd",
+      "Caobao Rd",
+      "Guilin Rd",
+      "Shanghai South Railway Station"
+    ]
+  },
+  {
+    "name": "International Cruise Terminal",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Tiantong Rd",
+      "Tilanqiao"
+    ]
+  },
+  {
+    "name": "Tilanqiao",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "International Cruise Terminal",
+      "Dalian Rd"
+    ]
+  },
+  {
+    "name": "Jiangpu Park",
+    "lines": [
+      "12",
+      "18"
+    ],
+    "adjacent": [
+      "Dalian Rd",
+      "Ningguo Rd",
+      "Pingliang Rd",
+      "Jiangpu Rd"
+    ]
+  },
+  {
+    "name": "Ningguo Rd",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Jiangpu Park",
+      "Longchang Rd"
+    ]
+  },
+  {
+    "name": "Longchang Rd",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Ningguo Rd",
+      "Aiguo Rd"
+    ]
+  },
+  {
+    "name": "Aiguo Rd",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Longchang Rd",
+      "Fuxing Island"
+    ]
+  },
+  {
+    "name": "Fuxing Island",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Aiguo Rd",
+      "Donglu Rd"
+    ]
+  },
+  {
+    "name": "Donglu Rd",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Fuxing Island",
+      "Jufeng Rd"
+    ]
+  },
+  {
+    "name": "Yanggao Rd (N)",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Jufeng Rd",
+      "Jinjing Rd"
+    ]
+  },
+  {
+    "name": "Jinjing Rd",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Yanggao Rd (N)",
+      "Shenjiang Rd"
+    ]
+  },
+  {
+    "name": "Shenjiang Rd",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Jinjing Rd",
+      "Jinhai Rd"
+    ]
+  },
+  {
+    "name": "Jinyun Rd",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Jinshajiang Rd (W)"
+    ]
+  },
+  {
+    "name": "Jinshajiang Rd (W)",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Jinyun Rd",
+      "Fengzhuang"
+    ]
+  },
+  {
+    "name": "Fengzhuang",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Jinshajiang Rd (W)",
+      "Qilianshan Rd (S)"
+    ]
+  },
+  {
+    "name": "Qilianshan Rd (S)",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Fengzhuang",
+      "Zhenbei Rd"
+    ]
+  },
+  {
+    "name": "Zhenbei Rd",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Qilianshan Rd (S)",
+      "Daduhe Rd"
+    ]
+  },
+  {
+    "name": "Daduhe Rd",
+    "lines": [
+      "13",
+      "15"
+    ],
+    "adjacent": [
+      "Zhenbei Rd",
+      "Jinshajiang Rd",
+      "Meiling Rd (N)",
+      "Changfeng Park"
+    ]
+  },
+  {
+    "name": "Jiangning Rd",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Changshou Rd",
+      "Hanzhong Rd"
+    ]
+  },
+  {
+    "name": "Shanghai Natural History Museum",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Hanzhong Rd",
+      "Nanjing Rd (W)"
+    ]
+  },
+  {
+    "name": "Huaihai Rd (M)",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Nanjing Rd (W)",
+      "Xintiandi"
+    ]
+  },
+  {
+    "name": "World Expo Museum",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Madang Rd",
+      "Shibo Ave"
+    ]
+  },
+  {
+    "name": "Shibo Ave",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "World Expo Museum",
+      "Changqing Rd"
+    ]
+  },
+  {
+    "name": "Huapeng Rd",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Dongming Rd",
+      "Xia'nan Rd"
+    ]
+  },
+  {
+    "name": "Xia'nan Rd",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Huapeng Rd",
+      "Beicai"
+    ]
+  },
+  {
+    "name": "Beicai",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Xia'nan Rd",
+      "Chenchun Rd"
+    ]
+  },
+  {
+    "name": "Chenchun Rd",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Beicai",
+      "Lianxi Rd"
+    ]
+  },
+  {
+    "name": "Lianxi Rd",
+    "lines": [
+      "13",
+      "18"
+    ],
+    "adjacent": [
+      "Chenchun Rd",
+      "Huaxia Rd (M)",
+      "Beizhong Rd",
+      "Yuqiao"
+    ]
+  },
+  {
+    "name": "Huaxia Rd (M)",
+    "lines": [
+      "13",
+      "16"
+    ],
+    "adjacent": [
+      "Lianxi Rd",
+      "Zhongke Rd",
+      "Longyang Rd",
+      "Luoshan Rd"
+    ]
+  },
+  {
+    "name": "Zhongke Rd",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Huaxia Rd (M)",
+      "Xuelin Rd"
+    ]
+  },
+  {
+    "name": "Xuelin Rd",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Zhongke Rd",
+      "Zhangjiang Rd"
+    ]
+  },
+  {
+    "name": "Zhangjiang Rd",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Xuelin Rd"
+    ]
+  },
+  {
+    "name": "Fengbang",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Lexiu Rd"
+    ]
+  },
+  {
+    "name": "Lexiu Rd",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Fengbang",
+      "Lintao Rd"
+    ]
+  },
+  {
+    "name": "Lintao Rd",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Lexiu Rd",
+      "Jiayi Rd"
+    ]
+  },
+  {
+    "name": "Jiayi Rd",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Lintao Rd",
+      "Dingbian Rd"
+    ]
+  },
+  {
+    "name": "Dingbian Rd",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Jiayi Rd",
+      "Zhenxin Xincun"
+    ]
+  },
+  {
+    "name": "Zhenxin Xincun",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Dingbian Rd",
+      "Zhenguang Rd"
+    ]
+  },
+  {
+    "name": "Zhenguang Rd",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Zhenxin Xincun",
+      "Tongchuan Rd"
+    ]
+  },
+  {
+    "name": "Tongchuan Rd",
+    "lines": [
+      "14",
+      "15"
+    ],
+    "adjacent": [
+      "Zhenguang Rd",
+      "Zhenru",
+      "Shanghai West Railway Station",
+      "Meiling Rd (N)"
+    ]
+  },
+  {
+    "name": "Zhongning Rd",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Zhenru",
+      "Caoyang Rd"
+    ]
+  },
+  {
+    "name": "Wuning Rd",
+    "lines": [
+      "14",
+      "13"
+    ],
+    "adjacent": [
+      "Caoyang Rd",
+      "Wuding Rd",
+      "Changshou Rd",
+      "Longde Rd"
+    ]
+  },
+  {
+    "name": "Wuding Rd",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Wuning Rd",
+      "Jing'an Temple"
+    ]
+  },
+  {
+    "name": "Yuanshen Rd",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Pudong Ave",
+      "Changyi Rd"
+    ]
+  },
+  {
+    "name": "Changyi Rd",
+    "lines": [
+      "14",
+      "18"
+    ],
+    "adjacent": [
+      "Yuanshen Rd",
+      "Xiepu Rd",
+      "Danyang Rd",
+      "Minsheng Rd"
+    ]
+  },
+  {
+    "name": "Xiepu Rd",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Changyi Rd",
+      "Yunshan Rd"
+    ]
+  },
+  {
+    "name": "Huangyang Rd",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Lantian Rd",
+      "Yunshun Rd"
+    ]
+  },
+  {
+    "name": "Yunshun Rd",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Huangyang Rd",
+      "Pudong Football Stadium"
+    ]
+  },
+  {
+    "name": "Pudong Football Stadium",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Yunshun Rd",
+      "Jinyue Rd"
+    ]
+  },
+  {
+    "name": "Jinyue Rd",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Pudong Football Stadium",
+      "Guiqiao Rd"
+    ]
+  },
+  {
+    "name": "Guiqiao Rd",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Jinyue Rd"
+    ]
+  },
+  {
+    "name": "Jinqiu Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Gucun Park",
+      "Fengxiang Rd"
+    ]
+  },
+  {
+    "name": "Fengxiang Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Jinqiu Rd",
+      "Nanda Rd"
+    ]
+  },
+  {
+    "name": "Nanda Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Fengxiang Rd",
+      "Qi' an Rd"
+    ]
+  },
+  {
+    "name": "Qi' an Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Nanda Rd",
+      "Gulang Rd"
+    ]
+  },
+  {
+    "name": "Gulang Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Qi' an Rd",
+      "Wuwei Rd (E)"
+    ]
+  },
+  {
+    "name": "Wuwei Rd (E)",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Gulang Rd",
+      "Shanghai West Railway Station"
+    ]
+  },
+  {
+    "name": "Meiling Rd (N)",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Tongchuan Rd",
+      "Daduhe Rd"
+    ]
+  },
+  {
+    "name": "Changfeng Park",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Daduhe Rd",
+      "Loushanguan Rd"
+    ]
+  },
+  {
+    "name": "Hongbaoshi Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Loushanguan Rd",
+      "Yaohong Rd"
+    ]
+  },
+  {
+    "name": "Yaohong Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Hongbaoshi Rd",
+      "Wuzhong Rd"
+    ]
+  },
+  {
+    "name": "Wuzhong Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Yaohong Rd",
+      "Guilin Rd"
+    ]
+  },
+  {
+    "name": "East China University of Science and Technology",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Shanghai South Railway Station",
+      "Luoxiu Rd"
+    ]
+  },
+  {
+    "name": "Luoxiu Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "East China University of Science and Technology",
+      "Zhumei Rd"
+    ]
+  },
+  {
+    "name": "Zhumei Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Luoxiu Rd",
+      "Jinghong Rd"
+    ]
+  },
+  {
+    "name": "Jinghong Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Zhumei Rd",
+      "Hongmei Rd (S)"
+    ]
+  },
+  {
+    "name": "Hongmei Rd (S)",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Jinghong Rd",
+      "Jingxi Rd"
+    ]
+  },
+  {
+    "name": "Jingxi Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Hongmei Rd (S)",
+      "Shujian Rd"
+    ]
+  },
+  {
+    "name": "Shujian Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Jingxi Rd",
+      "Shuangbai Rd"
+    ]
+  },
+  {
+    "name": "Shuangbai Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Shujian Rd",
+      "Yuanjiang Rd"
+    ]
+  },
+  {
+    "name": "Yuanjiang Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Shuangbai Rd",
+      "Yongde Rd"
+    ]
+  },
+  {
+    "name": "Yongde Rd",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Yuanjiang Rd",
+      "Zizhu Hi-Tech Park"
+    ]
+  },
+  {
+    "name": "Zizhu Hi-Tech Park",
+    "lines": [
+      "15"
+    ],
+    "adjacent": [
+      "Yongde Rd"
+    ]
+  },
+  {
+    "name": "East Zhoupu",
+    "lines": [
+      "16"
+    ],
+    "adjacent": [
+      "Luoshan Rd",
+      "Heshahangcheng"
+    ]
+  },
+  {
+    "name": "Heshahangcheng",
+    "lines": [
+      "16"
+    ],
+    "adjacent": [
+      "East Zhoupu",
+      "East Hangtou"
+    ]
+  },
+  {
+    "name": "East Hangtou",
+    "lines": [
+      "16"
+    ],
+    "adjacent": [
+      "Heshahangcheng",
+      "Xinchang"
+    ]
+  },
+  {
+    "name": "Xinchang",
+    "lines": [
+      "16"
+    ],
+    "adjacent": [
+      "East Hangtou",
+      "Wild Animal Park"
+    ]
+  },
+  {
+    "name": "Wild Animal Park",
+    "lines": [
+      "16"
+    ],
+    "adjacent": [
+      "Xinchang",
+      "Huinan"
+    ]
+  },
+  {
+    "name": "Huinan",
+    "lines": [
+      "16"
+    ],
+    "adjacent": [
+      "Wild Animal Park",
+      "East Huinan"
+    ]
+  },
+  {
+    "name": "East Huinan",
+    "lines": [
+      "16"
+    ],
+    "adjacent": [
+      "Huinan",
+      "Shuyuan"
+    ]
+  },
+  {
+    "name": "Shuyuan",
+    "lines": [
+      "16"
+    ],
+    "adjacent": [
+      "East Huinan",
+      "Lingang Ave"
+    ]
+  },
+  {
+    "name": "Lingang Ave",
+    "lines": [
+      "16"
+    ],
+    "adjacent": [
+      "Shuyuan",
+      "Dishui Lake"
+    ]
+  },
+  {
+    "name": "Dishui Lake",
+    "lines": [
+      "16"
+    ],
+    "adjacent": [
+      "Lingang Ave"
+    ]
+  },
+  {
+    "name": "Panlong Rd",
+    "lines": [
+      "17"
+    ],
+    "adjacent": [
+      "National Exhibition and Convention Center",
+      "Xuying Rd"
+    ]
+  },
+  {
+    "name": "Xuying Rd",
+    "lines": [
+      "17"
+    ],
+    "adjacent": [
+      "Panlong Rd",
+      "Xujingbeicheng"
+    ]
+  },
+  {
+    "name": "Xujingbeicheng",
+    "lines": [
+      "17"
+    ],
+    "adjacent": [
+      "Xuying Rd",
+      "Jiasong Rd (M)"
+    ]
+  },
+  {
+    "name": "Jiasong Rd (M)",
+    "lines": [
+      "17"
+    ],
+    "adjacent": [
+      "Xujingbeicheng",
+      "Zhaoxiang"
+    ]
+  },
+  {
+    "name": "Zhaoxiang",
+    "lines": [
+      "17"
+    ],
+    "adjacent": [
+      "Jiasong Rd (M)",
+      "Huijin Rd"
+    ]
+  },
+  {
+    "name": "Huijin Rd",
+    "lines": [
+      "17"
+    ],
+    "adjacent": [
+      "Zhaoxiang",
+      "Qingpu Xincheng"
+    ]
+  },
+  {
+    "name": "Qingpu Xincheng",
+    "lines": [
+      "17"
+    ],
+    "adjacent": [
+      "Huijin Rd",
+      "Caoying Rd"
+    ]
+  },
+  {
+    "name": "Caoying Rd",
+    "lines": [
+      "17"
+    ],
+    "adjacent": [
+      "Qingpu Xincheng",
+      "Dianshanhu Ave"
+    ]
+  },
+  {
+    "name": "Dianshanhu Ave",
+    "lines": [
+      "17"
+    ],
+    "adjacent": [
+      "Caoying Rd",
+      "Zhujiajiao"
+    ]
+  },
+  {
+    "name": "Zhujiajiao",
+    "lines": [
+      "17"
+    ],
+    "adjacent": [
+      "Dianshanhu Ave",
+      "Oriental Land"
+    ]
+  },
+  {
+    "name": "Oriental Land",
+    "lines": [
+      "17"
+    ],
+    "adjacent": [
+      "Zhujiajiao",
+      "Xicen"
+    ]
+  },
+  {
+    "name": "Xicen",
+    "lines": [
+      "17"
+    ],
+    "adjacent": [
+      "Oriental Land"
+    ]
+  },
+  {
+    "name": "Kangwen Rd",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Hulan Rd"
+    ]
+  },
+  {
+    "name": "Aihui Rd",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Hulan Rd",
+      "Changjiang Rd (W)"
+    ]
+  },
+  {
+    "name": "Changjiang Rd (W)",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Aihui Rd",
+      "Tongnan Rd"
+    ]
+  },
+  {
+    "name": "Tongnan Rd",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Changjiang Rd (W)",
+      "Changjiang Rd (S)"
+    ]
+  },
+  {
+    "name": "Yin'gao Rd",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Changjiang Rd (S)",
+      "Shanghai University of Finance and Economics"
+    ]
+  },
+  {
+    "name": "Shanghai University of Finance and Economics",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Yin'gao Rd",
+      "Fudan University"
+    ]
+  },
+  {
+    "name": "Fudan University",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Shanghai University of Finance and Economics",
+      "Guoquan Rd"
+    ]
+  },
+  {
+    "name": "Fushun Rd",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Guoquan Rd",
+      "Jiangpu Rd"
+    ]
+  },
+  {
+    "name": "Pingliang Rd",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Jiangpu Park",
+      "Danyang Rd"
+    ]
+  },
+  {
+    "name": "Danyang Rd",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Pingliang Rd",
+      "Changyi Rd"
+    ]
+  },
+  {
+    "name": "Yingchun Rd",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Yanggao Rd (M)",
+      "Longyang Rd"
+    ]
+  },
+  {
+    "name": "Fangxin Rd",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Longyang Rd",
+      "Beizhong Rd"
+    ]
+  },
+  {
+    "name": "Beizhong Rd",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Fangxin Rd",
+      "Lianxi Rd"
+    ]
+  },
+  {
+    "name": "Kangqiao",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Yuqiao",
+      "Zhoupu"
+    ]
+  },
+  {
+    "name": "Zhoupu",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Kangqiao",
+      "Fanrong Rd"
+    ]
+  },
+  {
+    "name": "Fanrong Rd",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Zhoupu",
+      "Shenmei Rd"
+    ]
+  },
+  {
+    "name": "Shenmei Rd",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Fanrong Rd",
+      "Hetao Rd"
+    ]
+  },
+  {
+    "name": "Hetao Rd",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Shenmei Rd",
+      "Xiasha"
+    ]
+  },
+  {
+    "name": "Xiasha",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Hetao Rd",
+      "Hangtou"
+    ]
+  },
+  {
+    "name": "Hangtou",
+    "lines": [
+      "18"
+    ],
+    "adjacent": [
+      "Xiasha"
+    ]
+  }
+]

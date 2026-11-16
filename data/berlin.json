@@ -1,0 +1,2335 @@
+[
+  {
+    "name": "Uhlandstrasse",
+    "lines": [
+      "U1"
+    ],
+    "adjacent": [
+      "Kurfürstendamm"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Kurfürstendamm",
+    "lines": [
+      "U1",
+      "U9"
+    ],
+    "adjacent": [
+      "Uhlandstrasse",
+      "Wittenbergplatz",
+      "Zoologischer Garten",
+      "Spichernstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Wittenbergplatz",
+    "lines": [
+      "U1",
+      "U2",
+      "U3"
+    ],
+    "adjacent": [
+      "Kurfürstendamm",
+      "Nollendorfplatz",
+      "Augsburger Strasse",
+      "Zoologischer Garten"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Nollendorfplatz",
+    "lines": [
+      "U1",
+      "U2",
+      "U3",
+      "U4"
+    ],
+    "adjacent": [
+      "Wittenbergplatz",
+      "Kurfürstenstrasse",
+      "Bülowstrasse",
+      "Viktoria-Luise-Platz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Kurfürstenstrasse",
+    "lines": [
+      "U1",
+      "U3"
+    ],
+    "adjacent": [
+      "Nollendorfplatz",
+      "Gleisdreieck"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Gleisdreieck",
+    "lines": [
+      "U1",
+      "U2",
+      "U3"
+    ],
+    "adjacent": [
+      "Kurfürstenstrasse",
+      "Möckernbrücke",
+      "Mendelssohn-Bartholdy-Park",
+      "Bülowstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Möckernbrücke",
+    "lines": [
+      "U1",
+      "U7",
+      "U3"
+    ],
+    "adjacent": [
+      "Gleisdreieck",
+      "Hallesches Tor",
+      "Mehringdamm",
+      "Yorckstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Hallesches Tor",
+    "lines": [
+      "U1",
+      "U6",
+      "U3"
+    ],
+    "adjacent": [
+      "Möckernbrücke",
+      "Prinzenstrasse",
+      "Kochstrasse",
+      "Mehringdamm"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Prinzenstrasse",
+    "lines": [
+      "U1",
+      "U3"
+    ],
+    "adjacent": [
+      "Hallesches Tor",
+      "Kottbusser Tor"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Kottbusser Tor",
+    "lines": [
+      "U1",
+      "U8",
+      "U3"
+    ],
+    "adjacent": [
+      "Prinzenstrasse",
+      "Görlitzer Bahnhof",
+      "Moritzplatz",
+      "Schönleinstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Görlitzer Bahnhof",
+    "lines": [
+      "U1",
+      "U3"
+    ],
+    "adjacent": [
+      "Kottbusser Tor",
+      "Schlesisches Tor"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Schlesisches Tor",
+    "lines": [
+      "U1",
+      "U3"
+    ],
+    "adjacent": [
+      "Görlitzer Bahnhof",
+      "Warschauer Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Warschauer Strasse",
+    "lines": [
+      "U1",
+      "U3"
+    ],
+    "adjacent": [
+      "Schlesisches Tor"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Ruhleben",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Olympia-Stadion"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Olympia-Stadion",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Ruhleben",
+      "Neu-Westend"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Neu-Westend",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Olympia-Stadion",
+      "Theodor-Heuss-Platz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Theodor-Heuss-Platz",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Neu-Westend",
+      "Kaiserdamm"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Kaiserdamm",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Theodor-Heuss-Platz",
+      "Sophie-Charlotte-Platz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Sophie-Charlotte-Platz",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Kaiserdamm",
+      "Bismarckstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Bismarckstrasse",
+    "lines": [
+      "U2",
+      "U7"
+    ],
+    "adjacent": [
+      "Sophie-Charlotte-Platz",
+      "Deutsche Oper",
+      "Richard-Wagner-Platz",
+      "Wilmersdorfer Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Deutsche Oper",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Bismarckstrasse",
+      "Ernst-Reuter-Platz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Ernst-Reuter-Platz",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Deutsche Oper",
+      "Zoologischer Garten"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Zoologischer Garten",
+    "lines": [
+      "U2",
+      "U9"
+    ],
+    "adjacent": [
+      "Ernst-Reuter-Platz",
+      "Wittenbergplatz",
+      "Hansaplatz",
+      "Kurfürstendamm"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Bülowstrasse",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Nollendorfplatz",
+      "Gleisdreieck"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Mendelssohn-Bartholdy-Park",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Gleisdreieck",
+      "Potsdamer Platz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Potsdamer Platz",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Mendelssohn-Bartholdy-Park",
+      "Anton-Wilhelm-Amo-Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Anton-Wilhelm-Amo-Strasse",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Potsdamer Platz",
+      "Stadtmitte"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Stadtmitte",
+    "lines": [
+      "U2",
+      "U6"
+    ],
+    "adjacent": [
+      "Anton-Wilhelm-Amo-Strasse",
+      "Hausvogteiplatz",
+      "Unter den Linden",
+      "Kochstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Hausvogteiplatz",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Stadtmitte",
+      "Spittelmarkt"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Spittelmarkt",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Hausvogteiplatz",
+      "Märkisches Museum"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Märkisches Museum",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Spittelmarkt",
+      "Klosterstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Klosterstrasse",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Märkisches Museum",
+      "Alexanderplatz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Alexanderplatz",
+    "lines": [
+      "U2",
+      "U5",
+      "U8"
+    ],
+    "adjacent": [
+      "Klosterstrasse",
+      "Rosa-Luxemburg-Platz",
+      "Weinmeisterstrasse",
+      "Jannowitzbrücke",
+      "Schillingstrasse",
+      "Rotes Rathaus"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Rosa-Luxemburg-Platz",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Alexanderplatz",
+      "Senefelderplatz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Senefelderplatz",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Rosa-Luxemburg-Platz",
+      "Eberswalder Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Eberswalder Strasse",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Senefelderplatz",
+      "Schönhauser Allee"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Schönhauser Allee",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Eberswalder Strasse",
+      "Vinetastrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Vinetastrasse",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Schönhauser Allee",
+      "Pankow"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Pankow",
+    "lines": [
+      "U2"
+    ],
+    "adjacent": [
+      "Vinetastrasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Krumme Lanke",
+    "lines": [
+      "U3"
+    ],
+    "adjacent": [
+      "Onkel Toms Hütte"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Onkel Toms Hütte",
+    "lines": [
+      "U3"
+    ],
+    "adjacent": [
+      "Krumme Lanke",
+      "Oskar-Helene-Heim"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Oskar-Helene-Heim",
+    "lines": [
+      "U3"
+    ],
+    "adjacent": [
+      "Onkel Toms Hütte",
+      "Freie Universität (Thielplatz)"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Freie Universität (Thielplatz)",
+    "lines": [
+      "U3"
+    ],
+    "adjacent": [
+      "Oskar-Helene-Heim",
+      "Dahlem-Dorf"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Dahlem-Dorf",
+    "lines": [
+      "U3"
+    ],
+    "adjacent": [
+      "Freie Universität (Thielplatz)",
+      "Podbielskiallee"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Podbielskiallee",
+    "lines": [
+      "U3"
+    ],
+    "adjacent": [
+      "Dahlem-Dorf",
+      "Breitenbachplatz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Breitenbachplatz",
+    "lines": [
+      "U3"
+    ],
+    "adjacent": [
+      "Podbielskiallee",
+      "Rüdesheimer Platz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Rüdesheimer Platz",
+    "lines": [
+      "U3"
+    ],
+    "adjacent": [
+      "Breitenbachplatz",
+      "Heidelberger Platz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Heidelberger Platz",
+    "lines": [
+      "U3"
+    ],
+    "adjacent": [
+      "Rüdesheimer Platz",
+      "Fehrbelliner Platz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Fehrbelliner Platz",
+    "lines": [
+      "U3",
+      "U7"
+    ],
+    "adjacent": [
+      "Heidelberger Platz",
+      "Hohenzollernplatz",
+      "Blissestrasse",
+      "Konstanzer Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },{
+    "name": "Hohenzollernplatz",
+    "lines": [
+      "U3"
+    ],
+    "adjacent": [
+      "Fehrbelliner Platz",
+      "Spichernstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Spichernstrasse",
+    "lines": [
+      "U3",
+      "U9"
+    ],
+    "adjacent": [
+      "Hohenzollernplatz",
+      "Augsburger Strasse",
+      "Güntzelstrasse",
+      "Kurfürstendamm"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Augsburger Strasse",
+    "lines": [
+      "U3"
+    ],
+    "adjacent": [
+      "Spichernstrasse",
+      "Wittenbergplatz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Viktoria-Luise-Platz",
+    "lines": [
+      "U4"
+    ],
+    "adjacent": [
+      "Nollendorfplatz",
+      "Bayerischer Platz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Bayerischer Platz",
+    "lines": [
+      "U4",
+      "U7"
+    ],
+    "adjacent": [
+      "Viktoria-Luise-Platz",
+      "Rathaus Schöneberg",
+      "Berliner Strasse",
+      "Eisenacher Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Rathaus Schöneberg",
+    "lines": [
+      "U4"
+    ],
+    "adjacent": [
+      "Bayerischer Platz",
+      "Innsbrucker Platz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Innsbrucker Platz",
+    "lines": [
+      "U4"
+    ],
+    "adjacent": [
+      "Rathaus Schöneberg"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Hauptbahnhof",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Bundestag"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Bundestag",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Hauptbahnhof",
+      "Brandenburger Tor"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Brandenburger Tor",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Bundestag",
+      "Unter den Linden"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Unter den Linden",
+    "lines": [
+      "U5",
+      "U6"
+    ],
+    "adjacent": [
+      "Brandenburger Tor",
+      "Museumsinsel",
+      "Friedrichstrasse",
+      "Stadtmitte"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Museumsinsel",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Unter den Linden",
+      "Rotes Rathaus"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Rotes Rathaus",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Museumsinsel",
+      "Alexanderplatz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Schillingstrasse",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Alexanderplatz",
+      "Strausberger Platz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Strausberger Platz",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Schillingstrasse",
+      "Weberwiese"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Weberwiese",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Strausberger Platz",
+      "Frankfurter Tor"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Frankfurter Tor",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Weberwiese",
+      "Samariterstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Samariterstrasse",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Frankfurter Tor",
+      "Frankfurter Allee"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Frankfurter Allee",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Samariterstrasse",
+      "Magdalenenstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Magdalenenstrasse",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Frankfurter Allee",
+      "Lichtenberg"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Lichtenberg",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Magdalenenstrasse",
+      "Friedrichsfelde"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Friedrichsfelde",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Lichtenberg",
+      "Tierpark"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Tierpark",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Friedrichsfelde",
+      "Biesdorf-Süd"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Biesdorf-Süd",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Tierpark",
+      "Elsterwerdaer Platz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Elsterwerdaer Platz",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Biesdorf-Süd",
+      "Wuhletal"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Wuhletal",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Elsterwerdaer Platz",
+      "Kaulsdorf-Nord"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Kaulsdorf-Nord",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Wuhletal",
+      "Kienberg (Gärten der Welt)"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Kienberg (Gärten der Welt)",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Kaulsdorf-Nord",
+      "Cottbusser Platz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Cottbusser Platz",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Kienberg (Gärten der Welt)",
+      "Hellersdorf"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Hellersdorf",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Cottbusser Platz",
+      "Louis-Lewin-Strasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Louis-Lewin-Strasse",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Hellersdorf",
+      "Hönow"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Hönow",
+    "lines": [
+      "U5"
+    ],
+    "adjacent": [
+      "Louis-Lewin-Strasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Alt-Tegel",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Borsigwerke"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Borsigwerke",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Alt-Tegel",
+      "Holzhauser Strasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Holzhauser Strasse",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Borsigwerke",
+      "Otisstrasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Otisstrasse",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Holzhauser Strasse",
+      "Scharnweberstrasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Scharnweberstrasse",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Otisstrasse",
+      "Kurt-Schumacher-Platz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Kurt-Schumacher-Platz",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Scharnweberstrasse",
+      "Afrikanische Strasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Afrikanische Strasse",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Kurt-Schumacher-Platz",
+      "Rehberge"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Rehberge",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Afrikanische Strasse",
+      "Seestrasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Seestrasse",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Rehberge",
+      "Leopoldplatz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Leopoldplatz",
+    "lines": [
+      "U6",
+      "U9"
+    ],
+    "adjacent": [
+      "Seestrasse",
+      "Wedding",
+      "Nauener Platz",
+      "Amrumer Strasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Wedding",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Leopoldplatz",
+      "Reinickendorfer Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Reinickendorfer Strasse",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Wedding",
+      "Schwartzkopffstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Schwartzkopffstrasse",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Reinickendorfer Strasse",
+      "Naturkundemuseum"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Naturkundemuseum",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Schwartzkopffstrasse",
+      "Oranienburger Tor"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Oranienburger Tor",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Naturkundemuseum",
+      "Friedrichstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Friedrichstrasse",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Oranienburger Tor",
+      "Unter den Linden"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Kochstrasse",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Stadtmitte",
+      "Hallesches Tor"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Mehringdamm",
+    "lines": [
+      "U6",
+      "U7"
+    ],
+    "adjacent": [
+      "Hallesches Tor",
+      "Platz der Luftbrücke",
+      "Gneisenaustrasse",
+      "Möckernbrücke"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Platz der Luftbrücke",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Mehringdamm",
+      "Paradestrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Paradestrasse",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Platz der Luftbrücke",
+      "Tempelhof"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Tempelhof",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Paradestrasse",
+      "Alt-Tempelhof"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Alt-Tempelhof",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Tempelhof",
+      "Kaiserin-Augusta-Strasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Kaiserin-Augusta-Strasse",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Alt-Tempelhof",
+      "Ullsteinstrasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Ullsteinstrasse",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Kaiserin-Augusta-Strasse",
+      "Westphalweg"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Westphalweg",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Ullsteinstrasse",
+      "Alt-Mariendorf"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Alt-Mariendorf",
+    "lines": [
+      "U6"
+    ],
+    "adjacent": [
+      "Westphalweg"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Rathaus Spandau",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Altsadt Spandau"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Altsadt Spandau",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Rathaus Spandau",
+      "Zitadelle"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Zitadelle",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Altsadt Spandau",
+      "Haselhorst"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Haselhorst",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Zitadelle",
+      "Paulsternstrasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Paulsternstrasse",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Haselhorst",
+      "Rohrdamm"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Rohrdamm",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Paulsternstrasse",
+      "Siemensdamm"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Siemensdamm",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Rohrdamm",
+      "Halemweg"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Halemweg",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Siemensdamm",
+      "Jakob-Kaiser-Platz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Jakob-Kaiser-Platz",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Halemweg",
+      "Jungfernheide"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Jungfernheide",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Jakob-Kaiser-Platz",
+      "Mierendorffplatz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Mierendorffplatz",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Jungfernheide",
+      "Richard-Wagner-Platz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Richard-Wagner-Platz",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Mierendorffplatz",
+      "Bismarckstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Wilmersdorfer Strasse",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Bismarckstrasse",
+      "Adenauerplatz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Adenauerplatz",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Wilmersdorfer Strasse",
+      "Konstanzer Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Konstanzer Strasse",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Adenauerplatz",
+      "Fehrbelliner Platz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Blissestrasse",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Fehrbelliner Platz",
+      "Berliner Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Berliner Strasse",
+    "lines": [
+      "U7",
+      "U9"
+    ],
+    "adjacent": [
+      "Blissestrasse",
+      "Bayerischer Platz",
+      "Bundesplatz",
+      "Güntzelstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Eisenacher Strasse",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Bayerischer Platz",
+      "Kleistpark"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Kleistpark",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Eisenacher Strasse",
+      "Yorckstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Yorckstrasse",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Kleistpark",
+      "Möckernbrücke"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Gneisenaustrasse",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Mehringdamm",
+      "Südstern"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Südstern",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Gneisenaustrasse",
+      "Hermannplatz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Hermannplatz",
+    "lines": [
+      "U7",
+      "U8"
+    ],
+    "adjacent": [
+      "Südstern",
+      "Rathaus Neukölln",
+      "Schönleinstrasse",
+      "Boddinstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Rathaus Neukölln",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Hermannplatz",
+      "Karl-Marx-Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Karl-Marx-Strasse",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Rathaus Neukölln",
+      "Neukölln"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Neukölln",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Karl-Marx-Strasse",
+      "Grenzallee"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Grenzallee",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Neukölln",
+      "Blaschkoallee"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Blaschkoallee",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Grenzallee",
+      "Parchimer Allee"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Parchimer Allee",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Blaschkoallee",
+      "Britz-Süd"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Britz-Süd",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Parchimer Allee",
+      "Johannisthaler Chaussee"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Johannisthaler Chaussee",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Britz-Süd",
+      "Lipschitzallee"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Lipschitzallee",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Johannisthaler Chaussee",
+      "Wutzkyallee"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Wutzkyallee",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Lipschitzallee",
+      "Zwickauer Damm"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Zwickauer Damm",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Wutzkyallee",
+      "Rudow"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Rudow",
+    "lines": [
+      "U7"
+    ],
+    "adjacent": [
+      "Zwickauer Damm"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Wittenau",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Rathaus Reinickendorf"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Rathaus Reinickendorf",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Wittenau",
+      "Karl-Bonhoeffer-Nervenklinik"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Karl-Bonhoeffer-Nervenklinik",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Rathaus Reinickendorf",
+      "Lindauer Allee"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Lindauer Allee",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Karl-Bonhoeffer-Nervenklinik",
+      "Paracelsus-Bad"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Paracelsus-Bad",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Lindauer Allee",
+      "Residenzstrasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Residenzstrasse",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Paracelsus-Bad",
+      "Franz-Neumann-Platz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Franz-Neumann-Platz",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Residenzstrasse",
+      "Osloer Strasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Osloer Strasse",
+    "lines": [
+      "U8",
+      "U9"
+    ],
+    "adjacent": [
+      "Franz-Neumann-Platz",
+      "Pankstrasse",
+      "Nauener Platz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Pankstrasse",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Osloer Strasse",
+      "Gesundbrunnen"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Gesundbrunnen",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Pankstrasse",
+      "Voltastrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Voltastrasse",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Gesundbrunnen",
+      "Bernauer Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Bernauer Strasse",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Voltastrasse",
+      "Rosenthaler Platz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Rosenthaler Platz",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Bernauer Strasse",
+      "Weinmeisterstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Weinmeisterstrasse",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Rosenthaler Platz",
+      "Alexanderplatz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Jannowitzbrücke",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Alexanderplatz",
+      "Heinrich-Heine-Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Heinrich-Heine-Strasse",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Jannowitzbrücke",
+      "Moritzplatz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Moritzplatz",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Heinrich-Heine-Strasse",
+      "Kottbusser Tor"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Schönleinstrasse",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Kottbusser Tor",
+      "Hermannplatz"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Boddinstrasse",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Hermannplatz",
+      "Leinestrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Leinestrasse",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Boddinstrasse",
+      "Hermannstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Hermannstrasse",
+    "lines": [
+      "U8"
+    ],
+    "adjacent": [
+      "Leinestrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Rathaus Steglitz",
+    "lines": [
+      "U9"
+    ],
+    "adjacent": [
+      "Schlossstrasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Schlossstrasse",
+    "lines": [
+      "U9"
+    ],
+    "adjacent": [
+      "Rathaus Steglitz",
+      "Walther-Schreiber-Platz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Walther-Schreiber-Platz",
+    "lines": [
+      "U9"
+    ],
+    "adjacent": [
+      "Schlossstrasse",
+      "Friedrich-Wilhelm-Platz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Friedrich-Wilhelm-Platz",
+    "lines": [
+      "U9"
+    ],
+    "adjacent": [
+      "Walther-Schreiber-Platz",
+      "Bundesplatz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Bundesplatz",
+    "lines": [
+      "U9"
+    ],
+    "adjacent": [
+      "Friedrich-Wilhelm-Platz",
+      "Berliner Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Güntzelstrasse",
+    "lines": [
+      "U9"
+    ],
+    "adjacent": [
+      "Berliner Strasse",
+      "Spichernstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Hansaplatz",
+    "lines": [
+      "U9"
+    ],
+    "adjacent": [
+      "Zoologischer Garten",
+      "Turmstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Turmstrasse",
+    "lines": [
+      "U9"
+    ],
+    "adjacent": [
+      "Hansaplatz",
+      "Birkenstrasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Birkenstrasse",
+    "lines": [
+      "U9"
+    ],
+    "adjacent": [
+      "Turmstrasse",
+      "Westhafen"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Westhafen",
+    "lines": [
+      "U9"
+    ],
+    "adjacent": [
+      "Birkenstrasse",
+      "Amrumer Strasse"
+    ],
+    "zone": [
+      "1"
+    ]
+  },
+  {
+    "name": "Amrumer Strasse",
+    "lines": [
+      "U9"
+    ],
+    "adjacent": [
+      "Westhafen",
+      "Leopoldplatz"
+    ],
+    "zone": [
+      "2"
+    ]
+  },
+  {
+    "name": "Nauener Platz",
+    "lines": [
+      "U9"
+    ],
+    "adjacent": [
+      "Leopoldplatz",
+      "Osloer Strasse"
+    ],
+    "zone": [
+      "2"
+    ]
+  }
+]

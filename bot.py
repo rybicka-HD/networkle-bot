@@ -117,7 +117,7 @@ def join_possible(a: list[str], b: list[str]) -> list[str]:
 try:
     city_file = open("data/cities.json", "r", encoding="utf-8")
 except FileNotFoundError:
-    print(f"{RED}Please download map data from https://networkle.fun/data/cities.json{RESET}")
+    print(f"{RED}Please download map data via the download.py script, or from https://networkle.fun/data/cities.json{RESET}")
     exit(1)
 cities = json.load(city_file)
 city_file.close()
@@ -141,7 +141,7 @@ COLORS = get_city(MAP)["hasLineGroups"]
 try:
     map_file = open(f"data/{MAP}.json", "r", encoding="utf-8")
 except FileNotFoundError:
-    print(f"{RED}Please download map data from https://networkle.fun/data/{MAP}.json{RESET}")
+    print(f"{RED}Please download map data via the download.py script, or from https://networkle.fun/data/{MAP}.json{RESET}")
     exit(1)
 data = json.load(map_file)
 

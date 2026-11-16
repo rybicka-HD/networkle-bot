@@ -1,0 +1,1533 @@
+[
+  {
+    "name": "Marina Bay",
+    "lines": [
+      "NSL",
+      "TEL",
+      "CCL"
+    ],
+    "adjacent": [
+      "Gardens by the Bay",
+      "Marina South Pier",
+      "Raffles Place",
+      "Shenton Way",
+      "Bayfront",
+      "Prince Edward Road"
+    ]
+  },
+  {
+    "name": "Bayfront",
+    "lines": [
+      "CCL",
+      "DTL"
+    ],
+    "adjacent": [
+      "Marina Bay",
+      "Downtown",
+      "Promenade"
+    ]
+  },
+  {
+    "name": "Promenade",
+    "lines": [
+      "CCL",
+      "DTL"
+    ],
+    "adjacent": [
+      "Bayfront",
+      "Esplanade",
+      "Nicoll Highway",
+      "Bugis"
+    ]
+  },
+  {
+    "name": "Nicoll Highway",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Stadium",
+      "Promenade"
+    ]
+  },
+  {
+    "name": "Stadium",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Nicoll Highway",
+      "Mountbatten"
+    ]
+  },
+  {
+    "name": "Mountbatten",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Stadium",
+      "Dakota"
+    ]
+  },
+  {
+    "name": "Dakota",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Mountbatten",
+      "Paya Lebar"
+    ]
+  },
+  {
+    "name": "Paya Lebar",
+    "lines": [
+      "CCL",
+      "EWL"
+    ],
+    "adjacent": [
+      "Dakota",
+      "MacPherson",
+      "Eunos",
+      "Aljunied"
+    ]
+  },
+  {
+    "name": "MacPherson",
+    "lines": [
+      "CCL",
+      "DTL"
+    ],
+    "adjacent": [
+      "Paya Lebar",
+      "Tai Seng",
+      "Ubi",
+      "Mattar"
+    ]
+  },
+  {
+    "name": "Tai Seng",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "MacPherson",
+      "Bartley"
+    ]
+  },
+  {
+    "name": "Bartley",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Tai Seng",
+      "Serangoon"
+    ]
+  },
+  {
+    "name": "Serangoon",
+    "lines": [
+      "CCL",
+      "NEL"
+    ],
+    "adjacent": [
+      "Bartley",
+      "Lorong Chuan",
+      "Kovan",
+      "Woodleigh"
+    ]
+  },
+  {
+    "name": "Lorong Chuan",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Bishan",
+      "Serangoon"
+    ]
+  },
+  {
+    "name": "Bishan",
+    "lines": [
+      "CCL",
+      "NSL"
+    ],
+    "adjacent": [
+      "Lorong Chuan",
+      "Marymount",
+      "Ang Mo Kio",
+      "Braddell"
+    ]
+  },
+  {
+    "name": "Marymount",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Bishan",
+      "Caldecott"
+    ]
+  },
+  {
+    "name": "Caldecott",
+    "lines": [
+      "CCL",
+      "TEL"
+    ],
+    "adjacent": [
+      "Marymount",
+      "Botanic Gardens",
+      "Upper Thomson",
+      "Stevens"
+    ]
+  },
+  {
+    "name": "Botanic Gardens",
+    "lines": [
+      "CCL",
+      "DTL"
+    ],
+    "adjacent": [
+      "Stevens",
+      "Tan Kah Kee",
+      "Caldecott",
+      "Farrer Road"
+    ]
+  },
+  {
+    "name": "Farrer Road",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Botanic Gardens",
+      "Holland Village"
+    ]
+  },
+  {
+    "name": "Holland Village",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Farrer Road",
+      "Buona Vista"
+    ]
+  },
+  {
+    "name": "Buona Vista",
+    "lines": [
+      "CCL",
+      "EWL"
+    ],
+    "adjacent": [
+      "Holland Village",
+      "one-north",
+      "Commonwealth",
+      "Dover"
+    ]
+  },
+  {
+    "name": "one-north",
+    "hintName": "one north",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Buona Vista",
+      "Kent Ridge"
+    ]
+  },
+  {
+    "name": "Kent Ridge",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "one-north",
+      "Haw Par Villa"
+    ]
+  },
+  {
+    "name": "Haw Par Villa",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Kent Ridge",
+      "Pasir Panjang"
+    ]
+  },
+  {
+    "name": "Pasir Panjang",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Haw Par Villa",
+      "Labrador Park"
+    ]
+  },
+  {
+    "name": "Labrador Park",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Pasir Panjang",
+      "Telok Blangah"
+    ]
+  },
+  {
+    "name": "Telok Blangah",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Labrador Park",
+      "HarbourFront"
+    ]
+  },
+  {
+    "name": "HarbourFront",
+    "lines": [
+      "CCL",
+      "NEL"
+    ],
+    "adjacent": [
+      "Telok Blangah",
+      "Outram Park",
+      "Keppel"
+    ]
+  },
+  {
+    "name": "Esplanade",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Promenade",
+      "Bras Basah"
+    ]
+  },
+  {
+    "name": "Bras Basah",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Esplanade",
+      "Dhoby Ghaut"
+    ]
+  },
+  {
+    "name": "Dhoby Ghaut",
+    "lines": [
+      "CCL",
+      "NEL",
+      "NSL"
+    ],
+    "adjacent": [
+      "Bras Basah",
+      "Little India",
+      "Clarke Quay",
+      "City Hall",
+      "Somerset"
+    ]
+  },
+  {
+    "name": "Tuas Link",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Tuas West Road"
+    ]
+  },
+  {
+    "name": "Tuas West Road",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Tuas Link",
+      "Tuas Crescent"
+    ]
+  },
+  {
+    "name": "Tuas Crescent",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Tuas West Road",
+      "Gul Circle"
+    ]
+  },
+  {
+    "name": "Gul Circle",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Tuas Crescent",
+      "Joo Koon"
+    ]
+  },
+  {
+    "name": "Joo Koon",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Gul Circle",
+      "Pioneer"
+    ]
+  },
+  {
+    "name": "Pioneer",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Joo Koon",
+      "Boon Lay"
+    ]
+  },
+  {
+    "name": "Boon Lay",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Pioneer",
+      "Lakeside"
+    ]
+  },
+  {
+    "name": "Lakeside",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Boon Lay",
+      "Chinese Garden"
+    ]
+  },
+  {
+    "name": "Chinese Garden",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Lakeside",
+      "Jurong East"
+    ]
+  },
+  {
+    "name": "Jurong East",
+    "lines": [
+      "EWL",
+      "NSL"
+    ],
+    "adjacent": [
+      "Chinese Garden",
+      "Clementi",
+      "Bukit Batok"
+    ]
+  },
+  {
+    "name": "Clementi",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Jurong East",
+      "Dover"
+    ]
+  },
+  {
+    "name": "Dover",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Clementi",
+      "Buona Vista"
+    ]
+  },
+  {
+    "name": "Commonwealth",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Buona Vista",
+      "Queenstown"
+    ]
+  },
+  {
+    "name": "Queenstown",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Commonwealth",
+      "Redhill"
+    ]
+  },
+  {
+    "name": "Redhill",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Queenstown",
+      "Tiong Bahru"
+    ]
+  },
+  {
+    "name": "Tiong Bahru",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Redhill",
+      "Outram Park"
+    ]
+  },
+  {
+    "name": "Outram Park",
+    "lines": [
+      "EWL",
+      "NEL",
+      "TEL"
+    ],
+    "adjacent": [
+      "Tiong Bahru",
+      "Tanjong Pagar",
+      "Chinatown",
+      "HarbourFront",
+      "Maxwell",
+      "Havelock"
+    ]
+  },
+  {
+    "name": "Tanjong Pagar",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Outram Park",
+      "Raffles Place"
+    ]
+  },
+  {
+    "name": "Raffles Place",
+    "lines": [
+      "EWL",
+      "NSL"
+    ],
+    "adjacent": [
+      "Tanjong Pagar",
+      "City Hall",
+      "Marina Bay"
+    ]
+  },
+  {
+    "name": "City Hall",
+    "lines": [
+      "EWL",
+      "NSL"
+    ],
+    "adjacent": [
+      "Raffles Place",
+      "Bugis",
+      "Dhoby Ghaut"
+    ]
+  },
+  {
+    "name": "Bugis",
+    "lines": [
+      "EWL",
+      "DTL"
+    ],
+    "adjacent": [
+      "City Hall",
+      "Lavender",
+      "Promenade",
+      "Rochor"
+    ]
+  },
+  {
+    "name": "Lavender",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Bugis",
+      "Kallang"
+    ]
+  },
+  {
+    "name": "Kallang",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Lavender",
+      "Aljunied"
+    ]
+  },
+  {
+    "name": "Aljunied",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Kallang",
+      "Paya Lebar"
+    ]
+  },
+  {
+    "name": "Eunos",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Paya Lebar",
+      "Kembangan"
+    ]
+  },
+  {
+    "name": "Kembangan",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Eunos",
+      "Bedok"
+    ]
+  },
+  {
+    "name": "Bedok",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Tanah Merah",
+      "Kembangan"
+    ]
+  },
+  {
+    "name": "Tanah Merah",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Bedok",
+      "Simei",
+      "Expo"
+    ]
+  },
+  {
+    "name": "Simei",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Tanah Merah",
+      "Tampines"
+    ]
+  },
+  {
+    "name": "Pasir Ris",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Tampines"
+    ]
+  },
+  {
+    "name": "Expo",
+    "lines": [
+      "EWL",
+      "DTL"
+    ],
+    "adjacent": [
+      "Tanah Merah",
+      "Changi Airport",
+      "Upper Changi"
+    ]
+  },
+  {
+    "name": "Changi Airport",
+    "lines": [
+      "EWL"
+    ],
+    "adjacent": [
+      "Expo"
+    ]
+  },
+  {
+    "name": "Bukit Batok",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Jurong East",
+      "Bukit Gombak"
+    ]
+  },
+  {
+    "name": "Bukit Gombak",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Bukit Batok",
+      "Choa Chu Kang"
+    ]
+  },
+  {
+    "name": "Choa Chu Kang",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Bukit Gombak",
+      "Yew Tee"
+    ]
+  },
+  {
+    "name": "Yew Tee",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Choa Chu Kang",
+      "Kranji"
+    ]
+  },
+  {
+    "name": "Kranji",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Yew Tee",
+      "Marsiling"
+    ]
+  },
+  {
+    "name": "Marsiling",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Kranji",
+      "Woodlands"
+    ]
+  },
+  {
+    "name": "Woodlands",
+    "lines": [
+      "NSL",
+      "TEL"
+    ],
+    "adjacent": [
+      "Marsiling",
+      "Admiralty",
+      "Woodlands North",
+      "Woodlands South"
+    ]
+  },
+  {
+    "name": "Admiralty",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Woodlands",
+      "Sembawang"
+    ]
+  },
+  {
+    "name": "Sembawang",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Admiralty",
+      "Canberra"
+    ]
+  },
+  {
+    "name": "Canberra",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Sembawang",
+      "Yishun"
+    ]
+  },
+  {
+    "name": "Yishun",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Canberra",
+      "Khatib"
+    ]
+  },
+  {
+    "name": "Khatib",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Yishun",
+      "Yio Chu Kang"
+    ]
+  },
+  {
+    "name": "Yio Chu Kang",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Khatib",
+      "Ang Mo Kio"
+    ]
+  },
+  {
+    "name": "Ang Mo Kio",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Yio Chu Kang",
+      "Bishan"
+    ]
+  },
+  {
+    "name": "Braddell",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Bishan",
+      "Toa Payoh"
+    ]
+  },
+  {
+    "name": "Toa Payoh",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Braddell",
+      "Novena"
+    ]
+  },
+  {
+    "name": "Novena",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Toa Payoh",
+      "Newton"
+    ]
+  },
+  {
+    "name": "Orchard",
+    "lines": [
+      "NSL",
+      "TEL"
+    ],
+    "adjacent": [
+      "Newton",
+      "Somerset",
+      "Orchard Boulevard",
+      "Great World"
+    ]
+  },
+  {
+    "name": "Somerset",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Orchard",
+      "Dhoby Ghaut"
+    ]
+  },
+  {
+    "name": "Marina South Pier",
+    "lines": [
+      "NSL"
+    ],
+    "adjacent": [
+      "Marina Bay"
+    ]
+  },
+  {
+    "name": "Woodlands North",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Woodlands"
+    ]
+  },
+  {
+    "name": "Woodlands South",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Woodlands",
+      "Springleaf"
+    ]
+  },
+  {
+    "name": "Springleaf",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Woodlands South",
+      "Lentor"
+    ]
+  },
+  {
+    "name": "Lentor",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Springleaf",
+      "Mayflower"
+    ]
+  },
+  {
+    "name": "Mayflower",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Lentor",
+      "Bright Hill"
+    ]
+  },
+  {
+    "name": "Bright Hill",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Mayflower",
+      "Upper Thomson"
+    ]
+  },
+  {
+    "name": "Upper Thomson",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Bright Hill",
+      "Caldecott"
+    ]
+  },
+  {
+    "name": "Stevens",
+    "lines": [
+      "TEL",
+      "DTL"
+    ],
+    "adjacent": [
+      "Caldecott",
+      "Napier",
+      "Newton",
+      "Botanic Gardens"
+    ]
+  },
+  {
+    "name": "Napier",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Stevens",
+      "Orchard Boulevard"
+    ]
+  },
+  {
+    "name": "Orchard Boulevard",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Napier",
+      "Orchard"
+    ]
+  },
+  {
+    "name": "Great World",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Orchard",
+      "Havelock"
+    ]
+  },
+  {
+    "name": "Havelock",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Great World",
+      "Outram Park"
+    ]
+  },
+  {
+    "name": "Maxwell",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Outram Park",
+      "Shenton Way"
+    ]
+  },
+  {
+    "name": "Shenton Way",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Maxwell",
+      "Marina Bay"
+    ]
+  },
+  {
+    "name": "Gardens by the Bay",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Marina Bay",
+      "Tanjong Rhu"
+    ]
+  },
+  {
+    "name": "Tanjong Rhu",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Gardens by the Bay",
+      "Katong Park"
+    ]
+  },
+  {
+    "name": "Katong Park",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Tanjong Rhu",
+      "Tanjong Katong"
+    ]
+  },
+  {
+    "name": "Tanjong Katong",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Katong Park",
+      "Marine Parade"
+    ]
+  },
+  {
+    "name": "Marine Parade",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Tanjong Katong",
+      "Marine Terrace"
+    ]
+  },
+  {
+    "name": "Marine Terrace",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Marine Parade",
+      "Siglap"
+    ]
+  },
+  {
+    "name": "Siglap",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Marine Terrace",
+      "Bayshore"
+    ]
+  },
+  {
+    "name": "Bayshore",
+    "lines": [
+      "TEL"
+    ],
+    "adjacent": [
+      "Siglap"
+    ]
+  },
+  {
+    "name": "Bukit Panjang",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Cashew"
+    ]
+  },
+  {
+    "name": "Cashew",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Bukit Panjang",
+      "Hillview"
+    ]
+  },
+  {
+    "name": "Hillview",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Cashew",
+      "Hume"
+    ]
+  },
+  {
+    "name": "Hume",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Hillview",
+      "Beauty World"
+    ]
+  },
+  {
+    "name": "Beauty World",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Hume",
+      "King Albert Park"
+    ]
+  },
+  {
+    "name": "King Albert Park",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Beauty World",
+      "Sixth Avenue"
+    ]
+  },
+  {
+    "name": "Sixth Avenue",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "King Albert Park",
+      "Tan Kah Kee"
+    ]
+  },
+  {
+    "name": "Tan Kah Kee",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Sixth Avenue",
+      "Botanic Gardens"
+    ]
+  },
+  {
+    "name": "Newton",
+    "lines": [
+      "DTL",
+      "NSL"
+    ],
+    "adjacent": [
+      "Stevens",
+      "Little India",
+      "Novena",
+      "Orchard"
+    ]
+  },
+  {
+    "name": "Little India",
+    "lines": [
+      "DTL",
+      "NEL"
+    ],
+    "adjacent": [
+      "Newton",
+      "Rochor",
+      "Farrer Park",
+      "Dhoby Ghaut"
+    ]
+  },
+  {
+    "name": "Rochor",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Little India",
+      "Bugis"
+    ]
+  },
+  {
+    "name": "Downtown",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Bayfront",
+      "Telok Ayer"
+    ]
+  },
+  {
+    "name": "Telok Ayer",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Downtown",
+      "Chinatown"
+    ]
+  },
+  {
+    "name": "Chinatown",
+    "lines": [
+      "DTL",
+      "NEL"
+    ],
+    "adjacent": [
+      "Telok Ayer",
+      "Fort Canning",
+      "Clarke Quay",
+      "Outram Park"
+    ]
+  },
+  {
+    "name": "Fort Canning",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Chinatown",
+      "Bencoolen"
+    ]
+  },
+  {
+    "name": "Bencoolen",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Fort Canning",
+      "Jalan Besar"
+    ]
+  },
+  {
+    "name": "Jalan Besar",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Bencoolen",
+      "Bendemeer"
+    ]
+  },
+  {
+    "name": "Bendemeer",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Jalan Besar",
+      "Geylang Bahru"
+    ]
+  },
+  {
+    "name": "Geylang Bahru",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Bendemeer",
+      "Mattar"
+    ]
+  },
+  {
+    "name": "Mattar",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Geylang Bahru",
+      "MacPherson"
+    ]
+  },
+  {
+    "name": "Ubi",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "MacPherson",
+      "Kaki Bukit"
+    ]
+  },
+  {
+    "name": "Kaki Bukit",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Ubi",
+      "Bedok North"
+    ]
+  },
+  {
+    "name": "Bedok North",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Kaki Bukit",
+      "Bedok Reservoir"
+    ]
+  },
+  {
+    "name": "Bedok Reservoir",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Bedok North",
+      "Tampines West"
+    ]
+  },
+  {
+    "name": "Tampines West",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Bedok Reservoir",
+      "Tampines"
+    ]
+  },
+  {
+    "name": "Tampines",
+    "lines": [
+      "DTL",
+      "EWL"
+    ],
+    "adjacent": [
+      "Tampines West",
+      "Tampines East",
+      "Pasir Ris",
+      "Simei"
+    ]
+  },
+  {
+    "name": "Tampines East",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Tampines",
+      "Upper Changi"
+    ]
+  },
+  {
+    "name": "Upper Changi",
+    "lines": [
+      "DTL"
+    ],
+    "adjacent": [
+      "Tampines East",
+      "Expo"
+    ]
+  },
+  {
+    "name": "Clarke Quay",
+    "lines": [
+      "NEL"
+    ],
+    "adjacent": [
+      "Chinatown",
+      "Dhoby Ghaut"
+    ]
+  },
+  {
+    "name": "Farrer Park",
+    "lines": [
+      "NEL"
+    ],
+    "adjacent": [
+      "Little India",
+      "Boon Keng"
+    ]
+  },
+  {
+    "name": "Boon Keng",
+    "lines": [
+      "NEL"
+    ],
+    "adjacent": [
+      "Farrer Park",
+      "Potong Pasir"
+    ]
+  },
+  {
+    "name": "Potong Pasir",
+    "lines": [
+      "NEL"
+    ],
+    "adjacent": [
+      "Boon Keng",
+      "Woodleigh"
+    ]
+  },
+  {
+    "name": "Woodleigh",
+    "lines": [
+      "NEL"
+    ],
+    "adjacent": [
+      "Potong Pasir",
+      "Serangoon"
+    ]
+  },
+  {
+    "name": "Kovan",
+    "lines": [
+      "NEL"
+    ],
+    "adjacent": [
+      "Serangoon",
+      "Hougang"
+    ]
+  },
+  {
+    "name": "Hougang",
+    "lines": [
+      "NEL"
+    ],
+    "adjacent": [
+      "Kovan",
+      "Buangkok"
+    ]
+  },
+  {
+    "name": "Buangkok",
+    "lines": [
+      "NEL"
+    ],
+    "adjacent": [
+      "Hougang",
+      "Sengkang"
+    ]
+  },
+  {
+    "name": "Sengkang",
+    "lines": [
+      "NEL"
+    ],
+    "adjacent": [
+      "Buangkok",
+      "Punggol"
+    ]
+  },
+  {
+    "name": "Punggol",
+    "lines": [
+      "NEL"
+    ],
+    "adjacent": [
+      "Punggol Coast",
+      "Sengkang"
+    ]
+  },
+  {
+    "name": "Punggol Coast",
+    "lines": [
+      "NEL"
+    ],
+    "adjacent": [
+      "Punggol"
+    ]
+  },
+  {
+    "name": "Keppel",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "HarbourFront",
+      "Cantonment"
+    ]
+  },
+  {
+    "name": "Cantonment",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Keppel",
+      "Prince Edward Road"
+    ]
+  },
+  {
+    "name": "Prince Edward Road",
+    "lines": [
+      "CCL"
+    ],
+    "adjacent": [
+      "Cantonment",
+      "Marina Bay"
+    ]
+  }
+]

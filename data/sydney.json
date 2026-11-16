@@ -1,0 +1,1987 @@
+[
+  {
+    "name": "Central",
+    "lines": [
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T8",
+      "T9",
+      "M1"
+    ],
+    "adjacent": [
+      "Town Hall",
+      "Redfern",
+      "Green Square",
+      "Museum",
+      "Gadigal",
+      "Waterloo"
+    ]
+  },
+  {
+    "name": "Town Hall",
+    "lines": [
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T8",
+      "T9"
+    ],
+    "adjacent": [
+      "Central",
+      "Martin Place",
+      "Wynyard"
+    ]
+  },
+  {
+    "name": "Wynyard",
+    "lines": [
+      "T1",
+      "T2",
+      "T3",
+      "T8",
+      "T9"
+    ],
+    "adjacent": [
+      "Town Hall",
+      "Milsons Point",
+      "Circular Quay"
+    ]
+  },
+  {
+    "name": "Circular Quay",
+    "lines": [
+      "T2",
+      "T3",
+      "T8"
+    ],
+    "adjacent": [
+      "Wynyard",
+      "St James"
+    ]
+  },
+  {
+    "name": "St James",
+    "lines": [
+      "T2",
+      "T3",
+      "T8"
+    ],
+    "adjacent": [
+      "Circular Quay",
+      "Museum"
+    ]
+  },
+  {
+    "name": "Museum",
+    "lines": [
+      "T2",
+      "T3",
+      "T8"
+    ],
+    "adjacent": [
+      "St James",
+      "Central"
+    ]
+  },
+  {
+    "name": "Bondi Junction",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Edgecliff"
+    ]
+  },
+  {
+    "name": "Edgecliff",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Kings Cross",
+      "Bondi Junction"
+    ]
+  },
+  {
+    "name": "Kings Cross",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Edgecliff",
+      "Martin Place"
+    ]
+  },
+  {
+    "name": "Martin Place",
+    "lines": [
+      "T4",
+      "M1"
+    ],
+    "adjacent": [
+      "Kings Cross",
+      "Town Hall",
+      "Gadigal",
+      "Barangaroo"
+    ]
+  },
+  {
+    "name": "Redfern",
+    "lines": [
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T8",
+      "T9"
+    ],
+    "adjacent": [
+      "Central",
+      "Macdonaldtown",
+      "Burwood",
+      "Strathfield",
+      "Sydenham",
+      "Erskineville"
+    ]
+  },
+  {
+    "name": "Erskineville",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Redfern",
+      "St Peters"
+    ]
+  },
+  {
+    "name": "St Peters",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Erskineville",
+      "Sydenham"
+    ]
+  },
+  {
+    "name": "Sydenham",
+    "lines": [
+      "T4",
+      "T8",
+      "M1"
+    ],
+    "adjacent": [
+      "Waterloo",
+      "St Peters",
+      "Redfern",
+      "Turrella",
+      "Tempe",
+      "Marrickville"
+    ]
+  },
+  {
+    "name": "Tempe",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Sydenham",
+      "Wolli Creek"
+    ]
+  },
+  {
+    "name": "Wolli Creek",
+    "lines": [
+      "T4",
+      "T8"
+    ],
+    "adjacent": [
+      "Tempe",
+      "Arncliffe",
+      "International Airport",
+      "Turrella"
+    ]
+  },
+  {
+    "name": "Arncliffe",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Wolli Creek",
+      "Banksia"
+    ]
+  },
+  {
+    "name": "Banksia",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Arncliffe",
+      "Rockdale"
+    ]
+  },
+  {
+    "name": "Rockdale",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Banksia",
+      "Kogarah"
+    ]
+  },
+  {
+    "name": "Kogarah",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Rockdale",
+      "Carlton"
+    ]
+  },
+  {
+    "name": "Carlton",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Kogarah",
+      "Allawah"
+    ]
+  },
+  {
+    "name": "Allawah",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Carlton",
+      "Hurstville"
+    ]
+  },
+  {
+    "name": "Hurstville",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Allawah",
+      "Penshurst"
+    ]
+  },
+  {
+    "name": "Penshurst",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Hurstville",
+      "Mortdale"
+    ]
+  },
+  {
+    "name": "Mortdale",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Penshurst",
+      "Oatley"
+    ]
+  },
+  {
+    "name": "Oatley",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Mortdale",
+      "Como"
+    ]
+  },
+  {
+    "name": "Como",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Oatley",
+      "Jannali"
+    ]
+  },
+  {
+    "name": "Jannali",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Como",
+      "Sutherland"
+    ]
+  },
+  {
+    "name": "Sutherland",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Jannali",
+      "Kirrawee",
+      "Loftus"
+    ]
+  },
+  {
+    "name": "Kirrawee",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Sutherland",
+      "Gymea"
+    ]
+  },
+  {
+    "name": "Gymea",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Kirrawee",
+      "Miranda"
+    ]
+  },
+  {
+    "name": "Miranda",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Gymea",
+      "Caringbah"
+    ]
+  },
+  {
+    "name": "Caringbah",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Miranda",
+      "Woolooware"
+    ]
+  },
+  {
+    "name": "Woolooware",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Caringbah",
+      "Cronulla"
+    ]
+  },
+  {
+    "name": "Cronulla",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Woolooware"
+    ]
+  },
+  {
+    "name": "Loftus",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Sutherland",
+      "Engadine"
+    ]
+  },
+  {
+    "name": "Engadine",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Loftus",
+      "Heathcote"
+    ]
+  },
+  {
+    "name": "Heathcote",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Engadine",
+      "Waterfall"
+    ]
+  },
+  {
+    "name": "Waterfall",
+    "lines": [
+      "T4"
+    ],
+    "adjacent": [
+      "Heathcote"
+    ]
+  },
+  {
+    "name": "Green Square",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Central",
+      "Mascot"
+    ]
+  },
+  {
+    "name": "Mascot",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Green Square",
+      "Domestic Airport"
+    ]
+  },
+  {
+    "name": "Domestic Airport",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Mascot",
+      "International Airport"
+    ]
+  },
+  {
+    "name": "International Airport",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Domestic Airport",
+      "Wolli Creek"
+    ]
+  },
+  {
+    "name": "Turrella",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Sydenham",
+      "Wolli Creek",
+      "Bardwell Park"
+    ]
+  },
+  {
+    "name": "Bardwell Park",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Turrella",
+      "Bexley North"
+    ]
+  },
+  {
+    "name": "Bexley North",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Bardwell Park",
+      "Kingsgrove"
+    ]
+  },
+  {
+    "name": "Kingsgrove",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Bexley North",
+      "Beverly Hills"
+    ]
+  },
+  {
+    "name": "Beverly Hills",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Kingsgrove",
+      "Narwee"
+    ]
+  },
+  {
+    "name": "Narwee",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Beverly Hills",
+      "Riverwood"
+    ]
+  },
+  {
+    "name": "Riverwood",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Narwee",
+      "Padstow"
+    ]
+  },
+  {
+    "name": "Padstow",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Riverwood",
+      "Revesby"
+    ]
+  },
+  {
+    "name": "Revesby",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Padstow",
+      "Panania"
+    ]
+  },
+  {
+    "name": "Panania",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Revesby",
+      "East Hills"
+    ]
+  },
+  {
+    "name": "East Hills",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Panania",
+      "Holsworthy"
+    ]
+  },
+  {
+    "name": "Holsworthy",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "East Hills",
+      "Glenfield"
+    ]
+  },
+  {
+    "name": "Glenfield",
+    "lines": [
+      "T8",
+      "T2",
+      "T5"
+    ],
+    "adjacent": [
+      "Holsworthy",
+      "Macquarie Fields",
+      "Casula",
+      "Edmondson Park"
+    ]
+  },
+  {
+    "name": "Macquarie Fields",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Glenfield",
+      "Ingleburn"
+    ]
+  },
+  {
+    "name": "Ingleburn",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Macquarie Fields",
+      "Minto"
+    ]
+  },
+  {
+    "name": "Minto",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Ingleburn",
+      "Leumeah"
+    ]
+  },
+  {
+    "name": "Leumeah",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Minto",
+      "Campbelltown"
+    ]
+  },
+  {
+    "name": "Campbelltown",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Leumeah",
+      "Macarthur"
+    ]
+  },
+  {
+    "name": "Macarthur",
+    "lines": [
+      "T8"
+    ],
+    "adjacent": [
+      "Campbelltown"
+    ]
+  },
+  {
+    "name": "Macdonaldtown",
+    "lines": [
+      "T2",
+      "T3"
+    ],
+    "adjacent": [
+      "Redfern",
+      "Newtown"
+    ]
+  },
+  {
+    "name": "Newtown",
+    "lines": [
+      "T2",
+      "T3"
+    ],
+    "adjacent": [
+      "Macdonaldtown",
+      "Stanmore"
+    ]
+  },
+  {
+    "name": "Stanmore",
+    "lines": [
+      "T2",
+      "T3"
+    ],
+    "adjacent": [
+      "Newtown",
+      "Petersham"
+    ]
+  },
+  {
+    "name": "Petersham",
+    "lines": [
+      "T2",
+      "T3"
+    ],
+    "adjacent": [
+      "Stanmore",
+      "Lewisham"
+    ]
+  },
+  {
+    "name": "Lewisham",
+    "lines": [
+      "T2",
+      "T3"
+    ],
+    "adjacent": [
+      "Petersham",
+      "Summer Hill"
+    ]
+  },
+  {
+    "name": "Summer Hill",
+    "lines": [
+      "T2",
+      "T3"
+    ],
+    "adjacent": [
+      "Lewisham",
+      "Ashfield"
+    ]
+  },
+  {
+    "name": "Ashfield",
+    "lines": [
+      "T2",
+      "T3"
+    ],
+    "adjacent": [
+      "Summer Hill",
+      "Croydon"
+    ]
+  },
+  {
+    "name": "Croydon",
+    "lines": [
+      "T2",
+      "T3"
+    ],
+    "adjacent": [
+      "Ashfield",
+      "Burwood"
+    ]
+  },
+  {
+    "name": "Burwood",
+    "lines": [
+      "T2",
+      "T3",
+      "T9"
+    ],
+    "adjacent": [
+      "Redfern",
+      "Croydon",
+      "Strathfield"
+    ]
+  },
+  {
+    "name": "Strathfield",
+    "lines": [
+      "T2",
+      "T3",
+      "T1",
+      "T9"
+    ],
+    "adjacent": [
+      "Redfern",
+      "Burwood",
+      "Homebush",
+      "Lidcombe",
+      "North Strathfield"
+    ]
+  },
+  {
+    "name": "North Strathfield",
+    "lines": [
+      "T9"
+    ],
+    "adjacent": [
+      "Strathfield",
+      "Concord West"
+    ]
+  },
+  {
+    "name": "Concord West",
+    "lines": [
+      "T9"
+    ],
+    "adjacent": [
+      "North Strathfield",
+      "Rhodes"
+    ]
+  },
+  {
+    "name": "Rhodes",
+    "lines": [
+      "T9"
+    ],
+    "adjacent": [
+      "Concord West",
+      "Meadowbank"
+    ]
+  },
+  {
+    "name": "Meadowbank",
+    "lines": [
+      "T9"
+    ],
+    "adjacent": [
+      "Rhodes",
+      "West Ryde"
+    ]
+  },
+  {
+    "name": "West Ryde",
+    "lines": [
+      "T9"
+    ],
+    "adjacent": [
+      "Meadowbank",
+      "Denistone"
+    ]
+  },
+  {
+    "name": "Denistone",
+    "lines": [
+      "T9"
+    ],
+    "adjacent": [
+      "West Ryde",
+      "Eastwood"
+    ]
+  },
+  {
+    "name": "Eastwood",
+    "lines": [
+      "T9"
+    ],
+    "adjacent": [
+      "Denistone",
+      "Epping"
+    ]
+  },
+  {
+    "name": "Epping",
+    "lines": [
+      "T9",
+      "M1"
+    ],
+    "adjacent": [
+      "Eastwood",
+      "Cheltenham",
+      "Macquarie University",
+      "Cherrybrook"
+    ]
+  },
+  {
+    "name": "Cheltenham",
+    "lines": [
+      "T9"
+    ],
+    "adjacent": [
+      "Epping",
+      "Beecroft"
+    ]
+  },
+  {
+    "name": "Beecroft",
+    "lines": [
+      "T9"
+    ],
+    "adjacent": [
+      "Cheltenham",
+      "Pennant Hills"
+    ]
+  },
+  {
+    "name": "Pennant Hills",
+    "lines": [
+      "T9"
+    ],
+    "adjacent": [
+      "Beecroft",
+      "Thornleigh"
+    ]
+  },
+  {
+    "name": "Thornleigh",
+    "lines": [
+      "T9"
+    ],
+    "adjacent": [
+      "Pennant Hills",
+      "Normanhurst"
+    ]
+  },
+  {
+    "name": "Normanhurst",
+    "lines": [
+      "T9"
+    ],
+    "adjacent": [
+      "Thornleigh",
+      "Hornsby"
+    ]
+  },
+  {
+    "name": "Hornsby",
+    "lines": [
+      "T9",
+      "T1"
+    ],
+    "adjacent": [
+      "Normanhurst",
+      "Asquith",
+      "Waitara"
+    ]
+  },
+  {
+    "name": "Milsons Point",
+    "lines": [
+      "T1",
+      "T9"
+    ],
+    "adjacent": [
+      "Wynyard",
+      "North Sydney"
+    ]
+  },
+  {
+    "name": "North Sydney",
+    "lines": [
+      "T1",
+      "T9"
+    ],
+    "adjacent": [
+      "Milsons Point",
+      "Waverton"
+    ]
+  },
+  {
+    "name": "Waverton",
+    "lines": [
+      "T1",
+      "T9"
+    ],
+    "adjacent": [
+      "North Sydney",
+      "Wollstonecraft"
+    ]
+  },
+  {
+    "name": "Wollstonecraft",
+    "lines": [
+      "T1",
+      "T9"
+    ],
+    "adjacent": [
+      "Waverton",
+      "St Leonards"
+    ]
+  },
+  {
+    "name": "St Leonards",
+    "lines": [
+      "T1",
+      "T9"
+    ],
+    "adjacent": [
+      "Wollstonecraft",
+      "Artarmon"
+    ]
+  },
+  {
+    "name": "Artarmon",
+    "lines": [
+      "T1",
+      "T9"
+    ],
+    "adjacent": [
+      "St Leonards",
+      "Chatswood"
+    ]
+  },
+  {
+    "name": "Chatswood",
+    "lines": [
+      "T1",
+      "T9",
+      "M1"
+    ],
+    "adjacent": [
+      "Artarmon",
+      "Roseville",
+      "Crows Nest",
+      "North Ryde"
+    ]
+  },
+  {
+    "name": "Roseville",
+    "lines": [
+      "T1",
+      "T9"
+    ],
+    "adjacent": [
+      "Chatswood",
+      "Lindfield"
+    ]
+  },
+  {
+    "name": "Lindfield",
+    "lines": [
+      "T1",
+      "T9"
+    ],
+    "adjacent": [
+      "Roseville",
+      "Killara"
+    ]
+  },
+  {
+    "name": "Killara",
+    "lines": [
+      "T1",
+      "T9"
+    ],
+    "adjacent": [
+      "Lindfield",
+      "Gordon"
+    ]
+  },
+  {
+    "name": "Gordon",
+    "lines": [
+      "T1",
+      "T9"
+    ],
+    "adjacent": [
+      "Killara",
+      "Pymble"
+    ]
+  },
+  {
+    "name": "Pymble",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Gordon",
+      "Turramurra"
+    ]
+  },
+  {
+    "name": "Turramurra",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Pymble",
+      "Warrawee"
+    ]
+  },
+  {
+    "name": "Warrawee",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Turramurra",
+      "Wahroonga"
+    ]
+  },
+  {
+    "name": "Wahroonga",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Warrawee",
+      "Waitara"
+    ]
+  },
+  {
+    "name": "Waitara",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Wahroonga",
+      "Hornsby"
+    ]
+  },
+  {
+    "name": "Asquith",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Hornsby",
+      "Mount Colah"
+    ]
+  },
+  {
+    "name": "Mount Colah",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Asquith",
+      "Mount Kuring-gai"
+    ]
+  },
+  {
+    "name": "Mount Kuring-gai",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Mount Colah",
+      "Berowra"
+    ]
+  },
+  {
+    "name": "Berowra",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Mount Kuring-gai"
+    ]
+  },
+  {
+    "name": "Homebush",
+    "lines": [
+      "T2",
+      "T3"
+    ],
+    "adjacent": [
+      "Strathfield",
+      "Flemington"
+    ]
+  },
+  {
+    "name": "Flemington",
+    "lines": [
+      "T2",
+      "T3"
+    ],
+    "adjacent": [
+      "Homebush",
+      "Lidcombe"
+    ]
+  },
+  {
+    "name": "Lidcombe",
+    "lines": [
+      "T2",
+      "T3",
+      "T1",
+      "T6",
+      "T7"
+    ],
+    "adjacent": [
+      "Strathfield",
+      "Flemington",
+      "Olympic Park",
+      "Berala",
+      "Auburn"
+    ]
+  },
+  {
+    "name": "Olympic Park",
+    "lines": [
+      "T7"
+    ],
+    "adjacent": [
+      "Lidcombe"
+    ]
+  },
+  {
+    "name": "Berala",
+    "lines": [
+      "T6",
+      "T3"
+    ],
+    "adjacent": [
+      "Lidcombe",
+      "Regents Park"
+    ]
+  },
+  {
+    "name": "Regents Park",
+    "lines": [
+      "T6",
+      "T3"
+    ],
+    "adjacent": [
+      "Berala",
+      "Birrong",
+      "Sefton"
+    ]
+  },
+  {
+    "name": "Birrong",
+    "lines": [
+      "T6"
+    ],
+    "adjacent": [
+      "Regents Park",
+      "Yagoona"
+    ]
+  },
+  {
+    "name": "Yagoona",
+    "lines": [
+      "T6"
+    ],
+    "adjacent": [
+      "Birrong",
+      "Bankstown"
+    ]
+  },
+  {
+    "name": "Bankstown",
+    "lines": [
+      "T6",
+      "M1"
+    ],
+    "adjacent": [
+      "Yagoona",
+      "Punchbowl"
+    ]
+  },
+  {
+    "name": "Auburn",
+    "lines": [
+      "T1",
+      "T2"
+    ],
+    "adjacent": [
+      "Lidcombe",
+      "Clyde"
+    ]
+  },
+  {
+    "name": "Clyde",
+    "lines": [
+      "T1",
+      "T2"
+    ],
+    "adjacent": [
+      "Auburn",
+      "Granville"
+    ]
+  },
+  {
+    "name": "Granville",
+    "lines": [
+      "T1",
+      "T2"
+    ],
+    "adjacent": [
+      "Clyde",
+      "Harris Park",
+      "Merrylands"
+    ]
+  },
+  {
+    "name": "Harris Park",
+    "lines": [
+      "T1",
+      "T2",
+      "T5"
+    ],
+    "adjacent": [
+      "Granville",
+      "Merrylands",
+      "Parramatta"
+    ]
+  },
+  {
+    "name": "Parramatta",
+    "lines": [
+      "T1",
+      "T2",
+      "T5"
+    ],
+    "adjacent": [
+      "Harris Park",
+      "Westmead"
+    ]
+  },
+  {
+    "name": "Westmead",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Parramatta",
+      "Wentworthville"
+    ]
+  },
+  {
+    "name": "Wentworthville",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Westmead",
+      "Pendle Hill"
+    ]
+  },
+  {
+    "name": "Pendle Hill",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Wentworthville",
+      "Toongabbie"
+    ]
+  },
+  {
+    "name": "Toongabbie",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Pendle Hill",
+      "Seven Hills"
+    ]
+  },
+  {
+    "name": "Seven Hills",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Toongabbie",
+      "Blacktown"
+    ]
+  },
+  {
+    "name": "Blacktown",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Seven Hills",
+      "Marayong",
+      "Doonside"
+    ]
+  },
+  {
+    "name": "Marayong",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Blacktown",
+      "Quakers Hill"
+    ]
+  },
+  {
+    "name": "Quakers Hill",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Marayong",
+      "Schofields"
+    ]
+  },
+  {
+    "name": "Schofields",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Quakers Hill",
+      "Riverstone"
+    ]
+  },
+  {
+    "name": "Riverstone",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Schofields",
+      "Vineyard"
+    ]
+  },
+  {
+    "name": "Vineyard",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Riverstone",
+      "Mulgrave"
+    ]
+  },
+  {
+    "name": "Mulgrave",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Vineyard",
+      "Windsor"
+    ]
+  },
+  {
+    "name": "Windsor",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Mulgrave",
+      "Clarendon"
+    ]
+  },
+  {
+    "name": "Clarendon",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Windsor",
+      "East Richmond"
+    ]
+  },
+  {
+    "name": "East Richmond",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "Clarendon",
+      "Richmond"
+    ]
+  },
+  {
+    "name": "Richmond",
+    "lines": [
+      "T1",
+      "T5"
+    ],
+    "adjacent": [
+      "East Richmond"
+    ]
+  },
+  {
+    "name": "Doonside",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Blacktown",
+      "Rooty Hill"
+    ]
+  },
+  {
+    "name": "Rooty Hill",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Doonside",
+      "Mount Druitt"
+    ]
+  },
+  {
+    "name": "Mount Druitt",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Rooty Hill",
+      "St Marys"
+    ]
+  },
+  {
+    "name": "St Marys",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Mount Druitt",
+      "Werrington"
+    ]
+  },
+  {
+    "name": "Werrington",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "St Marys",
+      "Kingswood"
+    ]
+  },
+  {
+    "name": "Kingswood",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Werrington",
+      "Penrith"
+    ]
+  },
+  {
+    "name": "Penrith",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Kingswood",
+      "Emu Plains"
+    ]
+  },
+  {
+    "name": "Emu Plains",
+    "lines": [
+      "T1"
+    ],
+    "adjacent": [
+      "Penrith"
+    ]
+  },
+  {
+    "name": "Merrylands",
+    "lines": [
+      "T2",
+      "T5"
+    ],
+    "adjacent": [
+      "Harris Park",
+      "Granville",
+      "Guildford"
+    ]
+  },
+  {
+    "name": "Guildford",
+    "lines": [
+      "T2",
+      "T5"
+    ],
+    "adjacent": [
+      "Merrylands",
+      "Yennora"
+    ]
+  },
+  {
+    "name": "Yennora",
+    "lines": [
+      "T2",
+      "T5"
+    ],
+    "adjacent": [
+      "Guildford",
+      "Fairfield"
+    ]
+  },
+  {
+    "name": "Fairfield",
+    "lines": [
+      "T2",
+      "T5"
+    ],
+    "adjacent": [
+      "Canley Vale",
+      "Yennora"
+    ]
+  },
+  {
+    "name": "Canley Vale",
+    "lines": [
+      "T2",
+      "T5"
+    ],
+    "adjacent": [
+      "Fairfield",
+      "Cabramatta"
+    ]
+  },
+  {
+    "name": "Cabramatta",
+    "lines": [
+      "T2",
+      "T3",
+      "T5"
+    ],
+    "adjacent": [
+      "Canley Vale",
+      "Warwick Farm",
+      "Carramar"
+    ]
+  },
+  {
+    "name": "Warwick Farm",
+    "lines": [
+      "T2",
+      "T3",
+      "T5"
+    ],
+    "adjacent": [
+      "Cabramatta",
+      "Liverpool"
+    ]
+  },
+  {
+    "name": "Liverpool",
+    "lines": [
+      "T2",
+      "T3",
+      "T5"
+    ],
+    "adjacent": [
+      "Warwick Farm",
+      "Casula"
+    ]
+  },
+  {
+    "name": "Casula",
+    "lines": [
+      "T2",
+      "T5"
+    ],
+    "adjacent": [
+      "Liverpool",
+      "Glenfield"
+    ]
+  },
+  {
+    "name": "Sefton",
+    "lines": [
+      "T3"
+    ],
+    "adjacent": [
+      "Regents Park",
+      "Chester Hill"
+    ]
+  },
+  {
+    "name": "Chester Hill",
+    "lines": [
+      "T3"
+    ],
+    "adjacent": [
+      "Sefton",
+      "Leightonfield"
+    ]
+  },
+  {
+    "name": "Leightonfield",
+    "lines": [
+      "T3"
+    ],
+    "adjacent": [
+      "Chester Hill",
+      "Villawood"
+    ]
+  },
+  {
+    "name": "Villawood",
+    "lines": [
+      "T3"
+    ],
+    "adjacent": [
+      "Leightonfield",
+      "Carramar"
+    ]
+  },
+  {
+    "name": "Carramar",
+    "lines": [
+      "T3"
+    ],
+    "adjacent": [
+      "Villawood",
+      "Cabramatta"
+    ]
+  },
+  {
+    "name": "Edmondson Park",
+    "lines": [
+      "T2",
+      "T5"
+    ],
+    "adjacent": [
+      "Leppington",
+      "Glenfield"
+    ]
+  },
+  {
+    "name": "Leppington",
+    "lines": [
+      "T2",
+      "T5"
+    ],
+    "adjacent": [
+      "Edmondson Park"
+    ]
+  },
+  {
+    "name": "Waterloo",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Sydenham",
+      "Central"
+    ]
+  },
+  {
+    "name": "Gadigal",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Martin Place",
+      "Central"
+    ]
+  },
+  {
+    "name": "Barangaroo",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Martin Place",
+      "Victoria Cross"
+    ]
+  },
+  {
+    "name": "Victoria Cross",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Barangaroo",
+      "Crows Nest"
+    ]
+  },
+  {
+    "name": "Crows Nest",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Victoria Cross",
+      "Chatswood"
+    ]
+  },
+  {
+    "name": "North Ryde",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Chatswood",
+      "Macquarie Park"
+    ]
+  },
+  {
+    "name": "Macquarie Park",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "North Ryde",
+      "Macquarie University"
+    ]
+  },
+  {
+    "name": "Macquarie University",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Macquarie Park",
+      "Epping"
+    ]
+  },
+  {
+    "name": "Cherrybrook",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Epping",
+      "Castle Hill"
+    ]
+  },
+  {
+    "name": "Castle Hill",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Cherrybrook",
+      "Hills Showground"
+    ]
+  },
+  {
+    "name": "Hills Showground",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Castle Hill",
+      "Norwest"
+    ]
+  },
+  {
+    "name": "Norwest",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Hills Showground",
+      "Bella Vista"
+    ]
+  },
+  {
+    "name": "Bella Vista",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Norwest",
+      "Kellyville"
+    ]
+  },
+  {
+    "name": "Kellyville",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Bella Vista",
+      "Rouse Hill"
+    ]
+  },
+  {
+    "name": "Rouse Hill",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Kellyville",
+      "Tallawong"
+    ]
+  },
+  {
+    "name": "Tallawong",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Rouse Hill"
+    ]
+  },
+  {
+    "name": "Marrickville",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Sydenham",
+      "Dulwich Hill"
+    ]
+  },
+  {
+    "name": "Dulwich Hill",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Marrickville",
+      "Hurlstone Park"
+    ]
+  },
+  {
+    "name": "Hurlstone Park",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Dulwich Hill",
+      "Canterbury"
+    ]
+  },
+  {
+    "name": "Canterbury",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Hurlstone Park",
+      "Campsie"
+    ]
+  },
+  {
+    "name": "Campsie",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Canterbury",
+      "Belmore"
+    ]
+  },
+  {
+    "name": "Belmore",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Campsie",
+      "Lakemba"
+    ]
+  },
+  {
+    "name": "Lakemba",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Belmore",
+      "Wiley Park"
+    ]
+  },
+  {
+    "name": "Wiley Park",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Lakemba",
+      "Punchbowl"
+    ]
+  },
+  {
+    "name": "Punchbowl",
+    "lines": [
+      "M1"
+    ],
+    "adjacent": [
+      "Wiley Park",
+      "Bankstown"
+    ]
+  }
+]

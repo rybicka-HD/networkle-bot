@@ -1,0 +1,3412 @@
+[
+  {
+    "name": "La Défense",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Esplanade de la Défense"
+    ]
+  },
+  {
+    "name": "Esplanade de la Défense",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "La Défense",
+      "Pont de Neuilly"
+    ]
+  },
+  {
+    "name": "Pont de Neuilly",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Esplanade de la Défense",
+      "Les Sablons"
+    ]
+  },
+  {
+    "name": "Les Sablons",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Pont de Neuilly",
+      "Porte Maillot"
+    ]
+  },
+  {
+    "name": "Porte Maillot",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Argentine",
+      "Les Sablons"
+    ]
+  },
+  {
+    "name": "Argentine",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Charles de Gaulle – Étoile",
+      "Porte Maillot"
+    ]
+  },
+  {
+    "name": "Charles de Gaulle – Étoile",
+    "lines": [
+      "1",
+      "2",
+      "6"
+    ],
+    "adjacent": [
+      "Argentine",
+      "George V",
+      "Kléber",
+      "Ternes",
+      "Victor Hugo"
+    ]
+  },
+  {
+    "name": "George V",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Charles de Gaulle – Étoile",
+      "Franklin D. Roosevelt"
+    ]
+  },
+  {
+    "name": "Franklin D. Roosevelt",
+    "lines": [
+      "1",
+      "9"
+    ],
+    "adjacent": [
+      "Alma – Marceau",
+      "Champs-Élysées – Clemenceau",
+      "George V",
+      "Saint-Philippe-du-Roule"
+    ]
+  },
+  {
+    "name": "Champs-Élysées – Clemenceau",
+    "lines": [
+      "1",
+      "13"
+    ],
+    "adjacent": [
+      "Concorde",
+      "Franklin D. Roosevelt",
+      "Invalides",
+      "Miromesnil"
+    ]
+  },
+  {
+    "name": "Concorde",
+    "lines": [
+      "1",
+      "8",
+      "12"
+    ],
+    "adjacent": [
+      "Assemblée Nationale",
+      "Champs-Élysées – Clemenceau",
+      "Invalides",
+      "Madeleine",
+      "Tuileries"
+    ]
+  },
+  {
+    "name": "Tuileries",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Concorde",
+      "Palais Royal – Musée du Louvre"
+    ]
+  },
+  {
+    "name": "Palais Royal – Musée du Louvre",
+    "lines": [
+      "1",
+      "7"
+    ],
+    "adjacent": [
+      "Louvre – Rivoli",
+      "Pont Neuf",
+      "Pyramides",
+      "Tuileries"
+    ]
+  },
+  {
+    "name": "Louvre – Rivoli",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Châtelet",
+      "Palais Royal – Musée du Louvre"
+    ]
+  },
+  {
+    "name": "Châtelet",
+    "lines": [
+      "1",
+      "4",
+      "7",
+      "11",
+      "14"
+    ],
+    "adjacent": [
+      "Cité",
+      "Gare de Lyon",
+      "Hôtel de Ville",
+      "Les Halles",
+      "Louvre – Rivoli",
+      "Pont Marie",
+      "Pont Neuf",
+      "Pyramides"
+    ]
+  },
+  {
+    "name": "Hôtel de Ville",
+    "lines": [
+      "1",
+      "11"
+    ],
+    "adjacent": [
+      "Châtelet",
+      "Rambuteau",
+      "Saint-Paul"
+    ]
+  },
+  {
+    "name": "Saint-Paul",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Bastille",
+      "Hôtel de Ville"
+    ]
+  },
+  {
+    "name": "Bastille",
+    "lines": [
+      "1",
+      "5",
+      "8"
+    ],
+    "adjacent": [
+      "Bréguet – Sabin",
+      "Chemin Vert",
+      "Gare de Lyon",
+      "Ledru-Rollin",
+      "Quai de la Rapée",
+      "Saint-Paul"
+    ]
+  },
+  {
+    "name": "Gare de Lyon",
+    "lines": [
+      "1",
+      "14"
+    ],
+    "adjacent": [
+      "Bastille",
+      "Bercy",
+      "Châtelet",
+      "Reuilly – Diderot"
+    ]
+  },
+  {
+    "name": "Reuilly – Diderot",
+    "lines": [
+      "1",
+      "8"
+    ],
+    "adjacent": [
+      "Faidherbe – Chaligny",
+      "Gare de Lyon",
+      "Montgallet",
+      "Nation"
+    ]
+  },
+  {
+    "name": "Nation",
+    "lines": [
+      "1",
+      "2",
+      "6",
+      "9"
+    ],
+    "adjacent": [
+      "Avron",
+      "Buzenval",
+      "Picpus",
+      "Porte de Vincennes",
+      "Reuilly – Diderot",
+      "Rue des Boulets"
+    ]
+  },
+  {
+    "name": "Porte de Vincennes",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Nation",
+      "Saint-Mandé"
+    ]
+  },
+  {
+    "name": "Saint-Mandé",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Bérault",
+      "Porte de Vincennes"
+    ]
+  },
+  {
+    "name": "Bérault",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Château de Vincennes",
+      "Saint-Mandé"
+    ]
+  },
+  {
+    "name": "Château de Vincennes",
+    "lines": [
+      "1"
+    ],
+    "adjacent": [
+      "Bérault"
+    ]
+  },
+  {
+    "name": "Porte Dauphine",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Victor Hugo"
+    ]
+  },
+  {
+    "name": "Victor Hugo",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Charles de Gaulle – Étoile",
+      "Porte Dauphine"
+    ]
+  },
+  {
+    "name": "Ternes",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Charles de Gaulle – Étoile",
+      "Courcelles"
+    ]
+  },
+  {
+    "name": "Courcelles",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Monceau",
+      "Ternes"
+    ]
+  },
+  {
+    "name": "Monceau",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Courcelles",
+      "Villiers"
+    ]
+  },
+  {
+    "name": "Villiers",
+    "lines": [
+      "2",
+      "3"
+    ],
+    "adjacent": [
+      "Europe",
+      "Malesherbes",
+      "Monceau",
+      "Rome"
+    ]
+  },
+  {
+    "name": "Rome",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Place de Clichy",
+      "Villiers"
+    ]
+  },
+  {
+    "name": "Place de Clichy",
+    "lines": [
+      "2",
+      "13"
+    ],
+    "adjacent": [
+      "Blanche",
+      "La Fourche",
+      "Liège",
+      "Rome"
+    ]
+  },
+  {
+    "name": "Blanche",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Pigalle",
+      "Place de Clichy"
+    ]
+  },
+  {
+    "name": "Pigalle",
+    "lines": [
+      "2",
+      "12"
+    ],
+    "adjacent": [
+      "Abbesses",
+      "Anvers",
+      "Blanche",
+      "Saint-Georges"
+    ]
+  },
+  {
+    "name": "Anvers",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Barbès – Rochechouart",
+      "Pigalle"
+    ]
+  },
+  {
+    "name": "Barbès – Rochechouart",
+    "lines": [
+      "2",
+      "4"
+    ],
+    "adjacent": [
+      "Anvers",
+      "Château Rouge",
+      "Gare du Nord",
+      "La Chapelle"
+    ]
+  },
+  {
+    "name": "La Chapelle",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Barbès – Rochechouart",
+      "Stalingrad"
+    ]
+  },
+  {
+    "name": "Stalingrad",
+    "lines": [
+      "2",
+      "5",
+      "7"
+    ],
+    "adjacent": [
+      "Gare du Nord",
+      "Jaurès",
+      "La Chapelle",
+      "Louis Blanc",
+      "Riquet"
+    ]
+  },
+  {
+    "name": "Jaurès",
+    "lines": [
+      "2",
+      "5",
+      "7bis"
+    ],
+    "adjacent": [
+      "Bolivar",
+      "Colonel Fabien",
+      "Laumière",
+      "Louis Blanc",
+      "Stalingrad"
+    ]
+  },
+  {
+    "name": "Colonel Fabien",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Belleville",
+      "Jaurès"
+    ]
+  },
+  {
+    "name": "Belleville",
+    "lines": [
+      "2",
+      "11"
+    ],
+    "adjacent": [
+      "Colonel Fabien",
+      "Couronnes",
+      "Goncourt",
+      "Pyrénées"
+    ]
+  },
+  {
+    "name": "Couronnes",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Belleville",
+      "Ménilmontant"
+    ]
+  },
+  {
+    "name": "Ménilmontant",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Couronnes",
+      "Père Lachaise"
+    ]
+  },
+  {
+    "name": "Père Lachaise",
+    "lines": [
+      "2",
+      "3"
+    ],
+    "adjacent": [
+      "Gambetta",
+      "Ménilmontant",
+      "Philippe Auguste",
+      "Rue Saint-Maur"
+    ]
+  },
+  {
+    "name": "Philippe Auguste",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Alexandre Dumas",
+      "Père Lachaise"
+    ]
+  },
+  {
+    "name": "Alexandre Dumas",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Avron",
+      "Philippe Auguste"
+    ]
+  },
+  {
+    "name": "Avron",
+    "lines": [
+      "2"
+    ],
+    "adjacent": [
+      "Alexandre Dumas",
+      "Nation"
+    ]
+  },
+  {
+    "name": "Pont de Levallois – Bécon",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Anatole France"
+    ]
+  },
+  {
+    "name": "Anatole France",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Louise Michel",
+      "Pont de Levallois – Bécon"
+    ]
+  },
+  {
+    "name": "Louise Michel",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Anatole France",
+      "Porte de Champerret"
+    ]
+  },
+  {
+    "name": "Porte de Champerret",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Louise Michel",
+      "Pereire"
+    ]
+  },
+  {
+    "name": "Pereire",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Porte de Champerret",
+      "Wagram"
+    ]
+  },
+  {
+    "name": "Wagram",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Malesherbes",
+      "Pereire"
+    ]
+  },
+  {
+    "name": "Malesherbes",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Villiers",
+      "Wagram"
+    ]
+  },
+  {
+    "name": "Europe",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Saint-Lazare",
+      "Villiers"
+    ]
+  },
+  {
+    "name": "Saint-Lazare",
+    "lines": [
+      "3",
+      "12",
+      "13",
+      "14"
+    ],
+    "adjacent": [
+      "Europe",
+      "Havre – Caumartin",
+      "Liège",
+      "Madeleine",
+      "Miromesnil",
+      "Pont Cardinet",
+      "Trinité – d'Estienne d'Orves"
+    ]
+  },
+  {
+    "name": "Havre – Caumartin",
+    "lines": [
+      "3",
+      "9"
+    ],
+    "adjacent": [
+      "Chaussée d'Antin – La Fayette",
+      "Opéra",
+      "Saint-Augustin",
+      "Saint-Lazare"
+    ]
+  },
+  {
+    "name": "Opéra",
+    "lines": [
+      "3",
+      "7",
+      "8"
+    ],
+    "adjacent": [
+      "Chaussée d'Antin – La Fayette",
+      "Havre – Caumartin",
+      "Madeleine",
+      "Pyramides",
+      "Quatre-Septembre",
+      "Richelieu – Drouot"
+    ]
+  },
+  {
+    "name": "Quatre-Septembre",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Bourse",
+      "Opéra"
+    ]
+  },
+  {
+    "name": "Bourse",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Quatre-Septembre",
+      "Sentier"
+    ]
+  },
+  {
+    "name": "Sentier",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Bourse",
+      "Réaumur – Sébastopol"
+    ]
+  },
+  {
+    "name": "Réaumur – Sébastopol",
+    "lines": [
+      "3",
+      "4"
+    ],
+    "adjacent": [
+      "Arts et Métiers",
+      "Sentier",
+      "Strasbourg – Saint-Denis",
+      "Étienne Marcel"
+    ]
+  },
+  {
+    "name": "Arts et Métiers",
+    "lines": [
+      "3",
+      "11"
+    ],
+    "adjacent": [
+      "Rambuteau",
+      "Réaumur – Sébastopol",
+      "République",
+      "Temple"
+    ]
+  },
+  {
+    "name": "République",
+    "lines": [
+      "3",
+      "5",
+      "8",
+      "9",
+      "11"
+    ],
+    "adjacent": [
+      "Arts et Métiers",
+      "Filles du Calvaire",
+      "Goncourt",
+      "Jacques Bonsergent",
+      "Oberkampf",
+      "Strasbourg – Saint-Denis",
+      "Temple",
+      "Parmentier"
+    ]
+  },
+  {
+    "name": "Temple",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Arts et Métiers",
+      "République"
+    ]
+  },
+  {
+    "name": "Parmentier",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Rue Saint-Maur",
+      "République"
+    ]
+  },
+  {
+    "name": "Rue Saint-Maur",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Parmentier",
+      "Père Lachaise"
+    ]
+  },
+  {
+    "name": "Gambetta",
+    "lines": [
+      "3",
+      "3bis"
+    ],
+    "adjacent": [
+      "Pelleport",
+      "Porte de Bagnolet",
+      "Père Lachaise"
+    ]
+  },
+  {
+    "name": "Porte de Bagnolet",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Gallieni",
+      "Gambetta"
+    ]
+  },
+  {
+    "name": "Gallieni",
+    "lines": [
+      "3"
+    ],
+    "adjacent": [
+      "Porte de Bagnolet"
+    ]
+  },
+  {
+    "name": "Pelleport",
+    "lines": [
+      "3bis"
+    ],
+    "adjacent": [
+      "Gambetta",
+      "Saint-Fargeau"
+    ]
+  },
+  {
+    "name": "Saint-Fargeau",
+    "lines": [
+      "3bis"
+    ],
+    "adjacent": [
+      "Pelleport",
+      "Porte des Lilas"
+    ]
+  },
+  {
+    "name": "Porte des Lilas",
+    "lines": [
+      "3bis",
+      "11"
+    ],
+    "adjacent": [
+      "Mairie des Lilas",
+      "Saint-Fargeau",
+      "Télégraphe"
+    ]
+  },
+  {
+    "name": "Porte de Clignancourt",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Simplon"
+    ]
+  },
+  {
+    "name": "Simplon",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Marcadet – Poissonniers",
+      "Porte de Clignancourt"
+    ]
+  },
+  {
+    "name": "Marcadet – Poissonniers",
+    "lines": [
+      "4",
+      "12"
+    ],
+    "adjacent": [
+      "Château Rouge",
+      "Jules Joffrin",
+      "Marx Dormoy",
+      "Simplon"
+    ]
+  },
+  {
+    "name": "Château Rouge",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Barbès – Rochechouart",
+      "Marcadet – Poissonniers"
+    ]
+  },
+  {
+    "name": "Gare du Nord",
+    "lines": [
+      "4",
+      "5"
+    ],
+    "adjacent": [
+      "Barbès – Rochechouart",
+      "Gare de l'Est",
+      "Stalingrad"
+    ]
+  },
+  {
+    "name": "Gare de l'Est",
+    "lines": [
+      "4",
+      "5",
+      "7"
+    ],
+    "adjacent": [
+      "Château d'Eau",
+      "Château-Landon",
+      "Gare du Nord",
+      "Jacques Bonsergent",
+      "Poissonnière"
+    ]
+  },
+  {
+    "name": "Château d'Eau",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Gare de l'Est",
+      "Strasbourg – Saint-Denis"
+    ]
+  },
+  {
+    "name": "Strasbourg – Saint-Denis",
+    "lines": [
+      "4",
+      "8",
+      "9"
+    ],
+    "adjacent": [
+      "Bonne Nouvelle",
+      "Château d'Eau",
+      "Réaumur – Sébastopol",
+      "République"
+    ]
+  },
+  {
+    "name": "Étienne Marcel",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Les Halles",
+      "Réaumur – Sébastopol"
+    ]
+  },
+  {
+    "name": "Les Halles",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Châtelet",
+      "Étienne Marcel"
+    ]
+  },
+  {
+    "name": "Cité",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Châtelet",
+      "Saint-Michel"
+    ]
+  },
+  {
+    "name": "Saint-Michel",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Cité",
+      "Odéon"
+    ]
+  },
+  {
+    "name": "Odéon",
+    "lines": [
+      "4",
+      "10"
+    ],
+    "adjacent": [
+      "Cluny – La Sorbonne",
+      "Mabillon",
+      "Saint-Germain-des-Prés",
+      "Saint-Michel"
+    ]
+  },
+  {
+    "name": "Saint-Germain-des-Prés",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Odéon",
+      "Saint-Sulpice"
+    ]
+  },
+  {
+    "name": "Saint-Sulpice",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Saint-Germain-des-Prés",
+      "Saint-Placide"
+    ]
+  },
+  {
+    "name": "Saint-Placide",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Montparnasse – Bienvenüe",
+      "Saint-Sulpice"
+    ]
+  },
+  {
+    "name": "Montparnasse – Bienvenüe",
+    "lines": [
+      "4",
+      "6",
+      "12",
+      "13"
+    ],
+    "adjacent": [
+      "Duroc",
+      "Edgar Quinet",
+      "Falguière",
+      "Gaîté",
+      "Notre-Dame-des-Champs",
+      "Pasteur",
+      "Saint-Placide",
+      "Vavin"
+    ]
+  },
+  {
+    "name": "Vavin",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Montparnasse – Bienvenüe",
+      "Raspail"
+    ]
+  },
+  {
+    "name": "Raspail",
+    "lines": [
+      "4",
+      "6"
+    ],
+    "adjacent": [
+      "Denfert-Rochereau",
+      "Edgar Quinet",
+      "Vavin"
+    ]
+  },
+  {
+    "name": "Denfert-Rochereau",
+    "lines": [
+      "4",
+      "6"
+    ],
+    "adjacent": [
+      "Mouton-Duvernet",
+      "Raspail",
+      "Saint-Jacques"
+    ]
+  },
+  {
+    "name": "Mouton-Duvernet",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Alésia",
+      "Denfert-Rochereau"
+    ]
+  },
+  {
+    "name": "Alésia",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Mouton-Duvernet",
+      "Porte d'Orléans"
+    ]
+  },
+  {
+    "name": "Porte d'Orléans",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Alésia",
+      "Mairie de Montrouge"
+    ]
+  },
+  {
+    "name": "Mairie de Montrouge",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Barbara",
+      "Porte d'Orléans"
+    ]
+  },
+  {
+    "name": "Barbara",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Bagneux – Lucie Aubrac",
+      "Mairie de Montrouge"
+    ]
+  },
+  {
+    "name": "Bagneux – Lucie Aubrac",
+    "lines": [
+      "4"
+    ],
+    "adjacent": [
+      "Barbara"
+    ]
+  },
+  {
+    "name": "Bobigny – Pablo Picasso",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Bobigny – Pantin – Raymond Queneau"
+    ]
+  },
+  {
+    "name": "Bobigny – Pantin – Raymond Queneau",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Bobigny – Pablo Picasso",
+      "Église de Pantin"
+    ]
+  },
+  {
+    "name": "Église de Pantin",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Bobigny – Pantin – Raymond Queneau",
+      "Hoche"
+    ]
+  },
+  {
+    "name": "Hoche",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Porte de Pantin",
+      "Église de Pantin"
+    ]
+  },
+  {
+    "name": "Porte de Pantin",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Hoche",
+      "Ourcq"
+    ]
+  },
+  {
+    "name": "Ourcq",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Laumière",
+      "Porte de Pantin"
+    ]
+  },
+  {
+    "name": "Laumière",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Jaurès",
+      "Ourcq"
+    ]
+  },
+  {
+    "name": "Jacques Bonsergent",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Gare de l'Est",
+      "République"
+    ]
+  },
+  {
+    "name": "Oberkampf",
+    "lines": [
+      "5",
+      "9"
+    ],
+    "adjacent": [
+      "Richard-Lenoir",
+      "République",
+      "Saint-Ambroise"
+    ]
+  },
+  {
+    "name": "Richard-Lenoir",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Bréguet – Sabin",
+      "Oberkampf"
+    ]
+  },
+  {
+    "name": "Bréguet – Sabin",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Bastille",
+      "Richard-Lenoir"
+    ]
+  },
+  {
+    "name": "Quai de la Rapée",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Bastille",
+      "Gare d'Austerlitz"
+    ]
+  },
+  {
+    "name": "Gare d'Austerlitz",
+    "lines": [
+      "5",
+      "10"
+    ],
+    "adjacent": [
+      "Jussieu",
+      "Quai de la Rapée",
+      "Saint-Marcel"
+    ]
+  },
+  {
+    "name": "Saint-Marcel",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Campo-Formio",
+      "Gare d'Austerlitz"
+    ]
+  },
+  {
+    "name": "Campo-Formio",
+    "lines": [
+      "5"
+    ],
+    "adjacent": [
+      "Place d'Italie",
+      "Saint-Marcel"
+    ]
+  },
+  {
+    "name": "Place d'Italie",
+    "lines": [
+      "5",
+      "6",
+      "7"
+    ],
+    "adjacent": [
+      "Campo-Formio",
+      "Corvisart",
+      "Les Gobelins",
+      "Nationale",
+      "Tolbiac"
+    ]
+  },
+  {
+    "name": "Kléber",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Boissière",
+      "Charles de Gaulle – Étoile"
+    ]
+  },
+  {
+    "name": "Boissière",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Kléber",
+      "Trocadéro"
+    ]
+  },
+  {
+    "name": "Trocadéro",
+    "lines": [
+      "6",
+      "9"
+    ],
+    "adjacent": [
+      "Boissière",
+      "Iéna",
+      "Passy",
+      "Rue de la Pompe"
+    ]
+  },
+  {
+    "name": "Passy",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Bir-Hakeim",
+      "Trocadéro"
+    ]
+  },
+  {
+    "name": "Bir-Hakeim",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Dupleix",
+      "Passy"
+    ]
+  },
+  {
+    "name": "Dupleix",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Bir-Hakeim",
+      "La Motte-Picquet – Grenelle"
+    ]
+  },
+  {
+    "name": "La Motte-Picquet – Grenelle",
+    "lines": [
+      "6",
+      "8",
+      "10"
+    ],
+    "adjacent": [
+      "Avenue Émile Zola",
+      "Cambronne",
+      "Commerce",
+      "Dupleix",
+      "Ségur",
+      "École Militaire"
+    ]
+  },
+  {
+    "name": "Cambronne",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "La Motte-Picquet – Grenelle",
+      "Sèvres – Lecourbe"
+    ]
+  },
+  {
+    "name": "Sèvres – Lecourbe",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Cambronne",
+      "Pasteur"
+    ]
+  },
+  {
+    "name": "Pasteur",
+    "lines": [
+      "6",
+      "12"
+    ],
+    "adjacent": [
+      "Falguière",
+      "Montparnasse – Bienvenüe",
+      "Sèvres – Lecourbe",
+      "Volontaires"
+    ]
+  },
+  {
+    "name": "Edgar Quinet",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Montparnasse – Bienvenüe",
+      "Raspail"
+    ]
+  },
+  {
+    "name": "Saint-Jacques",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Denfert-Rochereau",
+      "Glacière"
+    ]
+  },
+  {
+    "name": "Glacière",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Corvisart",
+      "Saint-Jacques"
+    ]
+  },
+  {
+    "name": "Corvisart",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Glacière",
+      "Place d'Italie"
+    ]
+  },
+  {
+    "name": "Nationale",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Chevaleret",
+      "Place d'Italie"
+    ]
+  },
+  {
+    "name": "Chevaleret",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Nationale",
+      "Quai de la Gare"
+    ]
+  },
+  {
+    "name": "Quai de la Gare",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Bercy",
+      "Chevaleret"
+    ]
+  },
+  {
+    "name": "Bercy",
+    "lines": [
+      "6",
+      "14"
+    ],
+    "adjacent": [
+      "Cour Saint-Émilion",
+      "Dugommier",
+      "Gare de Lyon",
+      "Quai de la Gare"
+    ]
+  },
+  {
+    "name": "Dugommier",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Bercy",
+      "Daumesnil"
+    ]
+  },
+  {
+    "name": "Daumesnil",
+    "lines": [
+      "6",
+      "8"
+    ],
+    "adjacent": [
+      "Bel-Air",
+      "Dugommier",
+      "Michel Bizot",
+      "Montgallet"
+    ]
+  },
+  {
+    "name": "Bel-Air",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Daumesnil",
+      "Picpus"
+    ]
+  },
+  {
+    "name": "Picpus",
+    "lines": [
+      "6"
+    ],
+    "adjacent": [
+      "Bel-Air",
+      "Nation"
+    ]
+  },
+  {
+    "name": "La Courneuve – 8 Mai 1945",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Fort d'Aubervilliers"
+    ]
+  },
+  {
+    "name": "Fort d'Aubervilliers",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Aubervilliers – Pantin – Quatre Chemins",
+      "La Courneuve – 8 Mai 1945"
+    ]
+  },
+  {
+    "name": "Aubervilliers – Pantin – Quatre Chemins",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Fort d'Aubervilliers",
+      "Porte de la Villette"
+    ]
+  },
+  {
+    "name": "Porte de la Villette",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Aubervilliers – Pantin – Quatre Chemins",
+      "Corentin Cariou"
+    ]
+  },
+  {
+    "name": "Corentin Cariou",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Crimée",
+      "Porte de la Villette"
+    ]
+  },
+  {
+    "name": "Crimée",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Corentin Cariou",
+      "Riquet"
+    ]
+  },
+  {
+    "name": "Riquet",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Crimée",
+      "Stalingrad"
+    ]
+  },
+  {
+    "name": "Louis Blanc",
+    "lines": [
+      "7",
+      "7bis"
+    ],
+    "adjacent": [
+      "Château-Landon",
+      "Jaurès",
+      "Stalingrad"
+    ]
+  },
+  {
+    "name": "Château-Landon",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Gare de l'Est",
+      "Louis Blanc"
+    ]
+  },
+  {
+    "name": "Poissonnière",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Cadet",
+      "Gare de l'Est"
+    ]
+  },
+  {
+    "name": "Cadet",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Le Peletier",
+      "Poissonnière"
+    ]
+  },
+  {
+    "name": "Le Peletier",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Cadet",
+      "Chaussée d'Antin – La Fayette"
+    ]
+  },
+  {
+    "name": "Chaussée d'Antin – La Fayette",
+    "lines": [
+      "7",
+      "9"
+    ],
+    "adjacent": [
+      "Havre – Caumartin",
+      "Le Peletier",
+      "Opéra",
+      "Richelieu – Drouot"
+    ]
+  },
+  {
+    "name": "Pyramides",
+    "lines": [
+      "7",
+      "14"
+    ],
+    "adjacent": [
+      "Châtelet",
+      "Madeleine",
+      "Opéra",
+      "Palais Royal – Musée du Louvre"
+    ]
+  },
+  {
+    "name": "Pont Neuf",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Châtelet",
+      "Palais Royal – Musée du Louvre"
+    ]
+  },
+  {
+    "name": "Pont Marie",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Châtelet",
+      "Sully – Morland"
+    ]
+  },
+  {
+    "name": "Sully – Morland",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Jussieu",
+      "Pont Marie"
+    ]
+  },
+  {
+    "name": "Jussieu",
+    "lines": [
+      "7",
+      "10"
+    ],
+    "adjacent": [
+      "Cardinal Lemoine",
+      "Gare d'Austerlitz",
+      "Place Monge",
+      "Sully – Morland"
+    ]
+  },
+  {
+    "name": "Place Monge",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Censier – Daubenton",
+      "Jussieu"
+    ]
+  },
+  {
+    "name": "Censier – Daubenton",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Les Gobelins",
+      "Place Monge"
+    ]
+  },
+  {
+    "name": "Les Gobelins",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Censier – Daubenton",
+      "Place d'Italie"
+    ]
+  },
+  {
+    "name": "Tolbiac",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Maison Blanche",
+      "Place d'Italie"
+    ]
+  },
+  {
+    "name": "Maison Blanche",
+    "lines": [
+      "7",
+      "14"
+    ],
+    "adjacent": [
+      "Hôpital Bicêtre",
+      "Le Kremlin-Bicêtre",
+      "Olympiades",
+      "Porte d'Italie",
+      "Tolbiac"
+    ]
+  },
+  {
+    "name": "Le Kremlin-Bicêtre",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Maison Blanche",
+      "Villejuif – Léo Lagrange"
+    ]
+  },
+  {
+    "name": "Villejuif – Léo Lagrange",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Le Kremlin-Bicêtre",
+      "Villejuif – Paul Vaillant-Couturier"
+    ]
+  },
+  {
+    "name": "Villejuif – Paul Vaillant-Couturier",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Villejuif – Louis Aragon",
+      "Villejuif – Léo Lagrange"
+    ]
+  },
+  {
+    "name": "Villejuif – Louis Aragon",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Villejuif – Paul Vaillant-Couturier"
+    ]
+  },
+  {
+    "name": "Porte d'Italie",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Maison Blanche",
+      "Porte de Choisy"
+    ]
+  },
+  {
+    "name": "Porte de Choisy",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Porte d'Italie",
+      "Porte d'Ivry"
+    ]
+  },
+  {
+    "name": "Porte d'Ivry",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Pierre et Marie Curie",
+      "Porte de Choisy"
+    ]
+  },
+  {
+    "name": "Pierre et Marie Curie",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Mairie d'Ivry",
+      "Porte d'Ivry"
+    ]
+  },
+  {
+    "name": "Mairie d'Ivry",
+    "lines": [
+      "7"
+    ],
+    "adjacent": [
+      "Pierre et Marie Curie"
+    ]
+  },
+  {
+    "name": "Bolivar",
+    "lines": [
+      "7bis"
+    ],
+    "adjacent": [
+      "Buttes-Chaumont",
+      "Jaurès"
+    ]
+  },
+  {
+    "name": "Buttes-Chaumont",
+    "lines": [
+      "7bis"
+    ],
+    "adjacent": [
+      "Bolivar",
+      "Botzaris"
+    ]
+  },
+  {
+    "name": "Botzaris",
+    "lines": [
+      "7bis"
+    ],
+    "adjacent": [
+      "Buttes-Chaumont",
+      "Danube",
+      "Place des Fêtes"
+    ]
+  },
+  {
+    "name": "Place des Fêtes",
+    "lines": [
+      "7bis",
+      "11"
+    ],
+    "adjacent": [
+      "Botzaris",
+      "Jourdain",
+      "Pré-Saint-Gervais",
+      "Télégraphe"
+    ]
+  },
+  {
+    "name": "Pré-Saint-Gervais",
+    "lines": [
+      "7bis"
+    ],
+    "adjacent": [
+      "Danube",
+      "Place des Fêtes"
+    ]
+  },
+  {
+    "name": "Danube",
+    "lines": [
+      "7bis"
+    ],
+    "adjacent": [
+      "Botzaris",
+      "Pré-Saint-Gervais"
+    ]
+  },
+  {
+    "name": "Balard",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Lourmel"
+    ]
+  },
+  {
+    "name": "Lourmel",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Balard",
+      "Boucicaut"
+    ]
+  },
+  {
+    "name": "Boucicaut",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Félix Faure",
+      "Lourmel"
+    ]
+  },
+  {
+    "name": "Félix Faure",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Boucicaut",
+      "Commerce"
+    ]
+  },
+  {
+    "name": "Commerce",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Félix Faure",
+      "La Motte-Picquet – Grenelle"
+    ]
+  },
+  {
+    "name": "École Militaire",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "La Motte-Picquet – Grenelle",
+      "La Tour-Maubourg"
+    ]
+  },
+  {
+    "name": "La Tour-Maubourg",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Invalides",
+      "École Militaire"
+    ]
+  },
+  {
+    "name": "Invalides",
+    "lines": [
+      "8",
+      "13"
+    ],
+    "adjacent": [
+      "Champs-Élysées – Clemenceau",
+      "Concorde",
+      "La Tour-Maubourg",
+      "Varenne"
+    ]
+  },
+  {
+    "name": "Madeleine",
+    "lines": [
+      "8",
+      "12",
+      "14"
+    ],
+    "adjacent": [
+      "Concorde",
+      "Opéra",
+      "Pyramides",
+      "Saint-Lazare"
+    ]
+  },
+  {
+    "name": "Richelieu – Drouot",
+    "lines": [
+      "8",
+      "9"
+    ],
+    "adjacent": [
+      "Chaussée d'Antin – La Fayette",
+      "Grands Boulevards",
+      "Opéra"
+    ]
+  },
+  {
+    "name": "Grands Boulevards",
+    "lines": [
+      "8",
+      "9"
+    ],
+    "adjacent": [
+      "Bonne Nouvelle",
+      "Richelieu – Drouot"
+    ]
+  },
+  {
+    "name": "Bonne Nouvelle",
+    "lines": [
+      "8",
+      "9"
+    ],
+    "adjacent": [
+      "Grands Boulevards",
+      "Strasbourg – Saint-Denis"
+    ]
+  },
+  {
+    "name": "Filles du Calvaire",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "République",
+      "Saint-Sébastien – Froissart"
+    ]
+  },
+  {
+    "name": "Saint-Sébastien – Froissart",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Chemin Vert",
+      "Filles du Calvaire"
+    ]
+  },
+  {
+    "name": "Chemin Vert",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Bastille",
+      "Saint-Sébastien – Froissart"
+    ]
+  },
+  {
+    "name": "Ledru-Rollin",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Bastille",
+      "Faidherbe – Chaligny"
+    ]
+  },
+  {
+    "name": "Faidherbe – Chaligny",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Ledru-Rollin",
+      "Reuilly – Diderot"
+    ]
+  },
+  {
+    "name": "Montgallet",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Daumesnil",
+      "Reuilly – Diderot"
+    ]
+  },
+  {
+    "name": "Michel Bizot",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Daumesnil",
+      "Porte Dorée"
+    ]
+  },
+  {
+    "name": "Porte Dorée",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Michel Bizot",
+      "Porte de Charenton"
+    ]
+  },
+  {
+    "name": "Porte de Charenton",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Liberté",
+      "Porte Dorée"
+    ]
+  },
+  {
+    "name": "Liberté",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Charenton – Écoles",
+      "Porte de Charenton"
+    ]
+  },
+  {
+    "name": "Charenton – Écoles",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Liberté",
+      "École Vétérinaire de Maisons-Alfort"
+    ]
+  },
+  {
+    "name": "École Vétérinaire de Maisons-Alfort",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Charenton – Écoles",
+      "Maisons-Alfort – Stade"
+    ]
+  },
+  {
+    "name": "Maisons-Alfort – Stade",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Maisons-Alfort – Les Juilliottes",
+      "École Vétérinaire de Maisons-Alfort"
+    ]
+  },
+  {
+    "name": "Maisons-Alfort – Les Juilliottes",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Créteil – L'Échat",
+      "Maisons-Alfort – Stade"
+    ]
+  },
+  {
+    "name": "Créteil – L'Échat",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Créteil – Université",
+      "Maisons-Alfort – Les Juilliottes"
+    ]
+  },
+  {
+    "name": "Créteil – Université",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Créteil – L'Échat",
+      "Créteil – Préfecture"
+    ]
+  },
+  {
+    "name": "Créteil – Préfecture",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Créteil – Université",
+      "Pointe du Lac"
+    ]
+  },
+  {
+    "name": "Pointe du Lac",
+    "lines": [
+      "8"
+    ],
+    "adjacent": [
+      "Créteil – Préfecture"
+    ]
+  },
+  {
+    "name": "Pont de Sèvres",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Billancourt"
+    ]
+  },
+  {
+    "name": "Billancourt",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Marcel Sembat",
+      "Pont de Sèvres"
+    ]
+  },
+  {
+    "name": "Marcel Sembat",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Billancourt",
+      "Porte de Saint-Cloud"
+    ]
+  },
+  {
+    "name": "Porte de Saint-Cloud",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Exelmans",
+      "Marcel Sembat"
+    ]
+  },
+  {
+    "name": "Exelmans",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Michel-Ange – Molitor",
+      "Porte de Saint-Cloud"
+    ]
+  },
+  {
+    "name": "Michel-Ange – Molitor",
+    "lines": [
+      "9",
+      "10"
+    ],
+    "adjacent": [
+      "Boulogne – Jean Jaurès",
+      "Chardon-Lagache",
+      "Exelmans",
+      "Michel-Ange – Auteuil"
+    ]
+  },
+  {
+    "name": "Michel-Ange – Auteuil",
+    "lines": [
+      "9",
+      "10"
+    ],
+    "adjacent": [
+      "Jasmin",
+      "Michel-Ange – Molitor",
+      "Porte d'Auteuil",
+      "Église d'Auteuil"
+    ]
+  },
+  {
+    "name": "Jasmin",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Michel-Ange – Auteuil",
+      "Ranelagh"
+    ]
+  },
+  {
+    "name": "Ranelagh",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Jasmin",
+      "La Muette"
+    ]
+  },
+  {
+    "name": "La Muette",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Ranelagh",
+      "Rue de la Pompe"
+    ]
+  },
+  {
+    "name": "Rue de la Pompe",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "La Muette",
+      "Trocadéro"
+    ]
+  },
+  {
+    "name": "Iéna",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Alma – Marceau",
+      "Trocadéro"
+    ]
+  },
+  {
+    "name": "Alma – Marceau",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Franklin D. Roosevelt",
+      "Iéna"
+    ]
+  },
+  {
+    "name": "Saint-Philippe-du-Roule",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Franklin D. Roosevelt",
+      "Miromesnil"
+    ]
+  },
+  {
+    "name": "Miromesnil",
+    "lines": [
+      "9",
+      "13"
+    ],
+    "adjacent": [
+      "Champs-Élysées – Clemenceau",
+      "Saint-Augustin",
+      "Saint-Lazare",
+      "Saint-Philippe-du-Roule"
+    ]
+  },
+  {
+    "name": "Saint-Augustin",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Havre – Caumartin",
+      "Miromesnil"
+    ]
+  },
+  {
+    "name": "Saint-Ambroise",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Oberkampf",
+      "Voltaire"
+    ]
+  },
+  {
+    "name": "Voltaire",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Charonne",
+      "Saint-Ambroise"
+    ]
+  },
+  {
+    "name": "Charonne",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Rue des Boulets",
+      "Voltaire"
+    ]
+  },
+  {
+    "name": "Rue des Boulets",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Charonne",
+      "Nation"
+    ]
+  },
+  {
+    "name": "Buzenval",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Maraîchers",
+      "Nation"
+    ]
+  },
+  {
+    "name": "Maraîchers",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Buzenval",
+      "Porte de Montreuil"
+    ]
+  },
+  {
+    "name": "Porte de Montreuil",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Maraîchers",
+      "Robespierre"
+    ]
+  },
+  {
+    "name": "Robespierre",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Croix de Chavaux",
+      "Porte de Montreuil"
+    ]
+  },
+  {
+    "name": "Croix de Chavaux",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Mairie de Montreuil",
+      "Robespierre"
+    ]
+  },
+  {
+    "name": "Mairie de Montreuil",
+    "lines": [
+      "9"
+    ],
+    "adjacent": [
+      "Croix de Chavaux"
+    ]
+  },
+  {
+    "name": "Boulogne – Pont de Saint-Cloud",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Boulogne – Jean Jaurès"
+    ]
+  },
+  {
+    "name": "Boulogne – Jean Jaurès",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Boulogne – Pont de Saint-Cloud",
+      "Michel-Ange – Molitor"
+    ]
+  },
+  {
+    "name": "Chardon-Lagache",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Michel-Ange – Molitor",
+      "Mirabeau"
+    ]
+  },
+  {
+    "name": "Mirabeau",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Chardon-Lagache",
+      "Javel – André Citroën"
+    ]
+  },
+  {
+    "name": "Javel – André Citroën",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Charles Michels",
+      "Église d'Auteuil"
+    ]
+  },
+  {
+    "name": "Porte d'Auteuil",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Boulogne – Jean Jaurès",
+      "Michel-Ange – Auteuil"
+    ]
+  },
+  {
+    "name": "Église d'Auteuil",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Javel – André Citroën",
+      "Michel-Ange – Auteuil"
+    ]
+  },
+  {
+    "name": "Charles Michels",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Avenue Émile Zola",
+      "Javel – André Citroën"
+    ]
+  },
+  {
+    "name": "Avenue Émile Zola",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Charles Michels",
+      "La Motte-Picquet – Grenelle"
+    ]
+  },
+  {
+    "name": "Ségur",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Duroc",
+      "La Motte-Picquet – Grenelle"
+    ]
+  },
+  {
+    "name": "Duroc",
+    "lines": [
+      "10",
+      "13"
+    ],
+    "adjacent": [
+      "Montparnasse – Bienvenüe",
+      "Saint-François-Xavier",
+      "Ségur",
+      "Vaneau"
+    ]
+  },
+  {
+    "name": "Vaneau",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Duroc",
+      "Sèvres – Babylone"
+    ]
+  },
+  {
+    "name": "Sèvres – Babylone",
+    "lines": [
+      "10",
+      "12"
+    ],
+    "adjacent": [
+      "Mabillon",
+      "Rennes",
+      "Rue du Bac",
+      "Vaneau"
+    ]
+  },
+  {
+    "name": "Mabillon",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Odéon",
+      "Sèvres – Babylone"
+    ]
+  },
+  {
+    "name": "Cluny – La Sorbonne",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Maubert-Mutualité",
+      "Odéon"
+    ]
+  },
+  {
+    "name": "Maubert-Mutualité",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Cardinal Lemoine",
+      "Cluny – La Sorbonne"
+    ]
+  },
+  {
+    "name": "Cardinal Lemoine",
+    "lines": [
+      "10"
+    ],
+    "adjacent": [
+      "Jussieu",
+      "Maubert-Mutualité"
+    ]
+  },
+  {
+    "name": "Rambuteau",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Arts et Métiers",
+      "Hôtel de Ville"
+    ]
+  },
+  {
+    "name": "Goncourt",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Belleville",
+      "République"
+    ]
+  },
+  {
+    "name": "Pyrénées",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Belleville",
+      "Jourdain"
+    ]
+  },
+  {
+    "name": "Jourdain",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Place des Fêtes",
+      "Pyrénées"
+    ]
+  },
+  {
+    "name": "Télégraphe",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Place des Fêtes",
+      "Porte des Lilas"
+    ]
+  },
+  {
+    "name": "Mairie des Lilas",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Porte des Lilas",
+      "Serge Gainsbourg"
+    ]
+  },
+  {
+    "name": "Serge Gainsbourg",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Mairie des Lilas",
+      "Romainville – Carnot"
+    ]
+  },
+  {
+    "name": "Romainville – Carnot",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Montreuil – Hôpital",
+      "Serge Gainsbourg"
+    ]
+  },
+  {
+    "name": "Montreuil – Hôpital",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "La Dhuys",
+      "Romainville – Carnot"
+    ]
+  },
+  {
+    "name": "La Dhuys",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Coteaux Beauclair",
+      "Montreuil – Hôpital"
+    ]
+  },
+  {
+    "name": "Coteaux Beauclair",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "La Dhuys",
+      "Rosny – Bois-Perrier"
+    ]
+  },
+  {
+    "name": "Rosny – Bois-Perrier",
+    "lines": [
+      "11"
+    ],
+    "adjacent": [
+      "Coteaux Beauclair"
+    ]
+  },
+  {
+    "name": "Mairie d'Aubervilliers",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Aimé Césaire"
+    ]
+  },
+  {
+    "name": "Aimé Césaire",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Front Populaire",
+      "Mairie d'Aubervilliers"
+    ]
+  },
+  {
+    "name": "Front Populaire",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Aimé Césaire",
+      "Porte de la Chapelle"
+    ]
+  },
+  {
+    "name": "Porte de la Chapelle",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Front Populaire",
+      "Marx Dormoy"
+    ]
+  },
+  {
+    "name": "Marx Dormoy",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Marcadet – Poissonniers",
+      "Porte de la Chapelle"
+    ]
+  },
+  {
+    "name": "Jules Joffrin",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Lamarck – Caulaincourt",
+      "Marcadet – Poissonniers"
+    ]
+  },
+  {
+    "name": "Lamarck – Caulaincourt",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Abbesses",
+      "Jules Joffrin"
+    ]
+  },
+  {
+    "name": "Abbesses",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Lamarck – Caulaincourt",
+      "Pigalle"
+    ]
+  },
+  {
+    "name": "Saint-Georges",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Notre-Dame-de-Lorette",
+      "Pigalle"
+    ]
+  },
+  {
+    "name": "Notre-Dame-de-Lorette",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Saint-Georges",
+      "Trinité – d'Estienne d'Orves"
+    ]
+  },
+  {
+    "name": "Trinité – d'Estienne d'Orves",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Notre-Dame-de-Lorette",
+      "Saint-Lazare"
+    ]
+  },
+  {
+    "name": "Assemblée Nationale",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Concorde",
+      "Solférino"
+    ]
+  },
+  {
+    "name": "Solférino",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Assemblée Nationale",
+      "Rue du Bac"
+    ]
+  },
+  {
+    "name": "Rue du Bac",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Solférino",
+      "Sèvres – Babylone"
+    ]
+  },
+  {
+    "name": "Rennes",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Notre-Dame-des-Champs",
+      "Sèvres – Babylone"
+    ]
+  },
+  {
+    "name": "Notre-Dame-des-Champs",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Montparnasse – Bienvenüe",
+      "Rennes"
+    ]
+  },
+  {
+    "name": "Falguière",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Montparnasse – Bienvenüe",
+      "Pasteur"
+    ]
+  },
+  {
+    "name": "Volontaires",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Pasteur",
+      "Vaugirard"
+    ]
+  },
+  {
+    "name": "Vaugirard",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Convention",
+      "Volontaires"
+    ]
+  },
+  {
+    "name": "Convention",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Porte de Versailles",
+      "Vaugirard"
+    ]
+  },
+  {
+    "name": "Porte de Versailles",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Convention",
+      "Corentin Celton"
+    ]
+  },
+  {
+    "name": "Corentin Celton",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Mairie d'Issy",
+      "Porte de Versailles"
+    ]
+  },
+  {
+    "name": "Mairie d'Issy",
+    "lines": [
+      "12"
+    ],
+    "adjacent": [
+      "Corentin Celton"
+    ]
+  },
+  {
+    "name": "Les Courtilles",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Les Agnettes"
+    ]
+  },
+  {
+    "name": "Les Agnettes",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Gabriel Péri",
+      "Les Courtilles"
+    ]
+  },
+  {
+    "name": "Gabriel Péri",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Les Agnettes",
+      "Mairie de Clichy"
+    ]
+  },
+  {
+    "name": "Mairie de Clichy",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Gabriel Péri",
+      "Porte de Clichy"
+    ]
+  },
+  {
+    "name": "Porte de Clichy",
+    "lines": [
+      "13",
+      "14"
+    ],
+    "adjacent": [
+      "Brochant",
+      "Mairie de Clichy",
+      "Pont Cardinet",
+      "Saint-Ouen"
+    ]
+  },
+  {
+    "name": "Brochant",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "La Fourche",
+      "Porte de Clichy"
+    ]
+  },
+  {
+    "name": "La Fourche",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Brochant",
+      "Guy Môquet",
+      "Place de Clichy"
+    ]
+  },
+  {
+    "name": "Saint-Denis – Université",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Basilique de Saint-Denis"
+    ]
+  },
+  {
+    "name": "Basilique de Saint-Denis",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Saint-Denis – Porte de Paris",
+      "Saint-Denis – Université"
+    ]
+  },
+  {
+    "name": "Saint-Denis – Porte de Paris",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Basilique de Saint-Denis",
+      "Carrefour Pleyel"
+    ]
+  },
+  {
+    "name": "Carrefour Pleyel",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Mairie de Saint-Ouen",
+      "Saint-Denis – Porte de Paris"
+    ]
+  },
+  {
+    "name": "Mairie de Saint-Ouen",
+    "lines": [
+      "13",
+      "14"
+    ],
+    "adjacent": [
+      "Carrefour Pleyel",
+      "Garibaldi",
+      "Saint-Denis – Pleyel",
+      "Saint-Ouen"
+    ]
+  },
+  {
+    "name": "Garibaldi",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Mairie de Saint-Ouen",
+      "Porte de Saint-Ouen"
+    ]
+  },
+  {
+    "name": "Porte de Saint-Ouen",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Garibaldi",
+      "Guy Môquet"
+    ]
+  },
+  {
+    "name": "Guy Môquet",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "La Fourche",
+      "Porte de Saint-Ouen"
+    ]
+  },
+  {
+    "name": "Liège",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Place de Clichy",
+      "Saint-Lazare"
+    ]
+  },
+  {
+    "name": "Varenne",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Invalides",
+      "Saint-François-Xavier"
+    ]
+  },
+  {
+    "name": "Saint-François-Xavier",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Duroc",
+      "Varenne"
+    ]
+  },
+  {
+    "name": "Gaîté",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Montparnasse – Bienvenüe",
+      "Pernety"
+    ]
+  },
+  {
+    "name": "Pernety",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Gaîté",
+      "Plaisance"
+    ]
+  },
+  {
+    "name": "Plaisance",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Pernety",
+      "Porte de Vanves"
+    ]
+  },
+  {
+    "name": "Porte de Vanves",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Malakoff – Plateau de Vanves",
+      "Plaisance"
+    ]
+  },
+  {
+    "name": "Malakoff – Plateau de Vanves",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Malakoff – Rue Étienne Dolet",
+      "Porte de Vanves"
+    ]
+  },
+  {
+    "name": "Malakoff – Rue Étienne Dolet",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Châtillon – Montrouge",
+      "Malakoff – Plateau de Vanves"
+    ]
+  },
+  {
+    "name": "Châtillon – Montrouge",
+    "lines": [
+      "13"
+    ],
+    "adjacent": [
+      "Malakoff – Rue Étienne Dolet"
+    ]
+  },
+  {
+    "name": "Saint-Denis – Pleyel",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Mairie de Saint-Ouen"
+    ]
+  },
+  {
+    "name": "Saint-Ouen",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Mairie de Saint-Ouen",
+      "Porte de Clichy"
+    ]
+  },
+  {
+    "name": "Pont Cardinet",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Porte de Clichy",
+      "Saint-Lazare"
+    ]
+  },
+  {
+    "name": "Cour Saint-Émilion",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Bercy",
+      "Bibliothèque François Mitterrand"
+    ]
+  },
+  {
+    "name": "Bibliothèque François Mitterrand",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Cour Saint-Émilion",
+      "Olympiades"
+    ]
+  },
+  {
+    "name": "Olympiades",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Bibliothèque François Mitterrand",
+      "Maison Blanche"
+    ]
+  },
+  {
+    "name": "Hôpital Bicêtre",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Maison Blanche",
+      "Villejuif – Gustave Roussy"
+    ]
+  },
+  {
+    "name": "Villejuif – Gustave Roussy",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Hôpital Bicêtre",
+      "L'Haÿ-les-Roses"
+    ]
+  },
+  {
+    "name": "L'Haÿ-les-Roses",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Chevilly-Larue",
+      "Villejuif – Gustave Roussy"
+    ]
+  },
+  {
+    "name": "Chevilly-Larue",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "L'Haÿ-les-Roses",
+      "Thiais – Orly"
+    ]
+  },
+  {
+    "name": "Thiais – Orly",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Aéroport d'Orly",
+      "Chevilly-Larue"
+    ]
+  },
+  {
+    "name": "Aéroport d'Orly",
+    "lines": [
+      "14"
+    ],
+    "adjacent": [
+      "Thiais – Orly"
+    ]
+  }
+]

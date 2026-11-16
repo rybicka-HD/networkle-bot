@@ -1,0 +1,2392 @@
+[
+  {
+    "name": "Flinders Street/Town Hall",
+    "lines": [
+      "Alamein",
+      "Belgrave",
+      "Glen Waverley",
+      "Lilydale",
+      "Frankston",
+      "Sandringham",
+      "Werribee",
+      "Williamstown",
+      "Craigieburn",
+      "Upfield",
+      "Hurstbridge",
+      "Mernda",
+      "Flemington Racecourse",
+      "Sunbury",
+      "Pakenham",
+      "Cranbourne"
+    ],
+    "adjacent": [
+      "Richmond",
+      "Southern Cross",
+      "Jolimont",
+      "Melbourne Central/State Library",
+      "Parliament",
+      "Anzac"
+    ]
+  },
+  {
+    "name": "Southern Cross",
+    "lines": [
+      "Alamein",
+      "Belgrave",
+      "Glen Waverley",
+      "Lilydale",
+      "Frankston",
+      "Werribee",
+      "Williamstown",
+      "Craigieburn",
+      "Upfield",
+      "Hurstbridge",
+      "Mernda",
+      "Flemington Racecourse"
+    ],
+    "adjacent": [
+      "Flinders Street/Town Hall",
+      "North Melbourne",
+      "Flagstaff"
+    ]
+  },
+  {
+    "name": "Flagstaff",
+    "lines": [
+      "Alamein",
+      "Belgrave",
+      "Glen Waverley",
+      "Lilydale",
+      "Craigieburn",
+      "Frankston",
+      "Hurstbridge",
+      "Mernda",
+      "Upfield"
+    ],
+    "adjacent": [
+      "Melbourne Central/State Library",
+      "Southern Cross",
+      "North Melbourne"
+    ]
+  },
+  {
+    "name": "Melbourne Central/State Library",
+    "lines": [
+      "Alamein",
+      "Belgrave",
+      "Glen Waverley",
+      "Lilydale",
+      "Craigieburn",
+      "Upfield",
+      "Frankston",
+      "Hurstbridge",
+      "Mernda",
+      "Pakenham",
+      "Cranbourne",
+      "Sunbury"
+    ],
+    "adjacent": [
+      "Flagstaff",
+      "Parliament",
+      "Parkville",
+      "Flinders Street/Town Hall"
+    ]
+  },
+  {
+    "name": "Parliament",
+    "lines": [
+      "Alamein",
+      "Belgrave",
+      "Glen Waverley",
+      "Lilydale",
+      "Craigieburn",
+      "Upfield",
+      "Frankston",
+      "Hurstbridge",
+      "Mernda"
+    ],
+    "adjacent": [
+      "Melbourne Central/State Library",
+      "Jolimont",
+      "Richmond",
+      "Flinders Street/Town Hall"
+    ]
+  },
+  {
+    "name": "Jolimont",
+    "lines": [
+      "Hurstbridge",
+      "Mernda"
+    ],
+    "adjacent": [
+      "Parliament",
+      "West Richmond",
+      "Flinders Street/Town Hall"
+    ]
+  },
+  {
+    "name": "West Richmond",
+    "lines": [
+      "Hurstbridge",
+      "Mernda"
+    ],
+    "adjacent": [
+      "Jolimont",
+      "North Richmond"
+    ]
+  },
+  {
+    "name": "North Richmond",
+    "lines": [
+      "Hurstbridge",
+      "Mernda"
+    ],
+    "adjacent": [
+      "West Richmond",
+      "Collingwood"
+    ]
+  },
+  {
+    "name": "Collingwood",
+    "lines": [
+      "Hurstbridge",
+      "Mernda"
+    ],
+    "adjacent": [
+      "North Richmond",
+      "Victoria Park"
+    ]
+  },
+  {
+    "name": "Victoria Park",
+    "lines": [
+      "Hurstbridge",
+      "Mernda"
+    ],
+    "adjacent": [
+      "Collingwood",
+      "Clifton Hill"
+    ]
+  },
+  {
+    "name": "Clifton Hill",
+    "lines": [
+      "Hurstbridge",
+      "Mernda"
+    ],
+    "adjacent": [
+      "Victoria Park",
+      "Westgarth",
+      "Rushall"
+    ]
+  },
+  {
+    "name": "Westgarth",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Clifton Hill",
+      "Dennis"
+    ]
+  },
+  {
+    "name": "Dennis",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Westgarth",
+      "Fairfield"
+    ]
+  },
+  {
+    "name": "Fairfield",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Dennis",
+      "Alphington"
+    ]
+  },
+  {
+    "name": "Alphington",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Fairfield",
+      "Darebin"
+    ]
+  },
+  {
+    "name": "Darebin",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Alphington",
+      "Ivanhoe"
+    ]
+  },
+  {
+    "name": "Ivanhoe",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Darebin",
+      "Eaglemont"
+    ]
+  },
+  {
+    "name": "Eaglemont",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Ivanhoe",
+      "Heidelberg"
+    ]
+  },
+  {
+    "name": "Heidelberg",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Eaglemont",
+      "Rosanna"
+    ]
+  },
+  {
+    "name": "Rosanna",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Heidelberg",
+      "Macleod"
+    ]
+  },
+  {
+    "name": "Macleod",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Rosanna",
+      "Watsonia"
+    ]
+  },
+  {
+    "name": "Watsonia",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Macleod",
+      "Greensborough"
+    ]
+  },
+  {
+    "name": "Greensborough",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Watsonia",
+      "Montmorency"
+    ]
+  },
+  {
+    "name": "Montmorency",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Greensborough",
+      "Eltham"
+    ]
+  },
+  {
+    "name": "Eltham",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Montmorency",
+      "Diamond Creek"
+    ]
+  },
+  {
+    "name": "Diamond Creek",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Eltham",
+      "Wattle Glen"
+    ]
+  },
+  {
+    "name": "Wattle Glen",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Diamond Creek",
+      "Hurstbridge"
+    ]
+  },
+  {
+    "name": "Hurstbridge",
+    "lines": [
+      "Hurstbridge"
+    ],
+    "adjacent": [
+      "Wattle Glen"
+    ]
+  },
+  {
+    "name": "Rushall",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Clifton Hill",
+      "Merri"
+    ]
+  },
+  {
+    "name": "Merri",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Rushall",
+      "Northcote"
+    ]
+  },
+  {
+    "name": "Northcote",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Merri",
+      "Croxton"
+    ]
+  },
+  {
+    "name": "Croxton",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Northcote",
+      "Thornbury"
+    ]
+  },
+  {
+    "name": "Thornbury",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Croxton",
+      "Bell"
+    ]
+  },
+  {
+    "name": "Bell",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Preston",
+      "Thornbury"
+    ]
+  },
+  {
+    "name": "Preston",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Regent",
+      "Bell"
+    ]
+  },
+  {
+    "name": "Regent",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Preston",
+      "Reservoir"
+    ]
+  },
+  {
+    "name": "Reservoir",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Regent",
+      "Ruthven"
+    ]
+  },
+  {
+    "name": "Ruthven",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Reservoir",
+      "Keon Park"
+    ]
+  },
+  {
+    "name": "Keon Park",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Ruthven",
+      "Thomastown"
+    ]
+  },
+  {
+    "name": "Thomastown",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Keon Park",
+      "Lalor"
+    ]
+  },
+  {
+    "name": "Lalor",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Thomastown",
+      "Epping"
+    ]
+  },
+  {
+    "name": "Epping",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Lalor",
+      "South Morang"
+    ]
+  },
+  {
+    "name": "South Morang",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Epping",
+      "Middle Gorge"
+    ]
+  },
+  {
+    "name": "Middle Gorge",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "South Morang",
+      "Hawkstowe"
+    ]
+  },
+  {
+    "name": "Hawkstowe",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Middle Gorge",
+      "Mernda"
+    ]
+  },
+  {
+    "name": "Mernda",
+    "lines": [
+      "Mernda"
+    ],
+    "adjacent": [
+      "Hawkstowe"
+    ]
+  },
+  {
+    "name": "Richmond",
+    "lines": [
+      "Alamein",
+      "Belgrave",
+      "Glen Waverley",
+      "Lilydale",
+      "Frankston",
+      "Sandringham"
+    ],
+    "adjacent": [
+      "Flinders Street/Town Hall",
+      "East Richmond",
+      "South Yarra",
+      "Parliament"
+    ]
+  },
+  {
+    "name": "East Richmond",
+    "lines": [
+      "Alamein",
+      "Belgrave",
+      "Glen Waverley",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Richmond",
+      "Burnley"
+    ]
+  },
+  {
+    "name": "Burnley",
+    "lines": [
+      "Alamein",
+      "Belgrave",
+      "Glen Waverley",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "East Richmond",
+      "Hawthorn",
+      "Heyington"
+    ]
+  },
+  {
+    "name": "Hawthorn",
+    "lines": [
+      "Alamein",
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Burnley",
+      "Glenferrie"
+    ]
+  },
+  {
+    "name": "Glenferrie",
+    "lines": [
+      "Alamein",
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Hawthorn",
+      "Auburn"
+    ]
+  },
+  {
+    "name": "Auburn",
+    "lines": [
+      "Alamein",
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Glenferrie",
+      "Camberwell"
+    ]
+  },
+  {
+    "name": "Camberwell",
+    "lines": [
+      "Alamein",
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Auburn",
+      "East Camberwell",
+      "Riversdale"
+    ]
+  },
+  {
+    "name": "East Camberwell",
+    "lines": [
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Camberwell",
+      "Canterbury"
+    ]
+  },
+  {
+    "name": "Canterbury",
+    "lines": [
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "East Camberwell",
+      "Chatham"
+    ]
+  },
+  {
+    "name": "Chatham",
+    "lines": [
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Canterbury",
+      "Union"
+    ]
+  },
+  {
+    "name": "Union",
+    "lines": [
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Chatham",
+      "Box Hill"
+    ]
+  },
+  {
+    "name": "Box Hill",
+    "lines": [
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Union",
+      "Laburnum"
+    ]
+  },
+  {
+    "name": "Laburnum",
+    "lines": [
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Box Hill",
+      "Blackburn"
+    ]
+  },
+  {
+    "name": "Blackburn",
+    "lines": [
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Laburnum",
+      "Nunawading"
+    ]
+  },
+  {
+    "name": "Nunawading",
+    "lines": [
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Blackburn",
+      "Mitcham"
+    ]
+  },
+  {
+    "name": "Mitcham",
+    "lines": [
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Nunawading",
+      "Heatherdale"
+    ]
+  },
+  {
+    "name": "Heatherdale",
+    "lines": [
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Mitcham",
+      "Ringwood"
+    ]
+  },
+  {
+    "name": "Ringwood",
+    "lines": [
+      "Belgrave",
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Heatherdale",
+      "Ringwood East",
+      "Heathmont"
+    ]
+  },
+  {
+    "name": "Ringwood East",
+    "lines": [
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Ringwood",
+      "Croydon"
+    ]
+  },
+  {
+    "name": "Croydon",
+    "lines": [
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Ringwood East",
+      "Mooroolbark"
+    ]
+  },
+  {
+    "name": "Mooroolbark",
+    "lines": [
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Croydon",
+      "Lilydale"
+    ]
+  },
+  {
+    "name": "Lilydale",
+    "lines": [
+      "Lilydale"
+    ],
+    "adjacent": [
+      "Mooroolbark"
+    ]
+  },
+  {
+    "name": "Heathmont",
+    "lines": [
+      "Belgrave"
+    ],
+    "adjacent": [
+      "Ringwood",
+      "Bayswater"
+    ]
+  },
+  {
+    "name": "Bayswater",
+    "lines": [
+      "Belgrave"
+    ],
+    "adjacent": [
+      "Heathmont",
+      "Boronia"
+    ]
+  },
+  {
+    "name": "Boronia",
+    "lines": [
+      "Belgrave"
+    ],
+    "adjacent": [
+      "Bayswater",
+      "Ferntree Gully"
+    ]
+  },
+  {
+    "name": "Ferntree Gully",
+    "lines": [
+      "Belgrave"
+    ],
+    "adjacent": [
+      "Boronia",
+      "Upper Ferntree Gully"
+    ]
+  },
+  {
+    "name": "Upper Ferntree Gully",
+    "lines": [
+      "Belgrave"
+    ],
+    "adjacent": [
+      "Ferntree Gully",
+      "Upwey"
+    ]
+  },
+  {
+    "name": "Upwey",
+    "lines": [
+      "Belgrave"
+    ],
+    "adjacent": [
+      "Upper Ferntree Gully",
+      "Tecoma"
+    ]
+  },
+  {
+    "name": "Tecoma",
+    "lines": [
+      "Belgrave"
+    ],
+    "adjacent": [
+      "Upwey",
+      "Belgrave"
+    ]
+  },
+  {
+    "name": "Belgrave",
+    "lines": [
+      "Belgrave"
+    ],
+    "adjacent": [
+      "Tecoma"
+    ]
+  },
+  {
+    "name": "Riversdale",
+    "lines": [
+      "Alamein"
+    ],
+    "adjacent": [
+      "Camberwell",
+      "Willison"
+    ]
+  },
+  {
+    "name": "Willison",
+    "lines": [
+      "Alamein"
+    ],
+    "adjacent": [
+      "Hartwell",
+      "Riversdale"
+    ]
+  },
+  {
+    "name": "Hartwell",
+    "lines": [
+      "Alamein"
+    ],
+    "adjacent": [
+      "Burwood",
+      "Willison"
+    ]
+  },
+  {
+    "name": "Burwood",
+    "lines": [
+      "Alamein"
+    ],
+    "adjacent": [
+      "Hartwell",
+      "Ashburton"
+    ]
+  },
+  {
+    "name": "Ashburton",
+    "lines": [
+      "Alamein"
+    ],
+    "adjacent": [
+      "Burwood",
+      "Alamein"
+    ]
+  },
+  {
+    "name": "Alamein",
+    "lines": [
+      "Alamein"
+    ],
+    "adjacent": [
+      "Ashburton"
+    ]
+  },
+  {
+    "name": "Heyington",
+    "lines": [
+      "Glen Waverley"
+    ],
+    "adjacent": [
+      "Burnley",
+      "Kooyong"
+    ]
+  },
+  {
+    "name": "Kooyong",
+    "lines": [
+      "Glen Waverley"
+    ],
+    "adjacent": [
+      "Heyington",
+      "Tooronga"
+    ]
+  },
+  {
+    "name": "Tooronga",
+    "lines": [
+      "Glen Waverley"
+    ],
+    "adjacent": [
+      "Kooyong",
+      "Gardiner"
+    ]
+  },
+  {
+    "name": "Gardiner",
+    "lines": [
+      "Glen Waverley"
+    ],
+    "adjacent": [
+      "Tooronga",
+      "Glen Iris"
+    ]
+  },
+  {
+    "name": "Glen Iris",
+    "lines": [
+      "Glen Waverley"
+    ],
+    "adjacent": [
+      "Gardiner",
+      "Darling"
+    ]
+  },
+  {
+    "name": "Darling",
+    "lines": [
+      "Glen Waverley"
+    ],
+    "adjacent": [
+      "Glen Iris",
+      "East Malvern"
+    ]
+  },
+  {
+    "name": "East Malvern",
+    "lines": [
+      "Glen Waverley"
+    ],
+    "adjacent": [
+      "Darling",
+      "Holmesglen"
+    ]
+  },
+  {
+    "name": "Holmesglen",
+    "lines": [
+      "Glen Waverley"
+    ],
+    "adjacent": [
+      "East Malvern",
+      "Jordanville"
+    ]
+  },
+  {
+    "name": "Jordanville",
+    "lines": [
+      "Glen Waverley"
+    ],
+    "adjacent": [
+      "Holmesglen",
+      "Mount Waverley"
+    ]
+  },
+  {
+    "name": "Mount Waverley",
+    "lines": [
+      "Glen Waverley"
+    ],
+    "adjacent": [
+      "Jordanville",
+      "Syndal"
+    ]
+  },
+  {
+    "name": "Syndal",
+    "lines": [
+      "Glen Waverley"
+    ],
+    "adjacent": [
+      "Mount Waverley",
+      "Glen Waverley"
+    ]
+  },
+  {
+    "name": "Glen Waverley",
+    "lines": [
+      "Glen Waverley"
+    ],
+    "adjacent": [
+      "Syndal"
+    ]
+  },
+  {
+    "name": "South Yarra",
+    "lines": [
+      "Frankston",
+      "Sandringham"
+    ],
+    "adjacent": [
+      "Richmond",
+      "Hawksburn",
+      "Prahran"
+    ]
+  },
+  {
+    "name": "Hawksburn",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "South Yarra",
+      "Toorak"
+    ]
+  },
+  {
+    "name": "Toorak",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Hawksburn",
+      "Armadale"
+    ]
+  },
+  {
+    "name": "Armadale",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Toorak",
+      "Malvern"
+    ]
+  },
+  {
+    "name": "Malvern",
+    "lines": [
+      "Cranbourne",
+      "Frankston",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Armadale",
+      "Caulfield",
+      "Anzac"
+    ]
+  },
+  {
+    "name": "Caulfield",
+    "lines": [
+      "Cranbourne",
+      "Frankston",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Malvern",
+      "Glen Huntly",
+      "Carnegie"
+    ]
+  },
+  {
+    "name": "Glen Huntly",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Caulfield",
+      "Ormond"
+    ]
+  },
+  {
+    "name": "Ormond",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Glen Huntly",
+      "McKinnon"
+    ]
+  },
+  {
+    "name": "McKinnon",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Ormond",
+      "Bentleigh"
+    ]
+  },
+  {
+    "name": "Bentleigh",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "McKinnon",
+      "Patterson"
+    ]
+  },
+  {
+    "name": "Patterson",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Bentleigh",
+      "Moorabbin"
+    ]
+  },
+  {
+    "name": "Moorabbin",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Patterson",
+      "Highett"
+    ]
+  },
+  {
+    "name": "Highett",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Moorabbin",
+      "Southland"
+    ]
+  },
+  {
+    "name": "Southland",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Highett",
+      "Cheltenham"
+    ]
+  },
+  {
+    "name": "Cheltenham",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Southland",
+      "Mentone"
+    ]
+  },
+  {
+    "name": "Mentone",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Cheltenham",
+      "Parkdale"
+    ]
+  },
+  {
+    "name": "Parkdale",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Mentone",
+      "Mordialloc"
+    ]
+  },
+  {
+    "name": "Mordialloc",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Parkdale",
+      "Aspendale"
+    ]
+  },
+  {
+    "name": "Aspendale",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Mordialloc",
+      "Edithvale"
+    ]
+  },
+  {
+    "name": "Edithvale",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Aspendale",
+      "Chelsea"
+    ]
+  },
+  {
+    "name": "Chelsea",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Edithvale",
+      "Bonbeach"
+    ]
+  },
+  {
+    "name": "Bonbeach",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Chelsea",
+      "Carrum"
+    ]
+  },
+  {
+    "name": "Carrum",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Bonbeach",
+      "Seaford"
+    ]
+  },
+  {
+    "name": "Seaford",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Carrum",
+      "Kananook"
+    ]
+  },
+  {
+    "name": "Kananook",
+    "lines": [
+      "Frankston"
+    ],
+    "adjacent": [
+      "Seaford",
+      "Frankston"
+    ]
+  },
+  {
+    "name": "Frankston",
+    "lines": [
+      "Frankston",
+      "Stony Point"
+    ],
+    "adjacent": [
+      "Kananook",
+      "Leawarra"
+    ]
+  },
+  {
+    "name": "Leawarra",
+    "lines": [
+      "Stony Point"
+    ],
+    "adjacent": [
+      "Frankston",
+      "Baxter"
+    ]
+  },
+  {
+    "name": "Baxter",
+    "lines": [
+      "Stony Point"
+    ],
+    "adjacent": [
+      "Leawarra",
+      "Somerville"
+    ]
+  },
+  {
+    "name": "Somerville",
+    "lines": [
+      "Stony Point"
+    ],
+    "adjacent": [
+      "Baxter",
+      "Tyabb"
+    ]
+  },
+  {
+    "name": "Tyabb",
+    "lines": [
+      "Stony Point"
+    ],
+    "adjacent": [
+      "Somerville",
+      "Hastings"
+    ]
+  },
+  {
+    "name": "Hastings",
+    "lines": [
+      "Stony Point"
+    ],
+    "adjacent": [
+      "Tyabb",
+      "Bittern"
+    ]
+  },
+  {
+    "name": "Bittern",
+    "lines": [
+      "Stony Point"
+    ],
+    "adjacent": [
+      "Hastings",
+      "Morradoo"
+    ]
+  },
+  {
+    "name": "Morradoo",
+    "lines": [
+      "Stony Point"
+    ],
+    "adjacent": [
+      "Bittern",
+      "Crib Point"
+    ]
+  },
+  {
+    "name": "Crib Point",
+    "lines": [
+      "Stony Point"
+    ],
+    "adjacent": [
+      "Morradoo",
+      "Stony Point"
+    ]
+  },
+  {
+    "name": "Stony Point",
+    "lines": [
+      "Stony Point"
+    ],
+    "adjacent": [
+      "Crib Point"
+    ]
+  },
+  {
+    "name": "Prahran",
+    "lines": [
+      "Sandringham"
+    ],
+    "adjacent": [
+      "South Yarra",
+      "Windsor"
+    ]
+  },
+  {
+    "name": "Windsor",
+    "lines": [
+      "Sandringham"
+    ],
+    "adjacent": [
+      "Prahran",
+      "Balaclava"
+    ]
+  },
+  {
+    "name": "Balaclava",
+    "lines": [
+      "Sandringham"
+    ],
+    "adjacent": [
+      "Windsor",
+      "Ripponlea"
+    ]
+  },
+  {
+    "name": "Ripponlea",
+    "lines": [
+      "Sandringham"
+    ],
+    "adjacent": [
+      "Balaclava",
+      "Elsternwick"
+    ]
+  },
+  {
+    "name": "Elsternwick",
+    "lines": [
+      "Sandringham"
+    ],
+    "adjacent": [
+      "Ripponlea",
+      "Gardenvale"
+    ]
+  },
+  {
+    "name": "Gardenvale",
+    "lines": [
+      "Sandringham"
+    ],
+    "adjacent": [
+      "Elsternwick",
+      "North Brighton"
+    ]
+  },
+  {
+    "name": "North Brighton",
+    "lines": [
+      "Sandringham"
+    ],
+    "adjacent": [
+      "Gardenvale",
+      "Middle Brighton"
+    ]
+  },
+  {
+    "name": "Middle Brighton",
+    "lines": [
+      "Sandringham"
+    ],
+    "adjacent": [
+      "North Brighton",
+      "Brighton Beach"
+    ]
+  },
+  {
+    "name": "Brighton Beach",
+    "lines": [
+      "Sandringham"
+    ],
+    "adjacent": [
+      "Middle Brighton",
+      "Hampton"
+    ]
+  },
+  {
+    "name": "Hampton",
+    "lines": [
+      "Sandringham"
+    ],
+    "adjacent": [
+      "Brighton Beach",
+      "Sandringham"
+    ]
+  },
+  {
+    "name": "Sandringham",
+    "lines": [
+      "Sandringham"
+    ],
+    "adjacent": [
+      "Hampton"
+    ]
+  },
+  {
+    "name": "Carnegie",
+    "lines": [
+      "Cranbourne",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Caulfield",
+      "Murrumbeena"
+    ]
+  },
+  {
+    "name": "Murrumbeena",
+    "lines": [
+      "Cranbourne",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Carnegie",
+      "Hughesdale"
+    ]
+  },
+  {
+    "name": "Hughesdale",
+    "lines": [
+      "Cranbourne",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Murrumbeena",
+      "Oakleigh"
+    ]
+  },
+  {
+    "name": "Oakleigh",
+    "lines": [
+      "Cranbourne",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Hughesdale",
+      "Huntingdale"
+    ]
+  },
+  {
+    "name": "Huntingdale",
+    "lines": [
+      "Cranbourne",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Oakleigh",
+      "Clayton"
+    ]
+  },
+  {
+    "name": "Clayton",
+    "lines": [
+      "Cranbourne",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Huntingdale",
+      "Westall"
+    ]
+  },
+  {
+    "name": "Westall",
+    "lines": [
+      "Cranbourne",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Clayton",
+      "Springvale"
+    ]
+  },
+  {
+    "name": "Springvale",
+    "lines": [
+      "Cranbourne",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Westall",
+      "Sandown Park"
+    ]
+  },
+  {
+    "name": "Sandown Park",
+    "lines": [
+      "Cranbourne",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Springvale",
+      "Noble Park"
+    ]
+  },
+  {
+    "name": "Noble Park",
+    "lines": [
+      "Cranbourne",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Sandown Park",
+      "Yarraman"
+    ]
+  },
+  {
+    "name": "Yarraman",
+    "lines": [
+      "Cranbourne",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Noble Park",
+      "Dandenong"
+    ]
+  },
+  {
+    "name": "Dandenong",
+    "lines": [
+      "Cranbourne",
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Yarraman",
+      "Hallam",
+      "Lynbrook"
+    ]
+  },
+  {
+    "name": "Hallam",
+    "lines": [
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Dandenong",
+      "Narre Warren"
+    ]
+  },
+  {
+    "name": "Narre Warren",
+    "lines": [
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Hallam",
+      "Berwick"
+    ]
+  },
+  {
+    "name": "Berwick",
+    "lines": [
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Narre Warren",
+      "Beaconsfield"
+    ]
+  },
+  {
+    "name": "Beaconsfield",
+    "lines": [
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Berwick",
+      "Officer"
+    ]
+  },
+  {
+    "name": "Officer",
+    "lines": [
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Beaconsfield",
+      "Cardinia Road"
+    ]
+  },
+  {
+    "name": "Cardinia Road",
+    "lines": [
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Officer",
+      "Pakenham"
+    ]
+  },
+  {
+    "name": "Pakenham",
+    "lines": [
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Cardinia Road",
+      "East Pakenham"
+    ]
+  },
+  {
+    "name": "East Pakenham",
+    "lines": [
+      "Pakenham"
+    ],
+    "adjacent": [
+      "Pakenham"
+    ]
+  },
+  {
+    "name": "Lynbrook",
+    "lines": [
+      "Cranbourne"
+    ],
+    "adjacent": [
+      "Dandenong",
+      "Merinda Park"
+    ]
+  },
+  {
+    "name": "Merinda Park",
+    "lines": [
+      "Cranbourne"
+    ],
+    "adjacent": [
+      "Lynbrook",
+      "Cranbourne"
+    ]
+  },
+  {
+    "name": "Cranbourne",
+    "lines": [
+      "Cranbourne"
+    ],
+    "adjacent": [
+      "Merinda Park"
+    ]
+  },
+  {
+    "name": "North Melbourne",
+    "lines": [
+      "Craigieburn",
+      "Upfield",
+      "Werribee",
+      "Williamstown",
+      "Flemington Racecourse"
+    ],
+    "adjacent": [
+      "Southern Cross",
+      "Kensington",
+      "Macaulay",
+      "South Kensington",
+      "Flagstaff"
+    ]
+  },
+  {
+    "name": "Kensington",
+    "lines": [
+      "Craigieburn",
+      "Flemington Racecourse"
+    ],
+    "adjacent": [
+      "North Melbourne",
+      "Newmarket"
+    ]
+  },
+  {
+    "name": "Newmarket",
+    "lines": [
+      "Craigieburn",
+      "Flemington Racecourse"
+    ],
+    "adjacent": [
+      "Kensington",
+      "Ascot Vale",
+      "Showgrounds"
+    ]
+  },
+  {
+    "name": "Ascot Vale",
+    "lines": [
+      "Craigieburn"
+    ],
+    "adjacent": [
+      "Newmarket",
+      "Moonee Ponds"
+    ]
+  },
+  {
+    "name": "Moonee Ponds",
+    "lines": [
+      "Craigieburn"
+    ],
+    "adjacent": [
+      "Ascot Vale",
+      "Essendon"
+    ]
+  },
+  {
+    "name": "Essendon",
+    "lines": [
+      "Craigieburn"
+    ],
+    "adjacent": [
+      "Moonee Ponds",
+      "Glenbervie"
+    ]
+  },
+  {
+    "name": "Glenbervie",
+    "lines": [
+      "Craigieburn"
+    ],
+    "adjacent": [
+      "Essendon",
+      "Strathmore"
+    ]
+  },
+  {
+    "name": "Strathmore",
+    "lines": [
+      "Craigieburn"
+    ],
+    "adjacent": [
+      "Glenbervie",
+      "Pascoe Vale"
+    ]
+  },
+  {
+    "name": "Pascoe Vale",
+    "lines": [
+      "Craigieburn"
+    ],
+    "adjacent": [
+      "Strathmore",
+      "Oak Park"
+    ]
+  },
+  {
+    "name": "Oak Park",
+    "lines": [
+      "Craigieburn"
+    ],
+    "adjacent": [
+      "Pascoe Vale",
+      "Glenroy"
+    ]
+  },
+  {
+    "name": "Glenroy",
+    "lines": [
+      "Craigieburn"
+    ],
+    "adjacent": [
+      "Oak Park",
+      "Jacana"
+    ]
+  },
+  {
+    "name": "Jacana",
+    "lines": [
+      "Craigieburn"
+    ],
+    "adjacent": [
+      "Glenroy",
+      "Broadmeadows"
+    ]
+  },
+  {
+    "name": "Broadmeadows",
+    "lines": [
+      "Craigieburn"
+    ],
+    "adjacent": [
+      "Jacana",
+      "Coolaroo"
+    ]
+  },
+  {
+    "name": "Coolaroo",
+    "lines": [
+      "Craigieburn"
+    ],
+    "adjacent": [
+      "Broadmeadows",
+      "Roxburgh Park"
+    ]
+  },
+  {
+    "name": "Roxburgh Park",
+    "lines": [
+      "Craigieburn"
+    ],
+    "adjacent": [
+      "Coolaroo",
+      "Craigieburn"
+    ]
+  },
+  {
+    "name": "Craigieburn",
+    "lines": [
+      "Craigieburn"
+    ],
+    "adjacent": [
+      "Roxburgh Park"
+    ]
+  },
+  {
+    "name": "Macaulay",
+    "lines": [
+      "Upfield"
+    ],
+    "adjacent": [
+      "North Melbourne",
+      "Flemington Bridge"
+    ]
+  },
+  {
+    "name": "Flemington Bridge",
+    "lines": [
+      "Upfield"
+    ],
+    "adjacent": [
+      "Macaulay",
+      "Royal Park"
+    ]
+  },
+  {
+    "name": "Royal Park",
+    "lines": [
+      "Upfield"
+    ],
+    "adjacent": [
+      "Flemington Bridge",
+      "Jewell"
+    ]
+  },
+  {
+    "name": "Jewell",
+    "lines": [
+      "Upfield"
+    ],
+    "adjacent": [
+      "Royal Park",
+      "Brunswick"
+    ]
+  },
+  {
+    "name": "Brunswick",
+    "lines": [
+      "Upfield"
+    ],
+    "adjacent": [
+      "Jewell",
+      "Anstey"
+    ]
+  },
+  {
+    "name": "Anstey",
+    "lines": [
+      "Upfield"
+    ],
+    "adjacent": [
+      "Brunswick",
+      "Moreland"
+    ]
+  },
+  {
+    "name": "Moreland",
+    "lines": [
+      "Upfield"
+    ],
+    "adjacent": [
+      "Anstey",
+      "Coburg"
+    ]
+  },
+  {
+    "name": "Coburg",
+    "lines": [
+      "Upfield"
+    ],
+    "adjacent": [
+      "Moreland",
+      "Batman"
+    ]
+  },
+  {
+    "name": "Batman",
+    "lines": [
+      "Upfield"
+    ],
+    "adjacent": [
+      "Coburg",
+      "Merlynston"
+    ]
+  },
+  {
+    "name": "Merlynston",
+    "lines": [
+      "Upfield"
+    ],
+    "adjacent": [
+      "Batman",
+      "Fawkner"
+    ]
+  },
+  {
+    "name": "Fawkner",
+    "lines": [
+      "Upfield"
+    ],
+    "adjacent": [
+      "Merlynston",
+      "Gowrie"
+    ]
+  },
+  {
+    "name": "Gowrie",
+    "lines": [
+      "Upfield"
+    ],
+    "adjacent": [
+      "Fawkner",
+      "Upfield"
+    ]
+  },
+  {
+    "name": "Upfield",
+    "lines": [
+      "Upfield"
+    ],
+    "adjacent": [
+      "Gowrie"
+    ]
+  },
+  {
+    "name": "South Kensington",
+    "lines": [
+      "Werribee",
+      "Williamstown"
+    ],
+    "adjacent": [
+      "North Melbourne",
+      "Footscray"
+    ]
+  },
+  {
+    "name": "Footscray",
+    "lines": [
+      "Werribee",
+      "Williamstown",
+      "Sunbury"
+    ],
+    "adjacent": [
+      "South Kensington",
+      "Seddon",
+      "Middle Footscray",
+      "Arden"
+    ]
+  },
+  {
+    "name": "Seddon",
+    "lines": [
+      "Werribee",
+      "Williamstown"
+    ],
+    "adjacent": [
+      "Footscray",
+      "Yarraville"
+    ]
+  },
+  {
+    "name": "Yarraville",
+    "lines": [
+      "Werribee",
+      "Williamstown"
+    ],
+    "adjacent": [
+      "Seddon",
+      "Spotswood"
+    ]
+  },
+  {
+    "name": "Spotswood",
+    "lines": [
+      "Werribee",
+      "Williamstown"
+    ],
+    "adjacent": [
+      "Yarraville",
+      "Newport"
+    ]
+  },
+  {
+    "name": "Newport",
+    "lines": [
+      "Werribee",
+      "Williamstown"
+    ],
+    "adjacent": [
+      "Spotswood",
+      "Seaholme",
+      "North Williamstown",
+      "Laverton"
+    ]
+  },
+  {
+    "name": "Seaholme",
+    "lines": [
+      "Werribee"
+    ],
+    "adjacent": [
+      "Newport",
+      "Altona"
+    ]
+  },
+  {
+    "name": "Altona",
+    "lines": [
+      "Werribee"
+    ],
+    "adjacent": [
+      "Seaholme",
+      "Westona"
+    ]
+  },
+  {
+    "name": "Westona",
+    "lines": [
+      "Werribee"
+    ],
+    "adjacent": [
+      "Altona",
+      "Laverton"
+    ]
+  },
+  {
+    "name": "Laverton",
+    "lines": [
+      "Werribee"
+    ],
+    "adjacent": [
+      "Westona",
+      "Aircraft",
+      "Newport"
+    ]
+  },
+  {
+    "name": "Aircraft",
+    "lines": [
+      "Werribee"
+    ],
+    "adjacent": [
+      "Laverton",
+      "Williams Landing"
+    ]
+  },
+  {
+    "name": "Williams Landing",
+    "lines": [
+      "Werribee"
+    ],
+    "adjacent": [
+      "Aircraft",
+      "Hoppers Crossing"
+    ]
+  },
+  {
+    "name": "Hoppers Crossing",
+    "lines": [
+      "Werribee"
+    ],
+    "adjacent": [
+      "Williams Landing",
+      "Werribee"
+    ]
+  },
+  {
+    "name": "Werribee",
+    "lines": [
+      "Werribee"
+    ],
+    "adjacent": [
+      "Hoppers Crossing"
+    ]
+  },
+  {
+    "name": "North Williamstown",
+    "lines": [
+      "Williamstown"
+    ],
+    "adjacent": [
+      "Newport",
+      "Williamstown Beach"
+    ]
+  },
+  {
+    "name": "Williamstown Beach",
+    "lines": [
+      "Williamstown"
+    ],
+    "adjacent": [
+      "North Williamstown",
+      "Williamstown"
+    ]
+  },
+  {
+    "name": "Williamstown",
+    "lines": [
+      "Williamstown"
+    ],
+    "adjacent": [
+      "Williamstown Beach"
+    ]
+  },
+  {
+    "name": "Middle Footscray",
+    "lines": [
+      "Sunbury"
+    ],
+    "adjacent": [
+      "Footscray",
+      "West Footscray"
+    ]
+  },
+  {
+    "name": "West Footscray",
+    "lines": [
+      "Sunbury"
+    ],
+    "adjacent": [
+      "Middle Footscray",
+      "Tottenham"
+    ]
+  },
+  {
+    "name": "Tottenham",
+    "lines": [
+      "Sunbury"
+    ],
+    "adjacent": [
+      "West Footscray",
+      "Sunshine"
+    ]
+  },
+  {
+    "name": "Sunshine",
+    "lines": [
+      "Sunbury"
+    ],
+    "adjacent": [
+      "Tottenham",
+      "Albion"
+    ]
+  },
+  {
+    "name": "Albion",
+    "lines": [
+      "Sunbury"
+    ],
+    "adjacent": [
+      "Sunshine",
+      "Ginifer"
+    ]
+  },
+  {
+    "name": "Ginifer",
+    "lines": [
+      "Sunbury"
+    ],
+    "adjacent": [
+      "Albion",
+      "St Albans"
+    ]
+  },
+  {
+    "name": "St Albans",
+    "lines": [
+      "Sunbury"
+    ],
+    "adjacent": [
+      "Ginifer",
+      "Keilor Plains"
+    ]
+  },
+  {
+    "name": "Keilor Plains",
+    "lines": [
+      "Sunbury"
+    ],
+    "adjacent": [
+      "St Albans",
+      "Watergardens"
+    ]
+  },
+  {
+    "name": "Watergardens",
+    "lines": [
+      "Sunbury"
+    ],
+    "adjacent": [
+      "Keilor Plains",
+      "Diggers Rest"
+    ]
+  },
+  {
+    "name": "Diggers Rest",
+    "lines": [
+      "Sunbury"
+    ],
+    "adjacent": [
+      "Watergardens",
+      "Sunbury"
+    ]
+  },
+  {
+    "name": "Sunbury",
+    "lines": [
+      "Sunbury"
+    ],
+    "adjacent": [
+      "Diggers Rest"
+    ]
+  },
+  {
+    "name": "Flemington Racecourse",
+    "lines": [
+      "Flemington Racecourse"
+    ],
+    "adjacent": [
+      "Showgrounds"
+    ]
+  },
+  {
+    "name": "Showgrounds",
+    "lines": [
+      "Flemington Racecourse"
+    ],
+    "adjacent": [
+      "Flemington Racecourse",
+      "Newmarket"
+    ]
+  },
+  {
+    "name": "Parkville",
+    "lines": [
+      "Cranbourne",
+      "Pakenham",
+      "Sunbury"
+    ],
+    "adjacent": [
+      "Melbourne Central/State Library",
+      "Arden"
+    ]
+  },
+  {
+    "name": "Arden",
+    "lines": [
+      "Cranbourne",
+      "Pakenham",
+      "Sunbury"
+    ],
+    "adjacent": [
+      "Parkville",
+      "Footscray"
+    ]
+  },
+  {
+    "name": "Anzac",
+    "lines": [
+      "Cranbourne",
+      "Pakenham",
+      "Sunbury"
+    ],
+    "adjacent": [
+      "Malvern",
+      "Flinders Street/Town Hall"
+    ]
+  }
+]

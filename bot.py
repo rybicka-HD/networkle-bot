@@ -128,6 +128,7 @@ cmd = argparse.ArgumentParser(description="Networkle bot")
 all_cities = list(map(lambda x: x["id"], cities))
 cmd.add_argument("map", choices=all_cities, help="the map to use")
 cmd.add_argument("-s", "--solver", action="store_true", help="interactive solver mode: the bot outputs the next guess, you input how it went.")
+cmd.add_argument("-a", "--analyzer", action="store_true", help="analyzer mode: analyzes how well you guessed in an already played game.")
 cmd.add_argument("-g", "--guesses", default="[]", help='JSON format, [{"station":"Oxford Circus", "distance":2, "line":0, "zone":1}]. line is one of: 0 - incorrect line, 1 - correct line, 2 - correct color, incorrect line. zone is one of: 0 - target zone is smaller, 1 - correct zone, 2 - target zone is larger')
 
 args = cmd.parse_args()
@@ -156,6 +157,8 @@ exclude = list(map(lambda x: x["station"], guesses))
 
 # select possible stations based on the already made guesses
 def calc_possible(guesses: list[dict]) -> list[str]:
+    global exclude
+    exclude = list(map(lambda x: x["station"], guesses))
     possible = []
     if len(guesses) > 0:
         possible = get_possible(guesses[0])
@@ -165,22 +168,23 @@ def calc_possible(guesses: list[dict]) -> list[str]:
 
 # calculate the score for each station
 # the score is just the average number of possible stations it leaves after guessing it, so lower is better
-def calc_scores() -> dict[str, float]:
+def calc_scores(silent=False, beginning="calculating scores... ", newline=True) -> dict[str, float]:
     scores = {}
     n = len(data)
     for i, s in enumerate(data):
         name = s["name"]
-        print(f"{BOLD}calculating scores... {int(((i+1)/n)*100)}%{RESET}", end="\r")
+        if not silent: print(f"{BOLD}{beginning}{int(((i+1)/n)*100)}%{RESET}", end="\r")
         if name in exclude or (len(possible) != 0 and name not in possible): continue
         scores[name] = score(name)
-    print()
+    if not silent and newline: print()
     return scores
 
-def display_score(i: int, s: tuple[str, float]):
-    return "{YELLOW}{i:<4} {GREEN}{name:<35}{BLUE}{score:0<4.3}{RESET}".format(i=str(i)+".", name=s[0], score=s[1], GREEN=GREEN, BLUE=BLUE, YELLOW=YELLOW, RESET=RESET)
+def display_score(i: int, s: tuple[str, float], bold=False):
+    b = BOLD if bold else ""
+    return "{BOLD}{YELLOW}{i:<4} {GREEN}{name:<35}{BLUE}{score:0<4.3}{RESET}".format(i=str(i)+".", name=s[0], score=s[1], GREEN=GREEN, BLUE=BLUE, YELLOW=YELLOW, BOLD=b, RESET=RESET)
 
 # display the scores
-def display_scores(scores: dict[str, float]):
+def display_scores(scores: dict[str, float], highlight=[]):
     best = list(scores.items())
     best.sort(key=lambda x: x[1])
 
@@ -188,8 +192,11 @@ def display_scores(scores: dict[str, float]):
     print("{BOLD}     {STATION:<34}SCORE{RESET}".format(BOLD=BOLD, RESET=RESET, STATION="STATION"))
     dots = False
     for i, s in enumerate(best):
-        if i < 5 or s[0] == "Times Square - 42 St" or i == n-1:
-            print(display_score(i+1, best[i]))
+        if i < 5 or s[0] in highlight or n-i-1 < 1:
+            if s[0] in highlight:
+                print(display_score(i+1, best[i], bold=True))
+            else:
+                print(display_score(i+1, best[i]))
             dots = False
         else:
             if not dots:
@@ -271,7 +278,69 @@ if args.solver:
         if ZONES:
             guess["zone"] = zone
         guesses.append(guess)
+elif args.analyzer:
+    if len(guesses) == 0:
+        print(f"{RED}{BOLD}Please use -g to input your guesses.{RESET}")
+        exit(1)
+    if guesses[-1]["distance"] != 0:
+        print(f"{RED}{BOLD}The last guess should be your winning guess, with a stop distance of 0.{RESET}")
 
+    cur_guesses = []
+    analysis = []
+    first_scores = {}
+    first = True
+    for i, g in enumerate(guesses):
+        possible = calc_possible(cur_guesses)
+        human_guess_possible = True
+        if len(possible) != 0 and g["station"] not in possible:
+            possible.append(g["station"])
+            human_guess_possible = False
+        scores = calc_scores(beginning="Calculating Networkle Bot's guesses... ", newline=False)
+        if first:
+            first_scores = scores
+            first = False
+        cur_guess = min(list(scores.items()), key=lambda x: x[1])
+        human_score = list(filter(lambda x: x[0] == g["station"], scores.items()))[0][1]
+        analysis.append((scores, g["station"], human_guess_possible, human_score, cur_guess[0], cur_guess[1]))
+        cur_guesses.append(g)
+
+    cur_guesses = []
+    bot_guesses = []
+    answer = guesses[-1]["station"]
+    first = True
+    while True:
+        scores = {}
+        if first:
+            scores = first_scores
+            first = False
+        else:
+            possible = calc_possible(cur_guesses)
+            scores = calc_scores(beginning="Calculating Networkle Bot's guesses... ", newline=False)
+        cur_guess = min(list(scores.items()), key=lambda x: x[1])
+        station = cur_guess[0]
+        if station == answer:
+            bot_guesses.append({"station": station, "distance": 0, "line": 1, "zone": 1})
+            break
+        distance = distances(station)[answer]
+        line = line_info(get_station(station)["lines"], get_station(answer)["lines"])
+        g = {"station": station, "distance": distance, "line": line}
+        if ZONES:
+            zone = zone_info(get_station(answer)["zone"], get_station(station)["zone"])
+            g["zone"] = zone
+        bot_guesses.append(g)
+        cur_guesses.append(g)
+
+    print(f"{BOLD}Calculating Networkle Bot's guesses... {RESET}")
+    for i, g in enumerate(guesses):
+        a = analysis[i]
+        print(f"{BOLD}Guess {i+1}:{RESET}")
+        print(f"{BOLD}You picked {RESET}{GREEN}{g['station']}{RESET}{BOLD}, which would leave {RESET}{BLUE}{str(a[3])[:4]}{RESET}{BOLD} possible stations on average. {RESET}", end="")
+        print(f"{BOLD}Networkle Bot would've picked {RESET}{GREEN}{a[4]}{RESET}{BOLD}, which would leave {RESET}{BLUE}{str(a[5])[:4]}{RESET}{BOLD} possible stations on average.{RESET}")
+        display_scores(a[0], highlight=[a[1], a[4]])
+        print()
+    print(f"{BOLD}How Networkle Bot would've solved this puzzle (green - correct line; yellow - incorrect line, correct color; white - incorrect line):{RESET}")
+    for g in bot_guesses:
+        print("{color}{station:<40}{distance:<4}{zone}{RESET}".format(color=["", GREEN, YELLOW][g["line"]], station=g["station"], distance=g["distance"], zone=["<", "=", ">"][g["zone"]]+" zone "+" or ".join(get_station(g["station"])["zone"]), RESET=RESET))
 else:
     possible = calc_possible(guesses)
     scores = calc_scores()

@@ -127,6 +127,7 @@ def get_city(city: str) -> dict:
 cmd = argparse.ArgumentParser(description="Networkle bot")
 all_cities = list(map(lambda x: x["id"], cities))
 cmd.add_argument("map", choices=all_cities, help="the map to use")
+cmd.add_argument("-s", "--solver", action="store_true", help="interactive solver mode: the bot outputs the next guess, you input how it went.")
 cmd.add_argument("-g", "--guesses", default="[]", help='JSON format, [{"station":"Oxford Circus", "distance":2, "line":0, "zone":1}]. line is one of: 0 - incorrect line, 1 - correct line, 2 - correct color, incorrect line. zone is one of: 0 - target zone is smaller, 1 - correct zone, 2 - target zone is larger')
 
 args = cmd.parse_args()
@@ -195,6 +196,83 @@ def display_scores(scores: dict[str, float]):
                 print(f"{BOLD}...{RESET}")
                 dots = True
 
-possible = calc_possible(guesses)
-scores = calc_scores()
-display_scores(scores)
+if args.solver:
+    guess_num = 1
+    print(f"{BOLD}Use Ctrl+C at any time to quit.{RESET}")
+    while True:
+        print(f"{BOLD}Guess {guess_num}:{RESET}")
+        guess_num += 1
+        possible = calc_possible(guesses)
+        scores = calc_scores()
+        display_scores(scores)
+        if len(scores) == 1:
+            print(f"{BOLD}Please guess the provided station, then you should win.{RESET}")
+            break
+        used_guess = min(list(scores.items()), key=lambda x: x[1])[0]
+        while True:
+            used_best = input(f"{BOLD}Did you use the best guess provided by the bot ({used_guess})? [Y/n] {RESET}")
+            if used_best.lower() in ["n", "no", "false"]:
+                while True:
+                    used_guess = input(f"{BOLD}Which station did you guess? {RESET}")
+                    if used_guess not in list(map(lambda x: x["name"], data)):
+                        print(f"{BOLD}This station does not exist.{RESET}")
+                    else: break
+                break
+            elif used_best.lower() in ["", "y", "yes", "true"]:
+                break
+            else:
+                print(f"{BOLD}Please type in either 'y' or 'n'.{RESET}")
+                exit(1)
+        distance = 0
+        while True:
+            d = input(f"{BOLD}What is the stop distance? {RESET}")
+            try:
+                distance = int(d)
+                break
+            except ValueError:
+                print(f"{BOLD}Please input a valid integer.{RESET}")
+        line = 0
+        while True:
+            l = input(f"{BOLD}Correct line? [y/n/correct [c]olor, incorrect line] {RESET}")
+            if l in ["y", "yes"]:
+                line = 1
+                break
+            elif l in ["n", "no"]:
+                line = 0
+                break
+            elif l in ["c"]:
+                if COLORS:
+                    line = 2
+                    break
+                else:
+                    print(f"{BOLD}This map does not have color information.{RESET}")
+            else:
+                print(f"{BOLD}Please enter only 'y', 'n', or 'c'.{RESET}")
+        zone = 0
+        if ZONES:
+            while True:
+                z = input(f"{BOLD}Zone information? [[l]ess/[g]reater/[e]qual] {RESET}")
+                if z in ["l", "less"]:
+                    zone = 0
+                    break
+                elif z in ["g", "greater"]:
+                    zone = 2
+                    break
+                elif z in ["e", "equal"]:
+                    zone = 1
+                    break
+                else:
+                    print(f"{BOLD}Please enter only 'l', 'g', or 'e'.{RESET}")
+        guess = {
+            "station": used_guess,
+            "distance": distance,
+            "line": line,
+        }
+        if ZONES:
+            guess["zone"] = zone
+        guesses.append(guess)
+
+else:
+    possible = calc_possible(guesses)
+    scores = calc_scores()
+    display_scores(scores)

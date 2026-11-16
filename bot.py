@@ -27,6 +27,8 @@ def get_station(name: str) -> dict:
 #   1 - equal
 #   2 - greater
 def zone_info(orig: list[str], target: list[str]) -> int:
+    if type(orig) == int: orig = [orig]
+    if type(target) == int: target = [target]
     orig = list(filter(int, orig))
     target = list(filter(int, target))
     r = -1
@@ -60,7 +62,9 @@ def distances(station: str) -> dict[str, int]:
         new = False
         distances.append([])
         for s in distances[-2]:
+            #print(get_station(s)["adjacent"])
             for n in get_station(s)["adjacent"]:
+                if type(n) == dict: n = n["name"]
                 if n not in visited:
                     visited.append(n)
                     distances[-1].append(n)
@@ -130,12 +134,13 @@ cmd.add_argument("map", choices=all_cities, help="the map to use")
 cmd.add_argument("-s", "--solver", action="store_true", help="interactive solver mode: the bot outputs the next guess, you input how it went.")
 cmd.add_argument("-a", "--analyzer", action="store_true", help="analyzer mode: analyzes how well you guessed in an already played game.")
 cmd.add_argument("-g", "--guesses", default="[]", help='JSON format, [{"station":"Oxford Circus", "distance":2, "line":0, "zone":1}]. line is one of: 0 - incorrect line, 1 - correct line, 2 - correct color, incorrect line. zone is one of: 0 - target zone is smaller, 1 - correct zone, 2 - target zone is larger')
+cmd.add_argument("--guess-file", default="", help="the file to read guess data from. data is in the same format as -g.")
 
 args = cmd.parse_args()
 
 MAP = args.map
 ZONES = get_city(MAP)["hasZones"]
-COLORS = get_city(MAP)["hasLineGroups"]
+COLORS = "hasLineGroups" in get_city(MAP).keys() and get_city(MAP)["hasLineGroups"]
 
 # load the data
 try:
@@ -153,6 +158,9 @@ if COLORS:
 
 # load the guesses
 guesses = json.loads(args.guesses)
+if args.guess_file != "":
+    with open(args.guess_file, "r", encoding="utf-8") as f:
+        guesses = json.load(f)
 exclude = list(map(lambda x: x["station"], guesses))
 
 # select possible stations based on the already made guesses
@@ -299,7 +307,7 @@ elif args.analyzer:
         if first:
             first_scores = scores
             first = False
-        cur_guess = min(list(scores.items()), key=lambda x: x[1])
+        cur_guess = min(list(filter(lambda x: human_guess_possible or (not human_guess_possible and x[0] != g["station"]), scores.items())), key=lambda x: x[1])
         human_score = list(filter(lambda x: x[0] == g["station"], scores.items()))[0][1]
         analysis.append((scores, g["station"], human_guess_possible, human_score, cur_guess[0], cur_guess[1]))
         cur_guesses.append(g)
@@ -333,14 +341,57 @@ elif args.analyzer:
     print(f"{BOLD}Calculating Networkle Bot's guesses... {RESET}")
     for i, g in enumerate(guesses):
         a = analysis[i]
+        bot_only_possible = len(a[0]) == 1 or (len(a[0]) == 2 and not a[2])
+        human_only_possible = len(a[0]) == 1
+
         print(f"{BOLD}Guess {i+1}:{RESET}")
-        print(f"{BOLD}You picked {RESET}{GREEN}{g['station']}{RESET}{BOLD}, which would leave {RESET}{BLUE}{str(a[3])[:4]}{RESET}{BOLD} possible stations on average. {RESET}", end="")
-        print(f"{BOLD}Networkle Bot would've picked {RESET}{GREEN}{a[4]}{RESET}{BOLD}, which would leave {RESET}{BLUE}{str(a[5])[:4]}{RESET}{BOLD} possible stations on average.{RESET}")
-        display_scores(a[0], highlight=[a[1], a[4]])
+        print(f"{BOLD}You picked {RESET}{GREEN}{g['station']}{RESET}{BOLD}", end="")
+
+        if not human_only_possible:
+            print(f", which would leave {RESET}{BLUE}{str(a[3])[:4]}{RESET}{BOLD} possible stations on average{f', {RED}but is not a possible answer' if not a[2] else ''}. {RESET}", end="")
+        else:
+            print(f", which was the only possible answer at this point{RESET}. ", end="")
+
+        print(f"{BOLD}Networkle Bot would've picked {RESET}{GREEN}{a[4]}{RESET}{BOLD}", end="")
+        if not bot_only_possible:
+            print(f", which would leave {RESET}{BLUE}{str(a[5])[:4]}{RESET}{BOLD} possible stations on average.{RESET}")
+        else:
+            print(f", which was the {RED if not human_only_possible else ""}only possible answer at this point{RESET}")
+        
+        if not bot_only_possible: display_scores(a[0], highlight=[a[1], a[4]])
         print()
+    
     print(f"{BOLD}How Networkle Bot would've solved this puzzle (green - correct line; yellow - incorrect line, correct color; white - incorrect line):{RESET}")
     for g in bot_guesses:
-        print("{color}{station:<40}{distance:<4}{zone}{RESET}".format(color=["", GREEN, YELLOW][g["line"]], station=g["station"], distance=g["distance"], zone=["<", "=", ">"][g["zone"]]+" zone "+" or ".join(get_station(g["station"])["zone"]), RESET=RESET))
+        zones = get_station(g["station"])["zone"] if ZONES else ""
+        print("{color}{station:<40}{distance:<4}{zone}{RESET}".format(color=["", GREEN, YELLOW][g["line"]], station=g["station"], distance=g["distance"], zone=(["<", "=", ">"][g["zone"]]+" zone "+(" or ".join(zones) if type(zones) == list else str(zones)) if ZONES else ""), RESET=RESET))
+    print()
+
+    skill = 0
+    luck = 1
+    n = 0
+    for i, a in enumerate(analysis):
+        worst = max(list(a[0].items()), key=lambda x: x[1])[1]
+        if a[5] != 0:
+            n += 1
+            maximum = worst/a[5]
+            actual = a[3]/a[5]
+            increment = (worst-actual)/(worst-1) if worst > 1.001 else 0
+            if not a[2]: increment -= increment/(len(a[0])-1)
+            skill += max(increment, 0)
+
+        next = analysis[i+1] if i < len(analysis)-1 else []
+        if next != []:
+            x = len(next[0])
+            if not next[2]: x -= 1
+            if x != 0:
+                luck *= a[3] / x
+    skill /= n
+    skill = int(100*skill)
+    luck = int(100*luck)
+    print(f"{BOLD}OVERALL SUMMARY:{RESET}")
+    print(f"{BOLD}{YELLOW}SKILL: {RESET}{BLUE}{skill}/100{RESET}")
+    print(f"{BOLD}{YELLOW}LUCK: {RESET}{BLUE}{luck} where 100 is average{RESET}")
 else:
     possible = calc_possible(guesses)
     scores = calc_scores()

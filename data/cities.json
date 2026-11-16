@@ -1,0 +1,395 @@
+[
+  {
+    "id": "berlin",
+    "label": "Berlin",
+    "country": "Germany",
+    "flag": "de",
+    "href": "game.html?city=berlin",
+    "mapSrc": "maps/berlin-map.svg?20261006",
+    "mapView": {
+      "desktop": {
+        "zoom": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "tablet": {
+        "zoom": 3.0,
+        "x": 15,
+        "y": -20
+      },
+      "mobile": {
+        "zoom": 4.5,
+        "x": 45,
+        "y": -10
+      }
+    },
+    "maxGuesses": 6,
+    "maxHints": 3,
+    "locale": "en-DE",
+    "hasZones": false,
+    "dataFile": "berlin",
+    "hasLineGroups": false
+  },
+  {
+    "id": "hongkong",
+    "label": "Hong Kong",
+    "country": "Hong Kong SAR",
+    "flag": "hk",
+    "href": "game.html?city=hongkong",
+    "mapSrc": "maps/hongkong-map.svg?20260818",
+    "mapView": {
+      "desktop": {
+        "zoom": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "tablet": {
+        "zoom": 1.5,
+        "x": -20,
+        "y": -40
+      },
+      "mobile": {
+        "zoom": 3.5,
+        "x": 10,
+        "y": 10
+      }
+    },
+    "maxGuesses": 6,
+    "maxHints": 3,
+    "locale": "en-HK",
+    "hasZones": false,
+    "dataFile": "hongkong"
+  },
+  {
+    "id": "london",
+    "label": "London",
+    "country": "United Kingdom",
+    "flag": "gb",
+    "href": "game.html?city=london",
+    "group": "London",
+    "groupOrder": 1,
+    "groupItemLabel": "Full Network",
+    "mapSrc": "maps/london-full.svg?20260725",
+    "mapView": {
+      "desktop": {
+        "zoom": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "tablet": {
+        "zoom": 3.0,
+        "x": 15,
+        "y": -20
+      },
+      "mobile": {
+        "zoom": 6.0,
+        "x": -20,
+        "y": 5
+      }
+    },
+    "maxGuesses": 8,
+    "maxHints": 3,
+    "locale": "en-GB",
+    "hasZones": true,
+    "difficulty": "hard",
+    "hasHardMode": true,
+    "dataFile": "london",
+    "guessRowTemplate": "<template id=\"guess-row-template\"><div class=\"guess-row\"><div class=\"station-info\"><div class=\"station-name\"></div><div class=\"distance-badge\"></div></div><div class=\"info-row\"><div class=\"status-label\"></div><div class=\"zone-badge\"></div></div></div></template>"
+  },
+  {
+    "id": "london-tube",
+    "label": "London Tube",
+    "country": "United Kingdom",
+    "flag": "gb",
+    "href": "game.html?city=london-tube",
+    "group": "London",
+    "groupOrder": 2,
+    "groupItemLabel": "Tube only",
+    "mapSrc": "maps/london-tube.svg?20260725",
+    "mapView": {
+      "desktop": {
+        "zoom": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "tablet": {
+        "zoom": 3.0,
+        "x": 0,
+        "y": 5
+      },
+      "mobile": {
+        "zoom": 5.5,
+        "x": 0,
+        "y": 5
+      }
+    },
+    "maxGuesses": 6,
+    "maxHints": 3,
+    "locale": "en-GB",
+    "hasZones": true,
+    "difficulty": "standard",
+    "hasHardMode": true,
+    "dataFile": "london",
+    "guessRowTemplate": "<template id=\"guess-row-template\"><div class=\"guess-row\"><div class=\"station-info\"><div class=\"station-name\"></div><div class=\"distance-badge\"></div></div><div class=\"info-row\"><div class=\"status-label\"></div><div class=\"zone-badge\"></div></div></div></template>"
+  },
+  {
+    "id": "melbourne-full",
+    "label": "Melbourne",
+    "country": "Australia",
+    "flag": "au",
+    "href": "game.html?city=melbourne-full",
+    "hidden": false,
+    "group": "Melbourne",
+    "groupOrder": 2,
+    "groupItemLabel": "Full Network",
+    "tag": "",
+    "mapSrc": "maps/melbourne-full.svg?20260829",
+    "mapView": {
+      "desktop": {
+        "zoom": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "tablet": {
+        "zoom": 2.0,
+        "x": 30,
+        "y": 30
+      },
+      "mobile": {
+        "zoom": 3.5,
+        "x": 30,
+        "y": 30
+      }
+    },
+    "maxGuesses": 8,
+    "maxHints": 3,
+    "locale": "en-AU",
+    "hasZones": true,
+    "dataFile": "melbourne-full",
+    "hasLineGroups": true,
+    "lineGroupLabel": "colour",
+    "lineGroups": {
+      "blue": ["Sunbury", "Cranbourne", "Pakenham"],
+      "pink": ["Sandringham", "Williamstown", "Werribee"],
+      "green": ["Frankston", "Stony Point"],
+      "dark-blue": ["Glen Waverley", "Alamein", "Belgrave", "Lilydale"],
+      "red": ["Mernda", "Hurstbridge"],
+      "yellow": ["Craigieburn", "Upfield", "Flemington Racecourse"],
+      "orange": ["Warrnambool"],
+      "light-green": ["Ararat", "Maryborough"],
+      "purple": ["Echuca", "Swan Hill"],
+      "cyan": ["Shepparton", "Albury"],
+      "gold": ["Bairnsdale"]
+    },
+    "guessRowTemplate": "<template id=\"guess-row-template\"><div class=\"guess-row\"><div class=\"station-info\"><div class=\"station-name\"></div><div class=\"distance-badge\"></div></div><div class=\"info-row\"><div class=\"status-label\"></div><div class=\"zone-badge\"></div></div></div></template>"
+  },
+  {
+    "id": "melbourne",
+    "label": "Melbourne Metro",
+    "country": "Australia",
+    "flag": "au",
+    "href": "game.html?city=melbourne",
+    "group": "Melbourne",
+    "groupOrder": 1,
+    "groupItemLabel": "Metro only",
+    "mapSrc": "maps/melbourne-map.svg?20260716",
+    "mapView": {
+      "desktop": {
+        "zoom": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "tablet": {
+        "zoom": 2.0,
+        "x": 30,
+        "y": 30
+      },
+      "mobile": {
+        "zoom": 3.5,
+        "x": 30,
+        "y": 30
+      }
+    },
+    "maxGuesses": 6,
+    "maxHints": 3,
+    "locale": "en-AU",
+    "hasZones": false,
+    "dataFile": "melbourne",
+    "hasLineGroups": true,
+    "lineGroupLabel": "colour",
+    "lineGroups": {
+      "cyan": ["Sunbury", "Cranbourne", "Pakenham"],
+      "pink": ["Sandringham", "Williamstown", "Werribee"],
+      "green": ["Frankston", "Stony Point"],
+      "blue": ["Glen Waverley", "Alamein", "Belgrave", "Lilydale"],
+      "red": ["Mernda", "Hurstbridge"],
+      "yellow": ["Craigieburn", "Upfield", "Flemington Racecourse"]
+    }
+  },
+  {
+    "id": "newyork",
+    "label": "New York",
+    "country": "USA",
+    "flag": "us",
+    "href": "game.html?city=newyork",
+    "mapSrc": "maps/newyork-subway.svg?20260623",
+    "mapView": {
+      "desktop": {
+        "zoom": 1.0,
+        "x": 0,
+        "y": -330
+      },
+      "tablet": {
+        "zoom": 1.25,
+        "x": -50,
+        "y": -450
+      },
+      "mobile": {
+        "zoom": 4,
+        "x": 100,
+        "y": 20
+      }
+    },
+    "maxGuesses": 8,
+    "maxHints": 3,
+    "locale": "en-US",
+    "hasZones": false,
+    "dataFile": "newyork",
+    "hasLineGroups": true,
+    "lineGroupLabel": "color",
+    "lineGroups": {
+      "orange": ["B", "D", "M", "F"],
+      "purple": ["7"],
+      "green": ["4", "5", "6"],
+      "blue": ["A", "C", "E"],
+      "red": ["1", "2", "3"],
+      "yellow": ["R", "W", "N", "Q"],
+      "light-grey": ["L"],
+      "dark-grey": ["S1", "S2", "S3"],
+      "brown": ["J"],
+      "light-green": ["G"]
+    }
+  },
+  {
+    "id": "paris",
+    "label": "Paris",
+    "country": "France",
+    "flag": "fr",
+    "href": "game.html?city=paris",
+    "hidden": false,
+    "mapSrc": "maps/paris-map.svg?20260926",
+    "mapView": {
+      "desktop": {
+        "zoom": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "tablet": {
+        "zoom": 3.0,
+        "x": 15,
+        "y": -20
+      },
+      "mobile": {
+        "zoom": 5.5,
+        "x": -30,
+        "y": 5
+      }
+    },
+    "maxGuesses": 8,
+    "maxHints": 3,
+    "locale": "en-FR",
+    "hasZones": false,
+    "dataFile": "paris",
+    "hasLineGroups": false
+  },
+  {
+    "id": "shanghai",
+    "label": "Shanghai",
+    "country": "China",
+    "flag": "cn",
+    "href": "game.html?city=shanghai",
+    "mapSrc": "maps/shanghai-map.svg?2",
+    "mapView": {
+      "desktop": {
+        "zoom": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "tablet": {
+        "zoom": 3.5,
+        "x": -40,
+        "y": 0
+      },
+      "mobile": {
+        "zoom": 6.0,
+        "x": -40,
+        "y": 0
+      }
+    },
+    "maxGuesses": 8,
+    "maxHints": 3,
+    "locale": "en-CN",
+    "hasZones": false,
+    "dataFile": "shanghai"
+  },
+  {
+    "id": "singapore",
+    "label": "Singapore",
+    "country": "Singapore",
+    "flag": "sg",
+    "href": "game.html?city=singapore",
+    "mapSrc": "maps/singapore-map.svg?20260930",
+    "mapView": {
+      "desktop": {
+        "zoom": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "tablet": {
+        "zoom": 2.5,
+        "x": 30,
+        "y": -100
+      },
+      "mobile": {
+        "zoom": 3.6,
+        "x": -12,
+        "y": -30
+      }
+    },
+    "maxGuesses": 6,
+    "maxHints": 3,
+    "locale": "en-SG",
+    "hasZones": false,
+    "dataFile": "singapore"
+  },
+  {
+    "id": "sydney",
+    "label": "Sydney",
+    "country": "Australia",
+    "flag": "au",
+    "href": "game.html?city=sydney",
+    "mapSrc": "maps/sydney-map.svg?20261031",
+    "mapView": {
+      "desktop": {
+        "zoom": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "tablet": {
+        "zoom": 2.0,
+        "x": -85,
+        "y": 15
+      },
+      "mobile": {
+        "zoom": 3.0,
+        "x": -85,
+        "y": 25
+      }
+    },
+    "maxGuesses": 6,
+    "maxHints": 3,
+    "locale": "en-AU",
+    "hasZones": false,
+    "dataFile": "sydney"
+  }
+]

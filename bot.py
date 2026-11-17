@@ -181,7 +181,7 @@ def calc_scores(silent=False, beginning="calculating scores... ", newline=True) 
     n = len(data)
     for i, s in enumerate(data):
         name = s["name"]
-        if not silent: print(f"{BOLD}{beginning}{int(((i+1)/n)*100)}%{RESET}", end="\r")
+        if not silent: print(f"{BOLD}{beginning}{int(((i+1)/n)*100)}%  {RESET}", end="\r")
         if name in exclude or (len(possible) != 0 and name not in possible): continue
         scores[name] = score(name)
     if not silent and newline: print()
@@ -296,6 +296,7 @@ elif args.analyzer:
     cur_guesses = []
     analysis = []
     first_scores = {}
+    first_possible = []
     first = True
     for i, g in enumerate(guesses):
         possible = calc_possible(cur_guesses)
@@ -305,6 +306,7 @@ elif args.analyzer:
             human_guess_possible = False
         scores = calc_scores(beginning="Calculating Networkle Bot's guesses... ", newline=False)
         if first:
+            first_possible = possible
             first_scores = scores
             first = False
         cur_guess = min(list(filter(lambda x: human_guess_possible or (not human_guess_possible and x[0] != g["station"]), scores.items())), key=lambda x: x[1])
@@ -319,6 +321,7 @@ elif args.analyzer:
     while True:
         scores = {}
         if first:
+            possible = first_possible
             scores = first_scores
             first = False
         else:
@@ -364,7 +367,7 @@ elif args.analyzer:
     print(f"{BOLD}How Networkle Bot would've solved this puzzle (green - correct line; yellow - incorrect line, correct color; white - incorrect line):{RESET}")
     for g in bot_guesses:
         zones = get_station(g["station"])["zone"] if ZONES else ""
-        print("{color}{station:<40}{distance:<4}{zone}{RESET}".format(color=["", GREEN, YELLOW][g["line"]], station=g["station"], distance=g["distance"], zone=(["<", "=", ">"][g["zone"]]+" zone "+(" or ".join(zones) if type(zones) == list else str(zones)) if ZONES else ""), RESET=RESET))
+        print("{color}{station:<40}{distance:<4}{zone}{RESET}".format(color=["", GREEN, YELLOW][g["line"]], station=g["station"], distance=g["distance"], zone=(["<", "=", ">"][g["zone"]]+" zone "+(" or ".join(list(map(str, zones))) if type(zones) == list else str(zones)) if ZONES else ""), RESET=RESET))
     print()
 
     skill = 0
